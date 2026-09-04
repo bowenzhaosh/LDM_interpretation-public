@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/engrfs/project/class/zhao.b/conda_envs/tidpo/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/engrfs/project/class/zhao.b/conda_envs/tidpo/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix1-2157aa0/src/pfn_dag_verify/phase1_pfn.py", line 469, in <module>
+    raise SystemExit(main())
+  File "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix1-2157aa0/src/pfn_dag_verify/phase1_pfn.py", line 461, in main
+    result = score_fleet(
+  File "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix1-2157aa0/src/pfn_dag_verify/phase1_pfn.py", line 339, in score_fleet
+    raise RuntimeError(
+RuntimeError: PFN replay guard failed: C seed 0 step 20000

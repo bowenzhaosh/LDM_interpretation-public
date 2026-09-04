@@ -1,0 +1,218 @@
+{
+  "amendment": "F",
+  "decision": ".claude/FIDELITY_DECISIONS.md decision F",
+  "deficit_excluded": "B1 (owner, 2026-08-26): deficit_w2/ is NOT regenerated. Its panel_sha256 differs from W2's at every eps (errata 1), so cells_from_raw would refuse the pair. CONSEQUENCE: the primary x-axis is absent and the primary association is not-evaluable.",
+  "ident_included": true,
+  "files": {
+    "w2_eps0p0_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p0_s0.json",
+      "sha256": "c96eb2835348fec5a403202b6167e86d0c0e558dbf9f9d8241c6d43288d622f2",
+      "group": "w2"
+    },
+    "w2_eps0p0_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p0_s1.json",
+      "sha256": "7f949a4562968cb105c592daa4c0f8c91c888918119595e95eafb21f474a6e43",
+      "group": "w2"
+    },
+    "w2_eps0p0_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p0_s2.json",
+      "sha256": "3984bae43a6c2207dba76ab03dbdd9485ec6a8117e2f59fd0b629997027e1b0e",
+      "group": "w2"
+    },
+    "fidelity_eps0p0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p0.json",
+      "sha256": "45eb8ecc70269d1168b8a3c46d4efb0cc8454248f67fd1b3289f14582048ba5e",
+      "group": "fidelity"
+    },
+    "ident_eps0p0_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p0_highs_ipm.json",
+      "sha256": "a5fecf20a1deea5260986586eef27512e37c0d856b5cee50f6ac0ef1b9e73ffb",
+      "group": "ident"
+    },
+    "ident_eps0p0_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p0_highs_ipm.env.json",
+      "sha256": "ff7cdf2545d62e866ebfed9fa740945b434ef23d669919dabb99f75721dcf3e5",
+      "group": "ident_env"
+    },
+    "w2_eps0p1_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p1_s0.json",
+      "sha256": "239484aaa92df5708e15864d8ed36e1783f907131e949eb2edfed2be66bc92fa",
+      "group": "w2"
+    },
+    "w2_eps0p1_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p1_s1.json",
+      "sha256": "5844e4db1beda3ad27a10f7ea1f693f2f8132e0a4a353c9396598fe144297cec",
+      "group": "w2"
+    },
+    "w2_eps0p1_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p1_s2.json",
+      "sha256": "3f680b5e2758c661ba1b18d2ccb31698bd73751739405bb5e795de3fcddd0176",
+      "group": "w2"
+    },
+    "fidelity_eps0p1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p1.json",
+      "sha256": "cf6e2caca092b43648dd0e57f3b1ac0bc0e0a93e4bc3c7948a2c9161770b073e",
+      "group": "fidelity"
+    },
+    "ident_eps0p1_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p1_highs_ipm.json",
+      "sha256": "5d6b11e32b0a37f4c7b3eece59322041ab3943c6f2a280f2b98d92b333437d58",
+      "group": "ident"
+    },
+    "ident_eps0p1_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p1_highs_ipm.env.json",
+      "sha256": "7d5de59ff81795ea68bdc81e37049651c234fd0d55ff2a134fbb8f0516949c7d",
+      "group": "ident_env"
+    },
+    "w2_eps0p25_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p25_s0.json",
+      "sha256": "6b93bff9d19e0409f7160114972339098934bce320aea805b659989714a7d861",
+      "group": "w2"
+    },
+    "w2_eps0p25_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p25_s1.json",
+      "sha256": "0c86a59fa7d59fa2987496181d047be56d10ac566490acee747a30ae99182463",
+      "group": "w2"
+    },
+    "w2_eps0p25_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p25_s2.json",
+      "sha256": "69db582f7d55276cc72d76f7fcae121453884aca3ee87e6c63b9b184c1a3f954",
+      "group": "w2"
+    },
+    "fidelity_eps0p25.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p25.json",
+      "sha256": "1978946f10d41d5bb30d9023efc1ebc8ac6360d7a179f1b5aba214669d0743f1",
+      "group": "fidelity"
+    },
+    "ident_eps0p25_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p25_highs_ipm.json",
+      "sha256": "fb363db2c98f0bccc227eae6a9cdf8742c1f70e22c618c838de20cab44c5ef16",
+      "group": "ident"
+    },
+    "ident_eps0p25_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p25_highs_ipm.env.json",
+      "sha256": "07ca1337f8e8ccc043b6054de0b7d34db1cb40f71593d92c6549dd5addd74766",
+      "group": "ident_env"
+    },
+    "w2_eps0p35_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p35_s0.json",
+      "sha256": "3d56b41240c7a337a404508111aaa7db8f3dc776ab2f9e31d50446f0ffa4aa0c",
+      "group": "w2"
+    },
+    "w2_eps0p35_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p35_s1.json",
+      "sha256": "8443e225a0de9d26396b28a3a8774d48619ae2c76da2082047eca63a6c37962b",
+      "group": "w2"
+    },
+    "w2_eps0p35_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p35_s2.json",
+      "sha256": "e06236cd764ab1cabc270cc2b18d0c0ebfe627b3fe859996933c01bf67c3e341",
+      "group": "w2"
+    },
+    "fidelity_eps0p35.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p35.json",
+      "sha256": "ecd4315cd23a47df0138920fec6fa7872a9cc2d8afe8dc21e1bc983511fde584",
+      "group": "fidelity"
+    },
+    "ident_eps0p35_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p35_highs_ipm.json",
+      "sha256": "b6ca251d2d773e10cf09917df029de27e50767003c9d258de32429b53636b664",
+      "group": "ident"
+    },
+    "ident_eps0p35_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p35_highs_ipm.env.json",
+      "sha256": "df5296f10a79e9e1e26ba1164bac3c06f5d526e9c77226d808b3acc70e470af8",
+      "group": "ident_env"
+    },
+    "w2_eps0p5_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p5_s0.json",
+      "sha256": "56ddc51f9610a1211d611e9dc29f78f7c8c04196117534328baac855c1e76739",
+      "group": "w2"
+    },
+    "w2_eps0p5_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p5_s1.json",
+      "sha256": "7a2c77430f4cdb452b5117cfb7fe00b36e64c8b580ba290aeb9a721a362780ad",
+      "group": "w2"
+    },
+    "w2_eps0p5_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p5_s2.json",
+      "sha256": "2c3bd113dd10b09eb3c6417705f07a6233446754c13f7bd689b4b1a8efafe10d",
+      "group": "w2"
+    },
+    "fidelity_eps0p5.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p5.json",
+      "sha256": "2cb79bf64c426bb10432a29805c8567a8c4ef1bd24f9d43e836e56a5e0b08bf1",
+      "group": "fidelity"
+    },
+    "ident_eps0p5_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p5_highs_ipm.json",
+      "sha256": "d88cd82f59f45e7e688b289dfc2cf1acaf5e337ed17dd5cc418cdc650e40e58f",
+      "group": "ident"
+    },
+    "ident_eps0p5_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p5_highs_ipm.env.json",
+      "sha256": "577caeaede255d96ebbed119513e7335db9063ebd37f41535fa91bc0e07938e4",
+      "group": "ident_env"
+    },
+    "w2_eps0p75_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p75_s0.json",
+      "sha256": "f2cd0afaf2dc88eb7627d09e32a9da8d56e92cdc07f6650396d8c9e2b73b17f8",
+      "group": "w2"
+    },
+    "w2_eps0p75_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p75_s1.json",
+      "sha256": "eba4291a627e7aed323593dda72685e622316d5ed4acfe13a8246a58aa056512",
+      "group": "w2"
+    },
+    "w2_eps0p75_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps0p75_s2.json",
+      "sha256": "ed1b1cb4198cf379fa485a46f15e47ac4829a29babfe7fbfc8f03d9eba7f7543",
+      "group": "w2"
+    },
+    "fidelity_eps0p75.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps0p75.json",
+      "sha256": "59ad538501513a820adb29e7ff8c2e18a6c65fd830546fd12e8eba4b2f5a6bfa",
+      "group": "fidelity"
+    },
+    "ident_eps0p75_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p75_highs_ipm.json",
+      "sha256": "f55416df01521433952897187ba8ec8a23d0e23c5d5b9fccd38c0db7da11b4e7",
+      "group": "ident"
+    },
+    "ident_eps0p75_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps0p75_highs_ipm.env.json",
+      "sha256": "ae7310a1dfc8021b935343629b54f89f4c8f1caa6107850407dc146d19672016",
+      "group": "ident_env"
+    },
+    "w2_eps1p0_s0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps1p0_s0.json",
+      "sha256": "6a1859c913746ee8a6867314a86670ac911caebe7fe1af50541b1a3d74fc2228",
+      "group": "w2"
+    },
+    "w2_eps1p0_s1.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps1p0_s1.json",
+      "sha256": "2a585301c5decb80e4ff21b867ac37d553b3eea797ff8b68dff4b1e1e4134d49",
+      "group": "w2"
+    },
+    "w2_eps1p0_s2.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/w2/w2_eps1p0_s2.json",
+      "sha256": "c312e5f2679a46c5cb886bf6ac7edea5ad00ce51ec3c68e0ea1bc5dca72019bb",
+      "group": "w2"
+    },
+    "fidelity_eps1p0.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/fidelity/fidelity_eps1p0.json",
+      "sha256": "63b498d6c293d936d9020d50ae6bdda55d441f2ed3e06a15ae1d49c81968ee7f",
+      "group": "fidelity"
+    },
+    "ident_eps1p0_highs_ipm.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps1p0_highs_ipm.json",
+      "sha256": "17bf8e25a3a27146f4e08505091da4fe661cd6f4658e898a7a27e4918b979219",
+      "group": "ident"
+    },
+    "ident_eps1p0_highs_ipm.env.json": {
+      "source": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/corrected_20260812/raw/postF/ident_grid/ident_eps1p0_highs_ipm.env.json",
+      "sha256": "afa0f93d707d576e57932ed01dabf909d1b31666641f98bbfc61cbbdafeae746",
+      "group": "ident_env"
+    }
+  }
+}

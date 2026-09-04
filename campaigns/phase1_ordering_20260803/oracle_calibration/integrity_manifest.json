@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "job_id": "158819",
+  "submitted_at": "2026-08-03T19:27:47+08:00",
+  "source_commit": "e679e74930fc990dc834e0a03aec0a10b582a862",
+  "source_tag": "phase1-ordering-calibration-v1",
+  "artifacts": {
+    "run/COMPLETE.json": "9ad946c961ded212da7337aab5446e2fd46e95a55f6fd69d8012debc9e0e9ee0",
+    "independent_verification.json": "7e1db5a8009bc9998e722ffa6af88f87d6d8df9207b7aa44c8692018cf11c79a",
+    "output/slurm-158819.out": "5e0c2965ac374fe664136b973fdd16a6fef042237db7fbdbeb66ebe74a65e321",
+    "output/gpu_identity.csv": "bc9a51acf3aba476d629dc8ed9130185a90d31d37d5e33bd89f140b98eb8299a",
+    "output/gpu_utilization.csv": "e16f51d75aa5d4b4e84da46db81599eedc9da4e62bf30638bae24b4117f028b1",
+    "locked_source/PHASE1_ORDERING_PREREG.md": "9e20e537fe633a42d70c9dff12e93687c5d1e1f59ba119a56cc40ec225636af3",
+    "../../../src/pfn_dag_verify/phase1_calibration_verify.py": "ae1c23a42448b590e93c504d357679c7ccc5d1aaaab858bc15901c37e0d086d0"
+  },
+  "scope": "This anchors job identity, the locked preregistration blob, raw completion root, scheduler log, GPU identity/trace, and the independent artifact-level verifier. It does not claim an independent A100 replay."
+}

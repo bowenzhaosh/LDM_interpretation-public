@@ -1,0 +1,8 @@
+{
+  "eps": 0.0,
+  "seed": 2,
+  "in_task_regret": -0.0018967319231070275,
+  "n_in_task_queries": 334,
+  "dose0_regret": 1.7569151397844234,
+  "train_wallclock_s": 4531.8
+}

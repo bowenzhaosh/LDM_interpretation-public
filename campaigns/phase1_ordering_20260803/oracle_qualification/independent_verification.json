@@ -1,0 +1,39 @@
+{
+  "bank_atom_sha256": [
+    "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7",
+    "a848e61b929c18decaadd9b633f60f22e524f17a2b1ec24d6c7642dbba764920",
+    "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3"
+  ],
+  "candidate_summary": {
+    "16384": {
+      "total_abs_logp_change_exceedances": 0,
+      "total_js_exceedances": 0,
+      "worst_p95_abs_logp_change": 0.0007094641693139669,
+      "worst_p95_js": 3.43036394221233e-07
+    },
+    "8192": {
+      "total_abs_logp_change_exceedances": 16,
+      "total_js_exceedances": 0,
+      "worst_p95_abs_logp_change": 0.0035057472642331367,
+      "worst_p95_js": 5.977914099070094e-06
+    }
+  },
+  "decision": "QUALIFICATION_PASS",
+  "determinism_canary_sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+  "joined_complete_sha256": "b840221e09e6671b93eab6fe2141589b43b32679981374745f0798b6489ed4fe",
+  "joined_raw_sha256": "b323056615e6dbe263a6cfa1ef529b9e0264bd64ba6db5e7f92a18f24820a1c9",
+  "joined_summary_sha256": "003a8d41b1d9d3439e32d81f09fbeecf66b26b101d5e5ebbddc4b8d7ef72dbbe",
+  "reference_truncation": 32768,
+  "schema_version": 1,
+  "selected_truncation": 16384,
+  "source_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+  "verification": "INDEPENDENT_RAW_RECOMPUTATION_PASS",
+  "verifier_runtime": {
+    "numpy": "1.26.4",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.11.7",
+    "python_executable": "/Users/bowenzhao/.pyenv/versions/3.11.7/bin/python"
+  },
+  "verifier_source_sha256": "36048988e97016aead88ba71969211b76f066bc0db98d84f68ef70e314ae603f",
+  "zero_exceedance_clopper_pearson_upper": 0.04201037701571053
+}

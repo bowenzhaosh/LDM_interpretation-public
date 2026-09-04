@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "attempt_source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+  "attempt_source_tag": "phase1-ordering-confirmation-v1-fix1",
+  "attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+  "remote_attempt_root": "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix1-run2",
+  "collection": {
+    "generated_at_utc": "2026-08-03T21:04:59Z",
+    "source_host": "ssh-shell-2.engr.wustl.edu",
+    "slurm_timezone": "CDT (UTC-05:00)",
+    "provenance_scope": "reconstructed_post_run"
+  },
+  "terminal_state": "FAILED_BEFORE_SCIENTIFIC_ENDPOINTS",
+  "failure": {
+    "job_id": 160021,
+    "stage": "pfn",
+    "exception": "RuntimeError: PFN replay guard failed: C seed 0 step 20000",
+    "prediction_shards_written": 0
+  },
+  "production_jobs": {
+    "panel": {"job_id": 160020, "state": "COMPLETED"},
+    "pfn": {"job_id": 160021, "state": "FAILED"},
+    "oracle_bank0": {"job_id": 160022, "state": "CANCELLED"},
+    "oracle_bank1": {"job_id": 160023, "state": "CANCELLED"},
+    "oracle_bank2": {"job_id": 160024, "state": "CANCELLED"},
+    "join": {"job_id": 160025, "state": "CANCELLED_WITHOUT_RUNTIME"},
+    "independent_verify": {"job_id": 160026, "state": "CANCELLED_WITHOUT_RUNTIME"}
+  },
+  "completed_scientific_artifacts": {
+    "panel": true,
+    "pfn_predictions": false,
+    "oracle_predictions": false,
+    "joined_endpoints": false,
+    "scientific_decision": false
+  },
+  "diagnostic_jobs": {
+    "160027": "FAILED_STAGING_PATH_BEFORE_DIAGNOSTIC",
+    "160028": "COMPLETED_SINGLE_CHECKPOINT_UNLOCKED_RUNTIME",
+    "160030": "COMPLETED_ALL_CHECKPOINTS_UNLOCKED_RUNTIME",
+    "160038": "COMPLETED_ALL_CHECKPOINTS_LOCKED_RUNTIME",
+    "160040": "COMPLETED_FRESH_PROCESS_EXACT_REPEAT_OF_160038",
+    "160041": "COMPLETED_FULL_PANEL_ALL_CHECKPOINTS_LOCKED_RUNTIME"
+  },
+  "locked_runtime_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+  "locked_repeat_output_sha256": "d4f0ded169899b6cfc7054aeacdb7b05289f85b5220c5158ae102e4c05e3bc47",
+  "full_panel_output_sha256": "3fe0de767068bf233bb9443aa5b61705f65a849a05f8e7113744daff28d8cf23",
+  "diagnostic_submission_receipt": {
+    "path": "DIAGNOSTIC_SUBMISSIONS.json",
+    "sha256": "44cab330c421dd6ba8686b1eed231f894c44f3e4ef862058bfa20d050911717c"
+  }
+}

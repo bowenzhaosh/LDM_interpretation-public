@@ -1,0 +1,34 @@
+# pytest in this export on Linux x86_64, Python 3.11.7, pins from pyproject.toml:
+#   8 failed, 315 passed (2026-09-03, export built from private commit 397b3f8).
+# The same 8 node ids were run in the private source checkout on the same machine:
+#   5 failed there too (pre-existing, platform-bound); 3 passed there and fail here
+#   only because this export carries no git history.
+
+## Pre-existing on Linux (fail identically in the private source repo)
+tests/test_batch_shape_guard.py::test_runtime_verification_fails_when_live_matmul_setting_drifts
+tests/test_integrity_guards.py::test_legacy_comparison_rejects_any_unlocked_source_path
+tests/test_validation_smoke.py::test_bootstrap_coverage_validator_schema_smoke
+    RuntimeError: runtime fingerprint mismatch for platform: Linux-...
+    The legacy (Phase-0) runtime lock in environment/runtime.json pins the macOS
+    platform the Phase-0 chain ran on; the guard refuses any other platform by design.
+tests/test_fresh_process_runtime.py::test_legacy_compare_restores_locked_runtime_after_import_in_fresh_process
+    Same runtime lock, exercised in a fresh subprocess.
+tests/test_phase1_pfn.py::test_replay_guard_rejects_context_row_order_dependence
+    assert 136.16819381713867 == 136.1681785583496
+    Exact float equality on a replayed forward pass; differs at 1e-5 on this
+    CPU/torch build.
+
+## Caused by the export (pass in the private source repo)
+tests/test_phase1_confirmation_config.py::test_confirmation_accepts_the_frozen_v3_qualification
+    git rev-list -n 1 phase1-ordering-qualification-v3  -> exit 128
+    Resolves the registered tag in the private history.
+tests/test_phase1_ordering.py::test_calibration_writes_raw_oracle_arrays_without_scientific_endpoint
+    git rev-parse HEAD -> exit 128 when the tree is not a git checkout; passes
+    once cloned.
+tests/test_phase1_qualification_verify.py::test_archived_qualification_recomputes_from_raw
+    git show cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88:PHASE1_ORDERING_PREREG.md -> exit 128
+    Re-reads the prereg at its locked commit (2026-08-03). ./PHASE1_ORDERING_PREREG.md
+    in this export is a later revision (six revisions in the private history), so
+    the text at that commit is shipped verbatim as
+    campaigns/phase1_ordering_20260803/PHASE1_ORDERING_PREREG.at_cdd541c.md
+    (sha256 1a9e26d0fb5f9108...), which is the text the test reads from git.

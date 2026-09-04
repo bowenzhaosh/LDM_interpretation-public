@@ -1,0 +1,5 @@
+AMENDMENT_F.md sha256 3d0e0f0af86c99601be8d99b34f778073fdd5fee9d8ef2b9a547cfe0eb8d8f98
+locked 2026-08-26 by Bo (U1=Q2 with Q1 refused as an axis, U3=highs, U4=seed 0,
+  U5=WashU substituting for the unreachable Mac; F.2d.4's conjunction implemented
+  before the digest and re-validated at 40000 trials, worst null gate FPR 0.04718)
+HEAD at lock b05e32093d93545b3d54c4ae66a4755595348e44

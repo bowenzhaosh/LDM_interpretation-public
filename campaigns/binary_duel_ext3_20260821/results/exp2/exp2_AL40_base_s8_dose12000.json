@@ -1,0 +1,75 @@
+{
+ "scale": "base",
+ "prior": "AL40",
+ "model_seed": 8,
+ "dose": 12000,
+ "eval_seed": 555,
+ "e2a": {
+  "tag": "e2a",
+  "K": 300,
+  "mean_logit_w_mis": 0.5983416018156917,
+  "mean_logit_w_ctrl": -0.6764787143601207,
+  "frac_w_mis_pos": 0.7433333333333333,
+  "frac_w_ctrl_neg": 0.7833333333333333,
+  "harm_A_mean": 0.10125743548075358,
+  "harm_A_wilcox_p": 0.0001942327185056807,
+  "benefit_B_mean": 0.040894999106725054,
+  "benefit_B_wilcox_p": 0.060955715763547406,
+  "scale_reg": {
+   "n": 300,
+   "theil_slope": -0.11657737538222189,
+   "theil_int": 0.32900682803392023,
+   "ols_slope": -0.23983509127557434,
+   "ols_int": 0.054228096008661845,
+   "spearman_rho": -0.1456422493649965,
+   "spearman_p": 0.011551830695697811,
+   "monotone_frac": 0.4514660597134824,
+   "slope_ci_lo": -0.22271089968261293,
+   "slope_ci_hi": -0.031840240324275196,
+   "slope_ci_incl0": false
+  },
+  "gate_w": true,
+  "gate_harm": true,
+  "gate_benefit": false
+ },
+ "e2b": {
+  "tag": "e2b",
+  "K": 400,
+  "delta_0.00": {
+   "mean_logit_w_wrong": -2.0507580008279227,
+   "mean_logit_w_control": -2.0507580008279227,
+   "mean_nll_A_wrong": 2.7950248870253565,
+   "mean_nll_A_control": 2.7950248870253565,
+   "mean_ell_injected": 9.751262057751228
+  },
+  "delta_0.10": {
+   "mean_logit_w_wrong": -1.648831291976481,
+   "mean_logit_w_control": -2.0267496082975804,
+   "mean_nll_A_wrong": 2.802028846144676,
+   "mean_nll_A_control": 2.797576288282871,
+   "mean_ell_injected": 7.9800317045539915
+  },
+  "delta_0.25": {
+   "mean_logit_w_wrong": -0.8391518158041975,
+   "mean_logit_w_control": -2.176996628679224,
+   "mean_nll_A_wrong": 2.826437768638134,
+   "mean_nll_A_control": 2.7967825037240983,
+   "mean_ell_injected": 4.378081342499342
+  },
+  "delta_0.50": {
+   "mean_logit_w_wrong": 0.2049453037782704,
+   "mean_logit_w_control": -2.153580314616879,
+   "mean_nll_A_wrong": 2.8753891599178316,
+   "mean_nll_A_control": 2.7994972190260885,
+   "mean_ell_injected": -0.06216172896885823
+  },
+  "monotone_w_wrong": true,
+  "monotone_nll_wrong": true,
+  "spread_logit_w_wrong": 2.255703304606193,
+  "spread_nll_wrong": 0.08036427289247516,
+  "control_flat_w": 0.15024702038164373,
+  "gate_w_monotone": true,
+  "gate_nll_monotone": true,
+  "gate_control_flat": false
+ }
+}

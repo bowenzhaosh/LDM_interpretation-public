@@ -1,0 +1,93 @@
+{
+  "attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+  "checkpoint": {
+    "prior": "C",
+    "seed": 0,
+    "sha256": "7e3d55aaff179bf32b7ba42335a9ecf9e8ce3ae37e5840ec02dadd69ffe3ef35",
+    "step": 20000
+  },
+  "comparisons": {
+    "batch_1": {
+      "left_logp": -18.683687210083008,
+      "max_abs_logp_error": 5.7220458984375e-06,
+      "max_bin": 1,
+      "max_row": 6,
+      "mean_abs_logp_error": 7.825427585177952e-07,
+      "p99_abs_logp_error": 3.814697265625e-06,
+      "right_logp": -18.68368148803711
+    },
+    "batch_16": {
+      "left_logp": -16.516937255859375,
+      "max_abs_logp_error": 5.7220458984375e-06,
+      "max_bin": 1,
+      "max_row": 0,
+      "mean_abs_logp_error": 7.189148002200656e-07,
+      "p99_abs_logp_error": 2.86102294921875e-06,
+      "right_logp": -16.516942977905273
+    },
+    "batch_32": {
+      "left_logp": -12.817898750305176,
+      "max_abs_logp_error": 0.0,
+      "max_bin": 0,
+      "max_row": 0,
+      "mean_abs_logp_error": 0.0,
+      "p99_abs_logp_error": 0.0,
+      "right_logp": -12.817898750305176
+    },
+    "batch_64_context_roll": {
+      "left_logp": -16.015766143798828,
+      "max_abs_logp_error": 3.814697265625e-06,
+      "max_bin": 4,
+      "max_row": 13,
+      "mean_abs_logp_error": 5.965431531270345e-07,
+      "p99_abs_logp_error": 2.86102294921875e-06,
+      "right_logp": -16.015762329101562
+    },
+    "batch_64_repeat": {
+      "left_logp": -12.817898750305176,
+      "max_abs_logp_error": 0.0,
+      "max_bin": 0,
+      "max_row": 0,
+      "mean_abs_logp_error": 0.0,
+      "p99_abs_logp_error": 0.0,
+      "right_logp": -12.817898750305176
+    },
+    "batch_64_reverse": {
+      "left_logp": -16.516937255859375,
+      "max_abs_logp_error": 5.7220458984375e-06,
+      "max_bin": 1,
+      "max_row": 0,
+      "mean_abs_logp_error": 2.121428648630778e-07,
+      "p99_abs_logp_error": 2.86102294921875e-06,
+      "right_logp": -16.516942977905273
+    },
+    "batch_8": {
+      "left_logp": -16.516937255859375,
+      "max_abs_logp_error": 5.7220458984375e-06,
+      "max_bin": 1,
+      "max_row": 0,
+      "mean_abs_logp_error": 7.189148002200656e-07,
+      "p99_abs_logp_error": 2.86102294921875e-06,
+      "right_logp": -16.516942977905273
+    }
+  },
+  "registered_batch_atol": 1e-06,
+  "registered_context_roll_atol": 1e-05,
+  "rows": 72,
+  "runtime": {
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "cudnn_allow_tf32": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "device": "NVIDIA A100 80GB PCIe",
+    "matmul_allow_tf32": false,
+    "numpy": "2.2.6",
+    "python": "3.10.20",
+    "torch": "2.4.0+cu121"
+  },
+  "schema_version": 1,
+  "source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+  "source_tag": "phase1-ordering-confirmation-v1-fix1"
+}

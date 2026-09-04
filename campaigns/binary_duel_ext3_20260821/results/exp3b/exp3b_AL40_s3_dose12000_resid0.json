@@ -1,0 +1,67 @@
+{
+ "prior": "AL40",
+ "model_seed": 3,
+ "dose": 12000,
+ "eval_seed": 707,
+ "site": "resid0",
+ "n_train": 400,
+ "n_eval": 200,
+ "n_degen": 0,
+ "rank1": {
+  "transfer_mean": 0.3722959010364435,
+  "transfer_med": 0.42398779049629176,
+  "transfer_p": 9.893179263650394e-26,
+  "anti_donor_rate": 0.915,
+  "n": 200,
+  "kl_train_final": 2.197933348417282,
+  "placebo_transfer_mean": -9.032007906835511e-05,
+  "placebo_transfer_p": 0.804829689243574,
+  "gate": true
+ },
+ "rank2": {
+  "transfer_mean": 0.3795647127167773,
+  "transfer_med": 0.4370405373902362,
+  "transfer_p": 9.34409995822388e-27,
+  "anti_donor_rate": 0.92,
+  "n": 200,
+  "kl_train_final": 1.5626106843352319,
+  "placebo_transfer_mean": -0.0012275711079559907,
+  "placebo_transfer_p": 0.8885684171598467,
+  "gate": true
+ },
+ "rank4": {
+  "transfer_mean": 0.3687400597246201,
+  "transfer_med": 0.5603554988858959,
+  "transfer_p": 1.8381889338404933e-19,
+  "anti_donor_rate": 0.875,
+  "n": 200,
+  "kl_train_final": 1.5092492121458054,
+  "placebo_transfer_mean": 0.021187654173381417,
+  "placebo_transfer_p": 5.6900387503252907e-11,
+  "gate": true
+ },
+ "rank8": {
+  "transfer_mean": 0.383453492425776,
+  "transfer_med": 0.5971160994236206,
+  "transfer_p": 2.539005291382638e-22,
+  "anti_donor_rate": 0.865,
+  "n": 200,
+  "kl_train_final": 1.7275120544433593,
+  "placebo_transfer_mean": 0.012886149136405924,
+  "placebo_transfer_p": 2.8892149571068354e-05,
+  "gate": true
+ },
+ "rank16": {
+  "transfer_mean": 0.3058993130501424,
+  "transfer_med": 0.5364213420686332,
+  "transfer_p": 4.212153983373732e-18,
+  "anti_donor_rate": 0.885,
+  "n": 200,
+  "kl_train_final": 1.8426783001422882,
+  "placebo_transfer_mean": 0.03177343787181543,
+  "placebo_transfer_p": 1.3158259838318589e-06,
+  "gate": true
+ },
+ "gate_phaseB": true,
+ "wallclock_s": 60.0798978805542
+}

@@ -1,0 +1,104 @@
+# Files withheld from this public export (present in the private source repo at 397b3f8).
+# Sealed manifests below list some of them; those manifests were NOT edited, so
+# sha256sum -c against them will report the withheld files as missing.
+
+## withheld
+.claude/G_ADJUDICATION_20260830_R5.md
+AUDIT.md
+HANDOFF.md
+HARNESS.md
+ORACLE_PRECISION_PILOT_AUDIT.md
+ORACLE_PRECISION_PILOT_DESIGN.md
+PHASE1_ORDERING_QUALIFICATION_V2_PREREG.md
+PHASE1_ORDERING_QUALIFICATION_V3_VERIFIER_FIX1.md
+README.md
+STATUS.md
+WORKLOG.md
+artifacts/audit/mapping_qualification_audit.md
+artifacts/audit/mapping_qualification_cross_family.md
+campaigns/R1_DELTA_MEMO.md
+campaigns/binary_duel_ext3_20260821/report-binary-duel.html
+campaigns/branch_b_20260808/REPORT.html
+campaigns/corrected_20260812/RESULTS_AUDIT_PROMPT.md
+campaigns/corrected_20260812/WORKLOG.md
+campaigns/corrected_20260812/audit/lens_reports.md
+campaigns/corrected_20260812/report/corrected_honest_report.html
+campaigns/corrected_20260812/report/corrected_report.html
+campaigns/phase1_ordering_20260803/calibration_code_audit.md
+campaigns/phase1_ordering_20260803/oracle_calibration/results_audit.md
+campaigns/phase1_ordering_20260803/oracle_precision_pilot_run1/CLAIM_LEDGER.md
+campaigns/phase1_ordering_20260803/oracle_precision_pilot_run1/REPORT.html
+campaigns/phase1_ordering_20260803/oracle_qualification/results_audit.md
+campaigns/phase1_ordering_20260803/oracle_qualification_v3/README.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_attempt1_failed/README.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/README.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/AUDIT_REPORT.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/CLAIM_LEDGER.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/README.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/REPORT.html
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/diagnostics/evidence.md
+campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/diagnostics/hypotheses.md
+campaigns/phase1_ordering_20260803/qualification_code_audit.md
+cluster/W4_CPU_REFIRE_NOTE.md
+paper/CLAIM_LEDGER_ICLR.md
+paper/FIXLOG-abstract.md
+paper/FIXLOG-figures.md
+paper/FIXLOG-sections.md
+paper/FIXLOG-spine.md
+paper/abstract_D3_draft.tex
+paper/fig_component_control_caption.tex
+paper/figs/A8_conditioning_sweep.pdf
+paper/figs/A8_conditioning_sweep.png
+paper/figs/F1_windtunnel.pdf
+paper/figs/F1_windtunnel.png
+paper/figs/F2_identification.pdf
+paper/figs/F2_identification.png
+paper/figs/F3_levers.pdf
+paper/figs/F3_levers.png
+paper/figs/F4_instrument.pdf
+paper/figs/F4_instrument.png
+paper/figs/F5_replication.pdf
+paper/figs/F5_replication.png
+paper/figs/F6_component_control.pdf
+paper/figs/F6_component_control.png
+paper/figs/figure_numbers.json
+paper/main.tex
+paper/review-claims-audit.md
+paper/review-iclr-reviewer.md
+paper/review-withdrawn-framings.md
+paper/sec_abstract_intro.tex
+paper/sec_c0.tex
+paper/sec_component_control.tex
+paper/sec_dial.tex
+paper/sec_discussion_appendix.tex
+paper/sec_mechanism.tex
+paper/sec_setup.tex
+reports/f2d_lock_report.html
+reports/f4_exact_spine.html
+reports/formation_curves.html
+reports/goal_report_0824.html
+scripts/goal_report_0824.py
+scripts/goal_report_0824.tpl.html
+
+## manifests that reference a withheld file
+- ./campaigns/phase1_ordering_20260803/oracle_qualification/integrity_manifest.json
+            "path": "results_audit.md",
+- ./campaigns/phase1_ordering_20260803/ordering_confirmation_v1_attempt1_failed/ARTIFACT_SHA256SUMS
+    dd0ff45a42461031034a61f570a6d0646a53ae47c1216af79f4f4b441c839de9  README.md
+- ./campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/ARTIFACT_SHA256SUMS
+    350d28f2c88ae186e800ee9f8e0ce6ab5a3b7884e9a993c051210c4661cfeb5e  ./README.md
+- ./campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/ARTIFACT_SHA256SUMS
+    28cf70d39da3b8991c3cbeb419a5f7c8da4a7c7558c42cdeb2b4577159b90110  ./AUDIT_REPORT.md
+    45674ae374ce4d7e34fa10fea3f5acfd19cd8252692cc0de5d76055d174b7d1b  ./CLAIM_LEDGER.md
+    d806e1dbc0989f7bcc0e1649cb10de32cfe580448dd694e8661acc243a2daa49  ./README.md
+- ./config/audit_readiness.json
+        "AUDIT.md": "471c4d884f899fc2a01660fac0a468a83ef09cd0dbabbba70b298d11b5837afa",
+        "HARNESS.md": "c4df9b53c9446fe1e868907b1dda7ac22be63fe664349ac26cc9087cd6b2b2e6",
+        "README.md": "21a30651861e40993cf9eef324415abed2faea7767dc1331befb0b7d60133b40",
+- ./config/run_lock.json
+        "AUDIT.md": "471c4d884f899fc2a01660fac0a468a83ef09cd0dbabbba70b298d11b5837afa",
+        "HARNESS.md": "c4df9b53c9446fe1e868907b1dda7ac22be63fe664349ac26cc9087cd6b2b2e6",
+        "README.md": "21a30651861e40993cf9eef324415abed2faea7767dc1331befb0b7d60133b40",
+paper/FIXLOG2-openclaims.md
+paper/FIXLOG2-regressions.md
+paper/verify-post-fix.md

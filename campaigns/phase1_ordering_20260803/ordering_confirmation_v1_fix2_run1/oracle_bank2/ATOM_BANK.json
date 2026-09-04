@@ -1,0 +1,34 @@
+{
+  "bank_index": 2,
+  "count": 3000000,
+  "determinism_canary": {
+    "count": 4096,
+    "dtype": "<f8",
+    "seed": 881103999,
+    "sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+    "shape": [
+      4096,
+      4,
+      4
+    ]
+  },
+  "dtype": "<f8",
+  "hash_scheme": "sha256-c-contiguous-raw-bytes-v1",
+  "nested_half_prefix": {
+    "count": 1500000,
+    "dtype": "<f8",
+    "sha256": "f7a0f7ccde4e3b1086d78f180bb679e96b9da2170985003ce788d111f988f44a",
+    "shape": [
+      1500000,
+      4,
+      4
+    ]
+  },
+  "seed": 881003103,
+  "sha256": "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3",
+  "shape": [
+    3000000,
+    4,
+    4
+  ]
+}

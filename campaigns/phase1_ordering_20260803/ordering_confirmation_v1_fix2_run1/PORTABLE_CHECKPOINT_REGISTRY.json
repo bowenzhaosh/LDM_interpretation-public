@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scope": "fixed archived d=4 base 120k fleet",
+  "remote_root": "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/checkpoints",
+  "model_definition": "artifacts/phase1/d4_train_fleet.py",
+  "model_definition_sha256": "22c61ee73a6fb1ea2c8f54d24a8597722e33ca7b562ef5b8ee74d42c38d7f897",
+  "training_sidecars": [
+    {"prior": "C", "seed": 0, "filename": "M4_C_s0_st120000.json", "bytes": 156, "sha256": "da76e1347407aa9920c51505e11b37366d091cb5c1eee6c1db04f7c2f4a9ad1c"},
+    {"prior": "C", "seed": 1, "filename": "M4_C_s1_st120000.json", "bytes": 155, "sha256": "7fdcce17f45098fb68f3366dcd6c0b5270735e1201edb4ec9ad95f9971dcb85a"},
+    {"prior": "C", "seed": 2, "filename": "M4_C_s2_st120000.json", "bytes": 155, "sha256": "9662badc974b6ce131723ff9ce9c682a42a2897b52e90f338d43eec5a785bcc7"},
+    {"prior": "N", "seed": 0, "filename": "M4_N_s0_st120000.json", "bytes": 156, "sha256": "07bd1b54cd15f4be69557c0d08981ced6f4d36b887116cc35f6f4b5a30288153"},
+    {"prior": "N", "seed": 1, "filename": "M4_N_s1_st120000.json", "bytes": 156, "sha256": "e985cc9e308ad62576cd770159e922e4406f152a8f55dd4fcb6a24f0d4c21424"},
+    {"prior": "N", "seed": 2, "filename": "M4_N_s2_st120000.json", "bytes": 156, "sha256": "0e445f28c441029cb3a615f1b35ddcb5314138f65d122c46de173b4158148f3e"}
+  ],
+  "records": [
+    {"prior": "C", "seed": 0, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_C_s0_st120000_ck20000.pt", "bytes": 4344012, "sha256": "7e3d55aaff179bf32b7ba42335a9ecf9e8ce3ae37e5840ec02dadd69ffe3ef35"},
+    {"prior": "C", "seed": 0, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_C_s0_st120000_ck60000.pt", "bytes": 4344012, "sha256": "fe06a96f384ba555696088b0d49d34fb49976d2e223de005cf65e4550b107c43"},
+    {"prior": "C", "seed": 0, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_C_s0_st120000.pt", "bytes": 4343220, "sha256": "9a837e6db72e0f6b778cba5c9e0547a284a7623f1a4e76a7052ce3d275802c88"},
+    {"prior": "C", "seed": 1, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_C_s1_st120000_ck20000.pt", "bytes": 4344012, "sha256": "ffb9d507ad16755a11eaef66f24662995e6eadba06abe81577b12934626a1d3c"},
+    {"prior": "C", "seed": 1, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_C_s1_st120000_ck60000.pt", "bytes": 4344012, "sha256": "553f5bd689c4ef55bff3654dcbf77770002fff43090a4ccfe482de5cb70168be"},
+    {"prior": "C", "seed": 1, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_C_s1_st120000.pt", "bytes": 4343220, "sha256": "6eae9d8ec2fcece917ce96d093a65e6ba1c8d1227be93000d0a0a4cc9f6abc02"},
+    {"prior": "C", "seed": 2, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_C_s2_st120000_ck20000.pt", "bytes": 4344012, "sha256": "f2e7b20a5a2f19023649938c2cca8e60f4c64fd5f7a50d5f15a0fba9c624900f"},
+    {"prior": "C", "seed": 2, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_C_s2_st120000_ck60000.pt", "bytes": 4344012, "sha256": "214f4f4f8110855236e58c303a04f39ec9ed873b1b3a39740d976fc0baa43da9"},
+    {"prior": "C", "seed": 2, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_C_s2_st120000.pt", "bytes": 4343220, "sha256": "bc6cbc8f83c297577997bc879604df91ecb647b35cf7b953f19b1870f97cc157"},
+    {"prior": "N", "seed": 0, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_N_s0_st120000_ck20000.pt", "bytes": 4344012, "sha256": "41f70f7db15c23145a3856aede07860072b4635e91f158b523ada81ef0529ebe"},
+    {"prior": "N", "seed": 0, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_N_s0_st120000_ck60000.pt", "bytes": 4344012, "sha256": "af5efdd24a91e3dd9dafa0020dae92fd6685fb0751576e8f63ffbf932027b00e"},
+    {"prior": "N", "seed": 0, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_N_s0_st120000.pt", "bytes": 4343220, "sha256": "e2631f8bc4a67e7fa756a29d7c15ad1c4163d0d7cd215f1dd1955689df1c5b9a"},
+    {"prior": "N", "seed": 1, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_N_s1_st120000_ck20000.pt", "bytes": 4344012, "sha256": "6c23d58f0fec1c0862cbd470f7280b8fbe95ab2d4b7e704741b7c6383c095ad4"},
+    {"prior": "N", "seed": 1, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_N_s1_st120000_ck60000.pt", "bytes": 4344012, "sha256": "cbb31a7605d23536372c4718787e6c1428e7e023760515f071322e03480f0b3a"},
+    {"prior": "N", "seed": 1, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_N_s1_st120000.pt", "bytes": 4343220, "sha256": "3e1da9eb7dd75c736f26924d5ffc670c308b590a90082f025172d5d0aa80c415"},
+    {"prior": "N", "seed": 2, "checkpoint_step": 20000, "planned_total_steps": 120000, "filename": "M4_N_s2_st120000_ck20000.pt", "bytes": 4344012, "sha256": "6a593b0b19ad5e5eac30929bab698d74434c93d009a3a95773ad3d3a818637f2"},
+    {"prior": "N", "seed": 2, "checkpoint_step": 60000, "planned_total_steps": 120000, "filename": "M4_N_s2_st120000_ck60000.pt", "bytes": 4344012, "sha256": "33ee4d882fa52039a4185fbc65b22c70e2e8189310537dde38d60772225531ef"},
+    {"prior": "N", "seed": 2, "checkpoint_step": 120000, "planned_total_steps": 120000, "filename": "M4_N_s2_st120000.pt", "bytes": 4343220, "sha256": "5cfcf9c143c82adcbf627ee5b05fcb2bc80ce9c2ca08a7b13086ba434dfe0701"}
+  ]
+}

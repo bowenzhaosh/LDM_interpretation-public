@@ -1,0 +1,10 @@
+evidence_core loaded: 3097 accepted grid points, faithfulness=True
+[0] eval_seed=101 starting
+  saved /Users/bowenzhao/pfn-dag/experiments/binary-duel/results/exp1/exp1_AL40_base_s0_dose12000.json
+[1] eval_seed=102 starting
+  saved /Users/bowenzhao/pfn-dag/experiments/binary-duel/results/exp1/exp1_AL40_base_s1_dose12000.json
+[2] eval_seed=103 starting
+  saved /Users/bowenzhao/pfn-dag/experiments/binary-duel/results/exp1/exp1_AL40_base_s2_dose12000.json
+[3] eval_seed=104 starting
+  saved /Users/bowenzhao/pfn-dag/experiments/binary-duel/results/exp1/exp1_AL40_base_s3_dose12000.json
+all seeds done in 865.4s

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-08-03T23:39:17Z",
+  "cluster_timezone": "America/Chicago",
+  "command": "sacct -X -j 160055,160056,160057,160062,160063,160064,160065 -P -n -o JobIDRaw,JobName%30,State,ExitCode,Elapsed,Start,End,AllocTRES%120,NodeList",
+  "jobs": [
+    {"job_id": "160055", "name": "p1-panel", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:01:09", "start": "2026-08-03T16:52:20", "end": "2026-08-03T16:53:29", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160056", "name": "p1-pfn", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:02:45", "start": "2026-08-03T16:53:29", "end": "2026-08-03T16:56:14", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160057", "name": "p1-oracle0", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "01:01:21", "start": "2026-08-03T16:53:29", "end": "2026-08-03T17:54:50", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160062", "name": "p1-oracle1", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "01:00:06", "start": "2026-08-03T16:53:29", "end": "2026-08-03T17:53:35", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160063", "name": "p1-oracle2", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "01:00:46", "start": "2026-08-03T16:56:14", "end": "2026-08-03T17:57:00", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160064", "name": "p1-join", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:01:17", "start": "2026-08-03T17:57:00", "end": "2026-08-03T17:58:17", "alloc_tres": "billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1", "node": "a100-2207"},
+    {"job_id": "160065", "name": "p1-verify", "state": "COMPLETED", "exit_code": "0:0", "elapsed": "00:00:41", "start": "2026-08-03T17:58:18", "end": "2026-08-03T17:58:59", "alloc_tres": "billing=2,cpu=2,mem=16G,node=1", "node": "r28-1801"}
+  ]
+}

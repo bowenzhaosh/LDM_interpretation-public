@@ -1,0 +1,237 @@
+{
+  "exp1_seeds_scales": {
+    "base": {
+      "n": 16,
+      "beta_w_mean": -0.17830002461919436,
+      "beta_w_sd": 0.007520761363453794,
+      "spearman_mean": -0.8769650524234149,
+      "frac_ci_excl0": 1.0,
+      "frac_negative": 1.0,
+      "gain_spec_mean": 0.20493839306756856,
+      "gain_spec_sd": 0.007743090397824317,
+      "frac_gate_spec": 1.0,
+      "frac_gate_ctrl6": 1.0,
+      "gaussian_null_frac_finite_w": 0.0
+    },
+    "mid": {
+      "n": 12,
+      "beta_w_mean": -0.08795770502033477,
+      "beta_w_sd": 0.020225533517033625,
+      "spearman_mean": -0.744298975066128,
+      "frac_ci_excl0": 1.0,
+      "frac_negative": 1.0,
+      "gain_spec_mean": 0.11124580518652995,
+      "gain_spec_sd": 0.02691898691279203,
+      "frac_gate_spec": 1.0,
+      "frac_gate_ctrl6": 1.0,
+      "gaussian_null_frac_finite_w": 0.0
+    },
+    "large": {
+      "n": 12,
+      "beta_w_mean": -0.06355509091828583,
+      "beta_w_sd": 0.03737306351041979,
+      "spearman_mean": -0.5863041029823047,
+      "frac_ci_excl0": 0.9166666666666666,
+      "frac_negative": 0.9166666666666666,
+      "gain_spec_mean": 0.08117910824716092,
+      "gain_spec_sd": 0.04223938783061706,
+      "frac_gate_spec": 0.9166666666666666,
+      "frac_gate_ctrl6": 1.0,
+      "gaussian_null_frac_finite_w": 0.0
+    },
+    "xl": {
+      "n": 12,
+      "beta_w_mean": -0.10658639123903528,
+      "beta_w_sd": 0.025898856184462905,
+      "spearman_mean": -0.7734723448978903,
+      "frac_ci_excl0": 1.0,
+      "frac_negative": 1.0,
+      "gain_spec_mean": 0.1397921710088849,
+      "gain_spec_sd": 0.025819033015026367,
+      "frac_gate_spec": 1.0,
+      "frac_gate_ctrl6": 1.0,
+      "gaussian_null_frac_finite_w": 0.0
+    }
+  },
+  "exp2_seeds_scales": {
+    "base": {
+      "n": 16,
+      "mean_logit_w_mis": 0.606479509195821,
+      "mean_logit_w_ctrl": -0.5520786525845958,
+      "frac_gate_w": 1.0,
+      "frac_gate_harm": 0.625,
+      "frac_gate_benefit": 0.125,
+      "frac_gate_w_monotone": 1.0,
+      "frac_gate_nll_monotone": 1.0,
+      "frac_gate_control_flat": 0.1875
+    },
+    "mid": {
+      "n": 12,
+      "mean_logit_w_mis": 0.24445381518159018,
+      "mean_logit_w_ctrl": -0.19188707906430424,
+      "frac_gate_w": 0.8333333333333334,
+      "frac_gate_harm": 0.25,
+      "frac_gate_benefit": 0.0,
+      "frac_gate_w_monotone": 1.0,
+      "frac_gate_nll_monotone": 1.0,
+      "frac_gate_control_flat": 0.6666666666666666
+    },
+    "large": {
+      "n": 12,
+      "mean_logit_w_mis": 0.1609767767613253,
+      "mean_logit_w_ctrl": -0.17323386175329084,
+      "frac_gate_w": 0.5833333333333334,
+      "frac_gate_harm": 0.08333333333333333,
+      "frac_gate_benefit": 0.0,
+      "frac_gate_w_monotone": 0.9166666666666666,
+      "frac_gate_nll_monotone": 0.9166666666666666,
+      "frac_gate_control_flat": 0.75
+    },
+    "xl": {
+      "n": 12,
+      "mean_logit_w_mis": 0.36625616644749376,
+      "mean_logit_w_ctrl": -0.20765442137515247,
+      "frac_gate_w": 1.0,
+      "frac_gate_harm": 0.25,
+      "frac_gate_benefit": 0.0,
+      "frac_gate_w_monotone": 1.0,
+      "frac_gate_nll_monotone": 0.9166666666666666,
+      "frac_gate_control_flat": 0.9166666666666666
+    }
+  },
+  "exp4_d3_readout": {
+    "A": {
+      "n": 4,
+      "beta_w_mean": -0.1069086234731148,
+      "beta_w_sd": 0.0029023517601046932,
+      "spearman_mean": -0.3845931280952031,
+      "monotone_frac_mean": 0.3758336036616278,
+      "frac_ci_excl0": 1.0,
+      "gain_spec_mean": 0.024759874446317554,
+      "frac_gate_spec": 0.5,
+      "positive_control_beta_w": -1.0001158798730387,
+      "gaussian_null_frac_finite_w": 0.0
+    },
+    "C": {
+      "n": 3,
+      "beta_w_mean": -0.09550268348288461,
+      "beta_w_sd": 0.01029561178515052,
+      "spearman_mean": -0.572979819019268,
+      "monotone_frac_mean": 0.3080222266945023,
+      "frac_ci_excl0": 1.0,
+      "gain_spec_mean": 0.01006758880491058,
+      "frac_gate_spec": 0.3333333333333333,
+      "positive_control_beta_w": -1.0004018852996885,
+      "gaussian_null_frac_finite_w": 0.0
+    },
+    "N": {
+      "n": 4,
+      "beta_w_mean": -0.005830249261633572,
+      "beta_w_sd": 0.006126403762559772,
+      "spearman_mean": -0.034084853104271645,
+      "monotone_frac_mean": 0.4886821661417447,
+      "frac_ci_excl0": 0.0,
+      "gain_spec_mean": -0.0031659952364861965,
+      "frac_gate_spec": 0.0,
+      "positive_control_beta_w": -1.0001134603279023,
+      "gaussian_null_frac_finite_w": 0.0
+    }
+  },
+  "exp3b_phaseB": {
+    "n": 8,
+    "sites": {
+      "resid0": {
+        "n": 4,
+        "ranks": {
+          "rank1": {
+            "transfer_mean": 0.24692538292143446,
+            "transfer_sd": 0.08841361998134656,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.88375,
+            "placebo_transfer_mean": -0.001809133783288663,
+            "frac_gate": 1.0
+          },
+          "rank2": {
+            "transfer_mean": 0.29256157329446275,
+            "transfer_sd": 0.09717176327009996,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.89,
+            "placebo_transfer_mean": 0.0032162068609752487,
+            "frac_gate": 1.0
+          },
+          "rank4": {
+            "transfer_mean": 0.31710530057906483,
+            "transfer_sd": 0.07166702326812184,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.8775,
+            "placebo_transfer_mean": 0.005745529856349984,
+            "frac_gate": 1.0
+          },
+          "rank8": {
+            "transfer_mean": 0.3099589195426598,
+            "transfer_sd": 0.06757813569500339,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.8825000000000001,
+            "placebo_transfer_mean": 0.01565454595235274,
+            "frac_gate": 1.0
+          },
+          "rank16": {
+            "transfer_mean": 0.3396059681241086,
+            "transfer_sd": 0.03442611761384403,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.8887499999999999,
+            "placebo_transfer_mean": 0.02764900315755989,
+            "frac_gate": 1.0
+          }
+        },
+        "gate_phaseB_all": true
+      },
+      "query1": {
+        "n": 4,
+        "ranks": {
+          "rank1": {
+            "transfer_mean": 0.06374110374650695,
+            "transfer_sd": 0.05202698876335369,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.825,
+            "placebo_transfer_mean": 0.001584698644331109,
+            "frac_gate": 1.0
+          },
+          "rank2": {
+            "transfer_mean": 0.08313299705970005,
+            "transfer_sd": 0.0691154251888261,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.80125,
+            "placebo_transfer_mean": 0.0012255042213827336,
+            "frac_gate": 0.75
+          },
+          "rank4": {
+            "transfer_mean": 0.16442248123705006,
+            "transfer_sd": 0.05585891121864309,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.79,
+            "placebo_transfer_mean": 0.001898501067015135,
+            "frac_gate": 1.0
+          },
+          "rank8": {
+            "transfer_mean": 0.1206094625542487,
+            "transfer_sd": 0.19214028996352958,
+            "frac_p_lt_005": 1.0,
+            "anti_donor_mean": 0.76,
+            "placebo_transfer_mean": 0.02475527258111588,
+            "frac_gate": 0.75
+          },
+          "rank16": {
+            "transfer_mean": 0.005089191926856862,
+            "transfer_sd": 0.20146046242603324,
+            "frac_p_lt_005": 0.75,
+            "anti_donor_mean": 0.7525000000000001,
+            "placebo_transfer_mean": 0.027645611080689005,
+            "frac_gate": 0.5
+          }
+        },
+        "gate_phaseB_all": true
+      }
+    }
+  }
+}

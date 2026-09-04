@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "oracle_half_raw.npz": {
+      "bytes": 125513,
+      "sha256": "3c9c81e1339483f1aff709f2c2c7af3ec47020168c9b93fdeddcfbff320de402"
+    },
+    "oracle_raw.npz": {
+      "bytes": 656608,
+      "sha256": "e66f844d22405749d1f972b8081b2fb79c038817cfde2b1d52b7cf2974f7b9e7"
+    },
+    "oracle_summary.json": {
+      "bytes": 1143,
+      "sha256": "18aceca0d8e9a5958d2ebfc0ff14e16846f3ee8a0d1334d8bc52c9bdf2471f2e"
+    }
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "identity_tuple": [
+    "C",
+    0,
+    1
+  ]
+}

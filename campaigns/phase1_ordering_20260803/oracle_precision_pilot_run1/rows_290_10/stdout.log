@@ -1,0 +1,7 @@
+{
+  "config_path": "/engrfs/project/class/zhao.b/pfn-dag-oracle-precision-pilot-v1/config/oracle_precision_pilot_v1.json",
+  "n_rows": 400,
+  "seed_root": 886900290,
+  "row_start": 290,
+  "row_count": 10
+}

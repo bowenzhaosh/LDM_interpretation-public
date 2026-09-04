@@ -1,0 +1,10 @@
+{
+  "prior": "N",
+  "seed": 1,
+  "steps": 10000,
+  "d": 4,
+  "n_params": 1082980,
+  "final_loss": 2.9034570491313936,
+  "wallclock_s": 256.9928333759308,
+  "library_sha256": ""
+}

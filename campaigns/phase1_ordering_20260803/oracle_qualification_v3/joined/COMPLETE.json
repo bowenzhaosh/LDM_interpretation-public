@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "qualification_raw.npz": {
+      "bytes": 13585123,
+      "sha256": "a4bc89e5f22f41764ddefb310bc2fb67dc291c0d0156949c1840841549915317"
+    },
+    "qualification_summary.json": {
+      "bytes": 22748,
+      "sha256": "e0d30a980de7f1e520e1fc3292edb6a028093f5443e269a3c96d92d5b2abeb30"
+    }
+  },
+  "decision": "QUALIFICATION_PASS",
+  "identity": {
+    "atom_bank_sha256": [
+      "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7",
+      "a848e61b929c18decaadd9b633f60f22e524f17a2b1ec24d6c7642dbba764920",
+      "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3"
+    ],
+    "atom_determinism_canary_sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+    "git_commit": "fc0b8eb48c75f7c0d1dc208b1d344d663b16baf3",
+    "run_marker_hashes": {
+      "/engrfs/project/class/zhao.b/pfn-dag-phase1-qv3-fc0b8eb/bank0/run": "cc4309cc3b301a0398160caed91653d2d43a16a613fb76defe24e46b49619a4d",
+      "/engrfs/project/class/zhao.b/pfn-dag-phase1-qv3-fc0b8eb/bank1/run": "aafb7f5bd43586cac3c0bb3d9d3ae01e54c0a3ef6a558a6723d759e435bb22b6",
+      "/engrfs/project/class/zhao.b/pfn-dag-phase1-qv3-fc0b8eb/bank2/run": "31d0718a174eca30d35395ca53de8cecfef3bda49499ab34a00be6760fbfef47"
+    },
+    "source_inventory": {
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_PREREG.md": "ad72aab76ef12d0ac8e6a4cd738b162bb9d9898cfd118e206b611c1bd033b1ef",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_QUALIFICATION_V3_PREREG.md": "3db5b21de35794e24570b6b55c75092dec1f97db89d51d31148f4ccf04d9e30e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/config/phase1_ordering_qualification_v3_bank0.json": "da285b59962b6b0e8e99f0574b974c210db9b5d464d8a29c601de1c2e301648e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/config/phase1_ordering_qualification_v3_bank1.json": "e4d6781ce0c50be8a839533ab8136f0309ae32f97283b3668ce5083ed967866c",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/config/phase1_ordering_qualification_v3_bank2.json": "8c9cf03983cabbe7fddc2584fd114cbf0291361fd5c72cde034f188858713688",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_ordering.py": "d298e0b52285a95ae8771eb8f7fecb55501ac0893b70ba4a9ee84a27b7f6f933",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification.py": "af32507dadb6a2d2e8429317d2223b35db5e4b3f20cc4e0c5427f97114126c70",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py": "e8c675e14ae373eae62f6e4fb6327723e2e0d8694490c3d7ec30eabf427ab0eb",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+    }
+  },
+  "identity_sha256": "6f0c1aaf995f1c134ff2a1b22842a85868962d98e4e9facc299f150e581b8347"
+}

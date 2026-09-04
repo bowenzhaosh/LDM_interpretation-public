@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "job_id": "158825",
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "node": "a100-2207",
+  "remote_output": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/runtime-lock-preflight/output",
+  "runtime_binary_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+  "artifacts": {
+    "gpu_identity.csv": "3ab4fcab9fba450da9b27faaae469b8fff1cdd63f68e19a6d9f1d6b3231afa05",
+    "gpu_utilization.csv": "222340444d318e533e526b02f91a152fb9732bce88cb1c4f33efdfe6569bd29c",
+    "sacct.txt": "b93cef1ccd4489fd3d6f7501df339b1bc61da11eeb3e85986f0042829072f74d",
+    "slurm-158825.out": "fd155eb24031f93d015922e9a36deb89f58325ffaebf68a1563cb89222163399",
+    "locked_source/phase1_calibration.sbatch": "ab7d5f5d7b324022f6992d3452df4aefadd3a30de48e761aa9963a7365f7aec8",
+    "locked_source/phase1_ordering.py": "8df7584d899e3593d3387a648a5585c7a2c571c0be6a4179b9580db5ade23771",
+    "locked_source/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c",
+    "../../../environment/phase1-washu-binary-inventory.json": "1639a50198879f977d5715d9e6a29c8655a1d4b37c0e8c11af12160f606e60bf"
+  }
+}

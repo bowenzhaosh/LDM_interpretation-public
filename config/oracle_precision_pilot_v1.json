@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "scope": "outcome-blind oracle-precision pilot on the frozen 400-row nested panel",
+  "dimension": 4,
+  "context_size": 30,
+  "native_output_bins": 100,
+  "priors": ["C", "N"],
+  "nested_half_subset": {
+    "draw_index": 0,
+    "stream_index_stop_exclusive": 200
+  },
+  "panel_root": "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1/panel",
+  "seed_root": 886900000,
+  "development_seed_namespace_root": 886000000,
+  "quadrature": {
+    "interior_nodes": 32,
+    "tail_nodes": 128
+  },
+  "smc": {
+    "n_particles": 8192,
+    "mh_steps": 15,
+    "cess_target": 0.5,
+    "resample_frac": 0.5,
+    "max_temps": 80
+  },
+  "mcmc": {
+    "n_chains": 64,
+    "n_iter": 1500,
+    "n_iter_per_beta": 600,
+    "betas": [0.0, 0.005, 0.02, 0.1, 0.3, 0.6, 1.0]
+  },
+  "amendment": "2026-08-04 tractability: reduced SMC to 8192 particles and MCMC to 64 chains x 600 iters/beta x 7 betas after the full-config smoke measured ~3 h/row (infeasible for 400 rows). The gates and the estimator design are unchanged; the reduced settings lower precision. Applied before the first 400-row estimate.",
+  "gates": {
+    "nested_half_causal_ablated_abs_max": 0.0005,
+    "nested_half_control_subtracted_ablated_abs_max": 0.0005,
+    "nested_half_full_abs_max": 0.0005,
+    "probability_sum_atol": 1e-8
+  }
+}

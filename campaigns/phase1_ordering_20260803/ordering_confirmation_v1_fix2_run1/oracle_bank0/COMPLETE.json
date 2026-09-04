@@ -1,0 +1,65 @@
+{
+  "artifacts": {
+    "ATOM_BANK.json": {
+      "bytes": 691,
+      "sha256": "550c2232af89464494931328c336061a45d6844d14d88677b012bde4234be532"
+    },
+    "RUNNING.json": {
+      "bytes": 4604,
+      "sha256": "d3211b0212ac5410572a484d1720629bbab93dbc241b56309a15a6aadeb1a39f"
+    },
+    "oracle_bank_summary.json": {
+      "bytes": 7400,
+      "sha256": "9890c638d64c5327a89fb5b7cf319f1e9f916ab675eddf733bbbb1546816df75"
+    }
+  },
+  "decision": "ORACLE_BANK_COMPLETE",
+  "identity": {
+    "checkpoint_registry_sha256": "8824f1fdf2a6dc24977402b4426f18a0c037a8c3f900e64aaa0bf80499314194",
+    "config_sha256": "eb8da773badabe468b375df93ee89c8a63d477865e79ceb6fdb7bcdbba7e8ffa",
+    "git_commit": "9c6a3732993ea13557279ec8d330b7d1a076e63f",
+    "qualification_complete_sha256": "dff6b9a4eaf826744911c49cd1d391597e5fead34a74f45bac2d8fe27f83bcdd",
+    "qualification_independent_verification_sha256": "b0c7b9cd3a873143bb88ad2e97003424f5fc3a5a35c39524521987ed0e8b12f1",
+    "runtime_binary_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+    "source_inventory": {
+      "PHASE1_ORDERING_CONFIRMATION_AMENDMENT.md": "a0145c4232c826d9caab9e272fd0db0faee6bad7fc693f991df62876662c0f59",
+      "PHASE1_ORDERING_CONFIRMATION_FIX1.md": "177445d61a1fb9dfb16fe6f993e9752faf68e3895dc6951837eeb355605014ff",
+      "PHASE1_ORDERING_CONFIRMATION_FIX2.md": "5757e28b653ec4c2c0e9c7a8eff3add880fa7cdfaf5235daa23d6efdd94c4445",
+      "PHASE1_ORDERING_PREREG.md": "8db4b9d908ce8f1dcdee586574bc3f16b4a78caa986531d3f03574c2781febe7",
+      "artifacts/phase1/d4_generator.py": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+      "artifacts/phase1/d4_train_fleet.py": "22c61ee73a6fb1ea2c8f54d24a8597722e33ca7b562ef5b8ee74d42c38d7f897",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/ARTIFACT_SHA256SUMS": "5c893b51a897c14da596057f583d98d298ce051c62a2c54f327a86e5d9720f06",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/TERMINAL_STATUS.json": "4cde294225e1b12d364314b1d1d185c3ba016598336368653092003b4cfb3e09",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/diagnostics/pfn-replay-full-panel-v3-2157aa0.py": "e3b9025b05c9cb98802a9fa4c5c433510614226ca6005ba9caa2346240041517",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/diagnostics/pfn-replay-sweep-runtime-v2-2157aa0.py": "5aac63b5e3f410cf1bf1eeeacf7847a7607493e0d4d41aad3d9b22d8e1a82964",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/slurm/p1-replay-sweep-160038.out": "d4f0ded169899b6cfc7054aeacdb7b05289f85b5220c5158ae102e4c05e3bc47",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/slurm/p1-replay-sweep-160040.out": "d4f0ded169899b6cfc7054aeacdb7b05289f85b5220c5158ae102e4c05e3bc47",
+      "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix1_attempt2_failed/slurm/p1-replay-sweep-160041.out": "3fe0de767068bf233bb9443aa5b61705f65a849a05f8e7113744daff28d8cf23",
+      "cluster/phase1_confirmation.sbatch": "f2e6491f7e2d5181a591b1eb8721cf85ff98858f3b962d24db837803b0fd8536",
+      "cluster/submit_phase1_confirmation.py": "4525c1f303fba2090e7ab26d1c951f163c1276664e6b7ea22581088eb6c99aae",
+      "cluster/submit_phase1_confirmation.sh": "89500387a14bee13483da7ac11e0ef9e605f8dc91d6cadfe0168599c8d7f2e10",
+      "config/phase1_checkpoint_registry.json": "8824f1fdf2a6dc24977402b4426f18a0c037a8c3f900e64aaa0bf80499314194",
+      "config/phase1_ordering_confirmation.json": "eb8da773badabe468b375df93ee89c8a63d477865e79ceb6fdb7bcdbba7e8ffa",
+      "environment/phase1-washu-binary-inventory.json": "1639a50198879f977d5715d9e6a29c8655a1d4b37c0e8c11af12160f606e60bf",
+      "environment/phase1-washu-requirements-lock.txt": "c451620bcd8c88376bb0035519d7b1b3ce4c91437c7e6f9e7cc8c5e351cf00e0",
+      "environment/phase1-washu-runtime.json": "7f65b8153deda4002b50665789b2a8523903f52bc8e7c8346668442b69799d4e",
+      "src/pfn_dag_verify/phase1_confirm_common.py": "e14006a3e75989c55a36fd4903627c4a4b85e4b57b40a2835c6bc2d71bdde207",
+      "src/pfn_dag_verify/phase1_confirmation_verify.py": "2d4fcb8bd953624eaeb0898f95cf36ad3636ece563832e7de47d2b3f55ad86d7",
+      "src/pfn_dag_verify/phase1_join.py": "3c84d1db2fc8332dad3d0204e610b0ada55b82bcaa04876054452d07d36ca40e",
+      "src/pfn_dag_verify/phase1_oracle_confirm.py": "7337a5cbfd277416820bc1fb223d3f0cf4f6c27d6273eb45b8d9e3cf59b7f60d",
+      "src/pfn_dag_verify/phase1_ordering.py": "d298e0b52285a95ae8771eb8f7fecb55501ac0893b70ba4a9ee84a27b7f6f933",
+      "src/pfn_dag_verify/phase1_panel.py": "44878d400cf79f0af70f501894f0526c4a27b72733eb9251519ed97396759fcf",
+      "src/pfn_dag_verify/phase1_pfn.py": "fb49bbc366580acd5605706cc22da89e04acbdb84a807635f2418dc51a8740c1",
+      "src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+    }
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "leaf_complete_sha256": {
+    "C_d0/COMPLETE.json": "c2ac3213df24bb43c15da5f7424ecf1c2336f8750c848cd572955ada7f26a40e",
+    "C_d1/COMPLETE.json": "2563dfde375e77c566dd7cd3ccd90c47c69866a1d3caef07b1461b483a0ba0fe",
+    "C_d2/COMPLETE.json": "af8b18ed4fab16e1f9d16bfd41f575aed099fd492361cda550e670774258ed71",
+    "N_d0/COMPLETE.json": "ba394efc19c3c0d10ac7db0cdba2026946deaceea08124631fb181adc106614d",
+    "N_d1/COMPLETE.json": "c309aacfb745688218b399c668d59e0e86da2e3b9790b92e9106844f2c3915de",
+    "N_d2/COMPLETE.json": "4277ad340fea1bb5c7af1ab0e79a38112179d8f9c50562ec6fcace1c52214e45"
+  }
+}

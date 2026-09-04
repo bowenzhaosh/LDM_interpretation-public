@@ -1,0 +1,143 @@
+{
+  "note": "Operating characteristics of the F.2d.4 repair options on the post-D6 three-cell ladder. OPTION_2 is the conjunction the Fable panel ruled for; OPTION_1 and OPTION_4 are recorded so the comparison is on disk rather than in a transcript.",
+  "x": [
+    0.155389,
+    0.415179,
+    0.766417
+  ],
+  "se": [
+    0.0193,
+    0.0215,
+    0.0238
+  ],
+  "alpha": 0.05,
+  "df": 1,
+  "n_trials": 40000,
+  "seed": 20260824,
+  "date": "2026-08-24",
+  "null": [
+    {
+      "cell_dispersion_sd": 0.0,
+      "n_trials": 40000,
+      "fpr_descriptive_slope": 0.05225,
+      "fpr_current_contrast": 0.051275,
+      "fpr_option1": 0.05225,
+      "fpr_option2_conjunction": 0.013425,
+      "option1_vs_slope_disagreement": 0.0002
+    },
+    {
+      "cell_dispersion_sd": 0.02,
+      "n_trials": 40000,
+      "fpr_descriptive_slope": 0.052575,
+      "fpr_current_contrast": 0.116575,
+      "fpr_option1": 0.052575,
+      "fpr_option2_conjunction": 0.024775,
+      "option1_vs_slope_disagreement": 0.0003
+    },
+    {
+      "cell_dispersion_sd": 0.05,
+      "n_trials": 40000,
+      "fpr_descriptive_slope": 0.050875,
+      "fpr_current_contrast": 0.2568,
+      "fpr_option1": 0.050925,
+      "fpr_option2_conjunction": 0.0413,
+      "option1_vs_slope_disagreement": 0.0001
+    },
+    {
+      "cell_dispersion_sd": 0.1,
+      "n_trials": 40000,
+      "fpr_descriptive_slope": 0.049175,
+      "fpr_current_contrast": 0.363525,
+      "fpr_option1": 0.049075,
+      "fpr_option2_conjunction": 0.046475,
+      "option1_vs_slope_disagreement": 0.00025
+    }
+  ],
+  "power": [
+    {
+      "beta": 0.1,
+      "cell_dispersion_sd": 0.0,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.246325,
+      "power_current_contrast": 0.637975,
+      "power_option1": 0.24625,
+      "power_option2_conjunction": 0.20205
+    },
+    {
+      "beta": 0.1,
+      "cell_dispersion_sd": 0.05,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.111375,
+      "power_current_contrast": 0.555775,
+      "power_option1": 0.111225,
+      "power_option2_conjunction": 0.101175
+    },
+    {
+      "beta": 0.2,
+      "cell_dispersion_sd": 0.0,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.461675,
+      "power_current_contrast": 0.989925,
+      "power_option1": 0.461675,
+      "power_option2_conjunction": 0.460425
+    },
+    {
+      "beta": 0.2,
+      "cell_dispersion_sd": 0.05,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.19565,
+      "power_current_contrast": 0.824925,
+      "power_option1": 0.195425,
+      "power_option2_conjunction": 0.190475
+    },
+    {
+      "beta": 0.3,
+      "cell_dispersion_sd": 0.0,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.651875,
+      "power_current_contrast": 1.0,
+      "power_option1": 0.65175,
+      "power_option2_conjunction": 0.651875
+    },
+    {
+      "beta": 0.3,
+      "cell_dispersion_sd": 0.05,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.284875,
+      "power_current_contrast": 0.9565,
+      "power_option1": 0.284625,
+      "power_option2_conjunction": 0.282925
+    },
+    {
+      "beta": 0.5,
+      "cell_dispersion_sd": 0.0,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.880475,
+      "power_current_contrast": 1.0,
+      "power_option1": 0.880375,
+      "power_option2_conjunction": 0.880475
+    },
+    {
+      "beta": 0.5,
+      "cell_dispersion_sd": 0.05,
+      "n_trials": 40000,
+      "power_descriptive_slope": 0.4658,
+      "power_current_contrast": 0.9994,
+      "power_option1": 0.46555,
+      "power_option2_conjunction": 0.465775
+    }
+  ],
+  "option2_worst_fpr": 0.046475,
+  "option2_exceeds_twice_nominal": false,
+  "option2_power_at_beta_0p2": {
+    "0.0": 0.460425,
+    "0.05": 0.190475
+  },
+  "option2_clears_0p15_power_floor": true,
+  "artifact": {
+    "estimand": "f2d4_repair_option_characteristics",
+    "status": "live",
+    "amendment": "F",
+    "schema": 1
+  }
+}

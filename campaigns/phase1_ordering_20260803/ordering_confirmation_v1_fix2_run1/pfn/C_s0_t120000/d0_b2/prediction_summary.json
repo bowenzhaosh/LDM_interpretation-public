@@ -1,0 +1,30 @@
+{
+  "atom_bank_index": 2,
+  "checkpoint": {
+    "bytes": 4343220,
+    "checkpoint_step": 120000,
+    "filename": "M4_C_s0_st120000.pt",
+    "planned_total_steps": 120000,
+    "prior": "C",
+    "resolved_path": "/engrfs/project/class/zhao.b/pfn-dag-e18b/nets4_xlong/M4_C_s0_st120000.pt",
+    "seed": 0,
+    "sha256": "9a837e6db72e0f6b778cba5c9e0547a284a7623f1a4e76a7052ce3d275802c88"
+  },
+  "checkpoint_step": 120000,
+  "completion_state": "INCOMPLETE_WITHOUT_VERIFIED_COMPLETE_MARKER",
+  "convention": "native_float32_log_softmax_cast_float64_no_floor",
+  "draw_index": 0,
+  "git": {
+    "commit": "9c6a3732993ea13557279ec8d330b7d1a076e63f",
+    "dirty": false,
+    "status": []
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "input_sha256": "e450552b90e3c45f7ddf94eb134990dc2b3a78c5c814d9f3b4ddd811f0486196",
+  "model_seed": 0,
+  "prior": "C",
+  "raw_sha256": "98186369b7e6c19bf7e2ab060f38a820cab67f1939d3756e7b8a4fe114579ee0",
+  "rows": 355,
+  "schema_version": 1,
+  "stage": "phase1_native_pfn_prediction"
+}

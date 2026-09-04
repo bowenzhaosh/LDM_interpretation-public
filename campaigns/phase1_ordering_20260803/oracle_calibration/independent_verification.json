@@ -1,0 +1,143 @@
+{
+  "all_candidates_compared_directly_to_reference": true,
+  "all_contexts_completed": true,
+  "all_diagnostics_finite": true,
+  "all_marker_artifact_hashes_and_sizes_match": true,
+  "artifact_checks": {
+    "RUNNING.json": {
+      "bytes_match": true,
+      "exists": true,
+      "sha_match": true
+    },
+    "calibration_raw.npz": {
+      "bytes_match": true,
+      "exists": true,
+      "sha_match": true
+    },
+    "calibration_summary.json": {
+      "bytes_match": true,
+      "exists": true,
+      "sha_match": true
+    },
+    "partial_C.npz": {
+      "bytes_match": true,
+      "exists": true,
+      "sha_match": true
+    },
+    "partial_N.npz": {
+      "bytes_match": true,
+      "exists": true,
+      "sha_match": true
+    }
+  },
+  "attempt_identity_matches_running_summary_and_marker": true,
+  "candidate_metrics": [
+    {
+      "borderline": false,
+      "candidate": 8192,
+      "median_abs_logp_change": 7.72571476570505e-07,
+      "median_js": 1.236458432384288e-12,
+      "p95_abs_logp_change": 0.00012158105127745287,
+      "p95_js": 3.4459439513705804e-08,
+      "pass": true,
+      "predictor": "full",
+      "prior": "C"
+    },
+    {
+      "borderline": false,
+      "candidate": 8192,
+      "median_abs_logp_change": 6.528459161714295e-06,
+      "median_js": 1.9168089742800124e-10,
+      "p95_abs_logp_change": 0.0007140330268447625,
+      "p95_js": 2.970044246451974e-07,
+      "pass": true,
+      "predictor": "ablated",
+      "prior": "C"
+    },
+    {
+      "borderline": false,
+      "candidate": 8192,
+      "median_abs_logp_change": 0.00013353514791702992,
+      "median_js": 7.236971354175361e-08,
+      "p95_abs_logp_change": 0.0017885293936601209,
+      "p95_js": 2.228033628809209e-06,
+      "pass": true,
+      "predictor": "full",
+      "prior": "N"
+    },
+    {
+      "borderline": false,
+      "candidate": 8192,
+      "median_abs_logp_change": 0.00013353514791369925,
+      "median_js": 7.23697136009356e-08,
+      "p95_abs_logp_change": 0.0017885293936588773,
+      "p95_js": 2.2280336288059558e-06,
+      "pass": true,
+      "predictor": "ablated",
+      "prior": "N"
+    },
+    {
+      "borderline": false,
+      "candidate": 16384,
+      "median_abs_logp_change": 2.3372959345735467e-08,
+      "median_js": 3.4325998485959785e-15,
+      "p95_abs_logp_change": 1.5019817029782164e-05,
+      "p95_js": 8.468601786986496e-10,
+      "pass": true,
+      "predictor": "full",
+      "prior": "C"
+    },
+    {
+      "borderline": false,
+      "candidate": 16384,
+      "median_abs_logp_change": 2.931531692951239e-07,
+      "median_js": 7.862312498380522e-13,
+      "p95_abs_logp_change": 0.00012885767822568006,
+      "p95_js": 1.1095719470242985e-08,
+      "pass": true,
+      "predictor": "ablated",
+      "prior": "C"
+    },
+    {
+      "borderline": false,
+      "candidate": 16384,
+      "median_abs_logp_change": 1.4267856139005275e-05,
+      "median_js": 1.6208152215938858e-09,
+      "p95_abs_logp_change": 0.00030322343224635783,
+      "p95_js": 1.992350147138601e-07,
+      "pass": true,
+      "predictor": "full",
+      "prior": "N"
+    },
+    {
+      "borderline": false,
+      "candidate": 16384,
+      "median_abs_logp_change": 1.4267856137450963e-05,
+      "median_js": 1.6208151567138603e-09,
+      "p95_abs_logp_change": 0.0003032234322497551,
+      "p95_js": 1.9923501469330652e-07,
+      "pass": true,
+      "predictor": "ablated",
+      "prior": "N"
+    }
+  ],
+  "cuda_peak_allocated_bytes": 7595706880,
+  "forbidden_calibration_arrays_present": [],
+  "gpu_identity_sha256": "bc9a51acf3aba476d629dc8ed9130185a90d31d37d5e33bd89f140b98eb8299a",
+  "gpu_trace_sha256": "e16f51d75aa5d4b4e84da46db81599eedc9da4e62bf30638bae24b4117f028b1",
+  "job_id": "158819",
+  "maximum_probability_sum_error": 4.440892098500626e-16,
+  "minimum_probability": 5.058664057390685e-33,
+  "raw_sha256": "31d17f2b38f423dab025a4b99b15c00214ab9a06928896a72996037ee6f2c720",
+  "recomputed_decision": "CALIBRATION_PASS",
+  "recomputed_selected_truncation": 8192,
+  "reference_truncation": 32768,
+  "reported_selected_truncation": 8192,
+  "schema_version": 1,
+  "scope": "Artifact-level verification of the locked finite calibration panel; not an independent A100 replay or a PFN/scientific-endpoint result.",
+  "slurm_log_sha256": "5e0c2965ac374fe664136b973fdd16a6fef042237db7fbdbeb66ebe74a65e321",
+  "source_commit": "e679e74930fc990dc834e0a03aec0a10b582a862",
+  "source_dirty": false,
+  "verified_complete_marker": true,
+  "wall_seconds": 407.8298325538635
+}

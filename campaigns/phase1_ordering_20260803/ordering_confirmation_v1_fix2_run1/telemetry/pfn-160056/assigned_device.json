@@ -1,0 +1,19 @@
+{
+  "cuda_visible_devices": "0",
+  "hostname": "a100-2207.engr.wustl.edu",
+  "isolated": true,
+  "mode": "cuda",
+  "no_site": true,
+  "no_user_site": true,
+  "pycache_prefix": "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix2-run1/telemetry/pfn-160056/pycache",
+  "python": "3.10.20",
+  "python_executable": "/engrfs/project/class/zhao.b/conda_envs/tidpo/bin/python",
+  "slurm_job_gpus": "0",
+  "slurm_job_id": "160056",
+  "slurm_step_gpus": null,
+  "startup_customization_modules": [],
+  "torch_current_device": 0,
+  "torch_device_name": "NVIDIA A100 80GB PCIe",
+  "torch_device_total_memory": 85119205376,
+  "torch_device_uuid": "None"
+}

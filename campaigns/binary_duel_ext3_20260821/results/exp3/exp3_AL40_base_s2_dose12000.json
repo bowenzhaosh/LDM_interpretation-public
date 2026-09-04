@@ -1,0 +1,165 @@
+{
+ "scale": "base",
+ "prior": "AL40",
+ "model_seed": 2,
+ "dose": 12000,
+ "eval_seed": 303,
+ "phaseA": {
+  "n_pairs_done": 200,
+  "n_degen": 0,
+  "sites": [
+   "L0.ctx_resid",
+   "L0.query_resid",
+   "L0.attn",
+   "L0.mlp",
+   "L0.head0",
+   "L0.head1",
+   "L0.head2",
+   "L0.head3",
+   "L1.ctx_resid",
+   "L1.query_resid",
+   "L1.attn",
+   "L1.mlp",
+   "L1.head0",
+   "L1.head1",
+   "L1.head2",
+   "L1.head3"
+  ],
+  "L0.ctx_resid": {
+   "transfer_mean": -4.2606142456174085,
+   "transfer_med": -1.7908860206107102,
+   "transfer_p": 1.0,
+   "anti_donor_rate": 0.03,
+   "kl_to_ctrl_mean": 3.6639374816417694,
+   "n": 200
+  },
+  "L0.query_resid": {
+   "transfer_mean": -0.02306331500863725,
+   "transfer_med": 0.024659338470546348,
+   "transfer_p": 0.14983422322187878,
+   "anti_donor_rate": 0.915,
+   "kl_to_ctrl_mean": 11.31930432235822,
+   "n": 200
+  },
+  "L0.attn": {
+   "transfer_mean": -1.2822500101970564,
+   "transfer_med": -0.07207702981078551,
+   "transfer_p": 0.9999912652955231,
+   "anti_donor_rate": 0.57,
+   "kl_to_ctrl_mean": 7.485046383440494,
+   "n": 200
+  },
+  "L0.mlp": {
+   "transfer_mean": -1.335896899058751,
+   "transfer_med": -0.3360425286485894,
+   "transfer_p": 0.9999999687426058,
+   "anti_donor_rate": 0.585,
+   "kl_to_ctrl_mean": 7.925652336329222,
+   "n": 200
+  },
+  "L0.head0": {
+   "transfer_mean": 0.017154058062943647,
+   "transfer_med": 0.04384715393537755,
+   "transfer_p": 0.00035149214651096505,
+   "anti_donor_rate": 0.89,
+   "kl_to_ctrl_mean": 11.61845213558525,
+   "n": 200
+  },
+  "L0.head1": {
+   "transfer_mean": -0.0014353873610563328,
+   "transfer_med": 0.07095238554148592,
+   "transfer_p": 0.0011802851025378457,
+   "anti_donor_rate": 0.875,
+   "kl_to_ctrl_mean": 11.363148483596742,
+   "n": 200
+  },
+  "L0.head2": {
+   "transfer_mean": -0.051716670337287086,
+   "transfer_med": 0.06488680729575032,
+   "transfer_p": 0.0026912128248245816,
+   "anti_donor_rate": 0.85,
+   "kl_to_ctrl_mean": 11.81785482686013,
+   "n": 200
+  },
+  "L0.head3": {
+   "transfer_mean": -0.012193870355517174,
+   "transfer_med": 0.048103471068722106,
+   "transfer_p": 0.0018349447043520966,
+   "anti_donor_rate": 0.895,
+   "kl_to_ctrl_mean": 11.245828025490045,
+   "n": 200
+  },
+  "L1.ctx_resid": {
+   "transfer_mean": 0.0,
+   "transfer_med": 0.0,
+   "transfer_p": null,
+   "anti_donor_rate": 0.9,
+   "kl_to_ctrl_mean": 12.373883836381138,
+   "n": 200
+  },
+  "L1.query_resid": {
+   "transfer_mean": -4.534884800380056,
+   "transfer_med": -2.0372161570469745,
+   "transfer_p": 1.0,
+   "anti_donor_rate": 0.0,
+   "kl_to_ctrl_mean": 4.131777684725821,
+   "n": 200
+  },
+  "L1.attn": {
+   "transfer_mean": -4.221138602285002,
+   "transfer_med": -1.6747003715915671,
+   "transfer_p": 0.9999999999999999,
+   "anti_donor_rate": 0.015,
+   "kl_to_ctrl_mean": 4.038158292397856,
+   "n": 200
+  },
+  "L1.mlp": {
+   "transfer_mean": -4.054096833679768,
+   "transfer_med": -1.6771019388281103,
+   "transfer_p": 0.9999999999999996,
+   "anti_donor_rate": 0.005,
+   "kl_to_ctrl_mean": 4.150509350225329,
+   "n": 200
+  },
+  "L1.head0": {
+   "transfer_mean": -0.2439581009825057,
+   "transfer_med": 0.03815360827592083,
+   "transfer_p": 0.8150938697498604,
+   "anti_donor_rate": 0.84,
+   "kl_to_ctrl_mean": 9.551433068960906,
+   "n": 200
+  },
+  "L1.head1": {
+   "transfer_mean": -0.6379477418692473,
+   "transfer_med": -0.029948569048000553,
+   "transfer_p": 0.9993936822897224,
+   "anti_donor_rate": 0.845,
+   "kl_to_ctrl_mean": 8.749989781137556,
+   "n": 200
+  },
+  "L1.head2": {
+   "transfer_mean": -0.10193238575422559,
+   "transfer_med": 0.06830489819337263,
+   "transfer_p": 0.2534179390730511,
+   "anti_donor_rate": 0.785,
+   "kl_to_ctrl_mean": 10.595402635857463,
+   "n": 200
+  },
+  "L1.head3": {
+   "transfer_mean": 0.03777050834584912,
+   "transfer_med": 0.06020763110405039,
+   "transfer_p": 2.4298218228976234e-06,
+   "anti_donor_rate": 0.895,
+   "kl_to_ctrl_mean": 11.758587146922945,
+   "n": 200
+  },
+  "placebo_rs": {
+   "transfer_mean": -0.07544494552700406,
+   "transfer_p": 0.9999999999998184,
+   "n": 200
+  },
+  "gate_phaseA": true,
+  "best_site": "L1.head3"
+ },
+ "wallclock_s": 9.162097930908203
+}

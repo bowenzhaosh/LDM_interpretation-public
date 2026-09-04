@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "oracle_raw.npz": {
+      "bytes": 593377,
+      "sha256": "b921a5b266265971acc33b5e36e379cf10baf8b14e766751066a1d7f92312a23"
+    },
+    "oracle_summary.json": {
+      "bytes": 1000,
+      "sha256": "8560749226f503a4a59ed82cc7952d21d1d6737e5be698c8b6a4998367edfb01"
+    }
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "identity_tuple": [
+    "N",
+    1,
+    0
+  ]
+}

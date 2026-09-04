@@ -1,0 +1,165 @@
+{
+ "scale": "base",
+ "prior": "AL40",
+ "model_seed": 0,
+ "dose": 12000,
+ "eval_seed": 301,
+ "phaseA": {
+  "n_pairs_done": 200,
+  "n_degen": 0,
+  "sites": [
+   "L0.ctx_resid",
+   "L0.query_resid",
+   "L0.attn",
+   "L0.mlp",
+   "L0.head0",
+   "L0.head1",
+   "L0.head2",
+   "L0.head3",
+   "L1.ctx_resid",
+   "L1.query_resid",
+   "L1.attn",
+   "L1.mlp",
+   "L1.head0",
+   "L1.head1",
+   "L1.head2",
+   "L1.head3"
+  ],
+  "L0.ctx_resid": {
+   "transfer_mean": -3.4263877835931407,
+   "transfer_med": -1.111081017973725,
+   "transfer_p": 0.9999999999993373,
+   "anti_donor_rate": 0.04,
+   "kl_to_ctrl_mean": 4.199114427864552,
+   "n": 200
+  },
+  "L0.query_resid": {
+   "transfer_mean": -0.04378452036124223,
+   "transfer_med": 0.004256123937940899,
+   "transfer_p": 0.6405578137822578,
+   "anti_donor_rate": 0.87,
+   "kl_to_ctrl_mean": 10.505598786845804,
+   "n": 200
+  },
+  "L0.attn": {
+   "transfer_mean": -0.46977584822866963,
+   "transfer_med": 0.06960933110623732,
+   "transfer_p": 0.9656580887986862,
+   "anti_donor_rate": 0.66,
+   "kl_to_ctrl_mean": 9.843720746785403,
+   "n": 200
+  },
+  "L0.mlp": {
+   "transfer_mean": -0.6264068179514632,
+   "transfer_med": -0.004857299911859313,
+   "transfer_p": 0.9987459460432893,
+   "anti_donor_rate": 0.665,
+   "kl_to_ctrl_mean": 8.471211851239204,
+   "n": 200
+  },
+  "L0.head0": {
+   "transfer_mean": -0.07241805719287232,
+   "transfer_med": 0.0373546154485815,
+   "transfer_p": 0.406439718500779,
+   "anti_donor_rate": 0.85,
+   "kl_to_ctrl_mean": 11.014966857284307,
+   "n": 200
+  },
+  "L0.head1": {
+   "transfer_mean": -0.005030457295693125,
+   "transfer_med": 0.0033605400393648495,
+   "transfer_p": 0.4164087394790004,
+   "anti_donor_rate": 0.885,
+   "kl_to_ctrl_mean": 10.824091294556856,
+   "n": 200
+  },
+  "L0.head2": {
+   "transfer_mean": 0.039799022585927546,
+   "transfer_med": 0.051287063639529215,
+   "transfer_p": 0.0013589750145441251,
+   "anti_donor_rate": 0.905,
+   "kl_to_ctrl_mean": 11.380386389940977,
+   "n": 200
+  },
+  "L0.head3": {
+   "transfer_mean": -0.03051869455266834,
+   "transfer_med": 0.036607510412297053,
+   "transfer_p": 0.2185061140107234,
+   "anti_donor_rate": 0.845,
+   "kl_to_ctrl_mean": 10.347178885005414,
+   "n": 200
+  },
+  "L1.ctx_resid": {
+   "transfer_mean": 0.0,
+   "transfer_med": 0.0,
+   "transfer_p": null,
+   "anti_donor_rate": 0.89,
+   "kl_to_ctrl_mean": 11.255472307251766,
+   "n": 200
+  },
+  "L1.query_resid": {
+   "transfer_mean": -4.025676010715878,
+   "transfer_med": -1.5381343104085357,
+   "transfer_p": 0.9999999999999892,
+   "anti_donor_rate": 0.0,
+   "kl_to_ctrl_mean": 4.128355255946517,
+   "n": 200
+  },
+  "L1.attn": {
+   "transfer_mean": -3.404370610058537,
+   "transfer_med": -1.0333720057828686,
+   "transfer_p": 0.9999999999989808,
+   "anti_donor_rate": 0.025,
+   "kl_to_ctrl_mean": 4.367796147912741,
+   "n": 200
+  },
+  "L1.mlp": {
+   "transfer_mean": -3.4579325613306735,
+   "transfer_med": -1.2916904284671777,
+   "transfer_p": 0.9999999999996684,
+   "anti_donor_rate": 0.005,
+   "kl_to_ctrl_mean": 4.2511855083703995,
+   "n": 200
+  },
+  "L1.head0": {
+   "transfer_mean": -0.018412136039155445,
+   "transfer_med": 0.12699450384620758,
+   "transfer_p": 0.0024673017406805285,
+   "anti_donor_rate": 0.785,
+   "kl_to_ctrl_mean": 9.878527805954217,
+   "n": 200
+  },
+  "L1.head1": {
+   "transfer_mean": -0.6885296641307732,
+   "transfer_med": 0.027032113134472364,
+   "transfer_p": 0.9780854282266305,
+   "anti_donor_rate": 0.675,
+   "kl_to_ctrl_mean": 7.459807540178299,
+   "n": 200
+  },
+  "L1.head2": {
+   "transfer_mean": -0.44380634881871905,
+   "transfer_med": 0.04377228049658828,
+   "transfer_p": 0.7193127118600806,
+   "anti_donor_rate": 0.855,
+   "kl_to_ctrl_mean": 9.114972101189196,
+   "n": 200
+  },
+  "L1.head3": {
+   "transfer_mean": 0.019662735291791137,
+   "transfer_med": 0.025804166924950363,
+   "transfer_p": 0.005893944558896456,
+   "anti_donor_rate": 0.895,
+   "kl_to_ctrl_mean": 10.952063329964876,
+   "n": 200
+  },
+  "placebo_rs": {
+   "transfer_mean": -0.053044562643822735,
+   "transfer_p": 0.999999962447629,
+   "n": 200
+  },
+  "gate_phaseA": true,
+  "best_site": "L0.head2"
+ },
+ "wallclock_s": 9.154149293899536
+}

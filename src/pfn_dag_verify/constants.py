@@ -1,0 +1,54 @@
+import numpy as np
+
+N_CONTEXT = 30
+N_BINS = 100
+BIN_EDGES = np.linspace(-8.0, 8.0, N_BINS + 1, dtype=np.float64)
+BIN_CENTERS = 0.5 * (BIN_EDGES[:-1] + BIN_EDGES[1:])
+NULL_TOKEN = 2
+
+SIGMA_LO = 0.6
+SIGMA_HI = 1.5
+RHO_MAG_LO = 0.4
+RHO_MAG_HI = 0.8
+A_VALID_LO = -1.5
+A_VALID_HI = 1.5
+B_VALID_LO = 0.30
+B_VALID_HI = 1.30
+AL40_SKEW = 4.0
+
+BASE_MODEL_CONFIG = {
+    "d_model": 256,
+    "d_ff": 512,
+    "n_heads": 4,
+    "n_layers": 2,
+}
+
+# Every fixed non-scientific RNG seed used by calibration or validation.  The
+# mapping-qualification stream is derived from a namespaced Git hash instead,
+# and must be checked against this complete set before any model inference.
+CALIBRATION_SEED = 820001
+UNIT_CONTEXT_VALIDATION_SEED = 810000
+PERMUTATION_FIXTURE_SEED = 810099
+PERMUTATION_CANARY_SEED = 810101
+LEGACY_COMPARISON_SEED = 810777
+BOOTSTRAP_COVERAGE_SEED = 850002
+BATCH_VALIDATION_SEED = 860003
+BATCH_COMPANION_SEED = 860004
+BATCH_PERMUTATION_SEED = 860005
+CORE_ROW_PERMUTATION_SEED = 860006
+LENGTH30_ROW_PERMUTATION_SEED = 860007
+FIXED_PRIOR_SEEDS = frozenset(
+    {
+        CALIBRATION_SEED,
+        UNIT_CONTEXT_VALIDATION_SEED,
+        PERMUTATION_FIXTURE_SEED,
+        PERMUTATION_CANARY_SEED,
+        LEGACY_COMPARISON_SEED,
+        BOOTSTRAP_COVERAGE_SEED,
+        BATCH_VALIDATION_SEED,
+        BATCH_COMPANION_SEED,
+        BATCH_PERMUTATION_SEED,
+        CORE_ROW_PERMUTATION_SEED,
+        LENGTH30_ROW_PERMUTATION_SEED,
+    }
+)

@@ -1,0 +1,15 @@
+{
+  "decision": "INCONCLUSIVE_PHASE1_INSTRUMENT",
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "joined_raw_sha256": "d02b4093a398b7fda849794bd92a1d599162671ee0796fcfded50767a7d6bdff",
+  "joined_summary_sha256": "f0d5db5c2a5ad67817053d75edc142350697fb674fd624037464bf3d108d92bb",
+  "runtime": {
+    "numpy": "2.2.6",
+    "python": "3.10.20",
+    "python_executable": "/engrfs/project/class/zhao.b/conda_envs/tidpo/bin/python"
+  },
+  "schema_version": 1,
+  "source_commit": "9c6a3732993ea13557279ec8d330b7d1a076e63f",
+  "source_tag": "phase1-ordering-confirmation-v1-fix2",
+  "verification": "INDEPENDENT_CONFIRMATION_RAW_RECOMPUTATION_PASS"
+}

@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "qualification_raw.npz": {
+      "bytes": 54444,
+      "sha256": "b323056615e6dbe263a6cfa1ef529b9e0264bd64ba6db5e7f92a18f24820a1c9"
+    },
+    "qualification_summary.json": {
+      "bytes": 16636,
+      "sha256": "003a8d41b1d9d3439e32d81f09fbeecf66b26b101d5e5ebbddc4b8d7ef72dbbe"
+    }
+  },
+  "decision": "QUALIFICATION_PASS",
+  "identity": {
+    "atom_bank_sha256": [
+      "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7",
+      "a848e61b929c18decaadd9b633f60f22e524f17a2b1ec24d6c7642dbba764920",
+      "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3"
+    ],
+    "atom_determinism_canary_sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+    "git_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+    "run_marker_hashes": {
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank0/run": "4148c025e8eef244ff1e1e38a286fe208e7daa39bb4395c9976971a3e9243a19",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank1/run": "b810ea72ce48cede5a080d867293afb27b9d40a003cc9293e56f583f5704c33d",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank2/run": "611ca49f1300f23cf5b940916d10210e00866438a4025af6f4197b452ba45015"
+    },
+    "source_inventory": {
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/PHASE1_ORDERING_PREREG.md": "1a9e26d0fb5f91088b3e29de1daa23911fc64b28809ff5278d528336d31fff97",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/config/phase1_ordering_qualification_bank0.json": "ff77985d1129e5ff7f503073176b055d1744125613a088aa93d5ae7f0deb440b",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/config/phase1_ordering_qualification_bank1.json": "4e9d47a9a29551a4fe9fe842df6eee48b4c0278650703fe6784fc4f84fd99662",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/config/phase1_ordering_qualification_bank2.json": "e73e91dca386148d62e87aad66fe7b73a5629c2459e5e89bb5c1930fa9e2ea60",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/src/pfn_dag_verify/phase1_ordering.py": "48bfedc04261b121d6a455cc8defba7281278578bc76ccb6a14ce2899afb2953",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/src/pfn_dag_verify/phase1_qualification.py": "05073d62d63df5620530ad16f37d55b39d6b22d60d46421c5a7dc03853ff87b9",
+      "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source/src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+    }
+  },
+  "identity_sha256": "e8eff10b439674b21b15d30775777baee0ef09af431e2339d4a236bcb1a63c1c"
+}

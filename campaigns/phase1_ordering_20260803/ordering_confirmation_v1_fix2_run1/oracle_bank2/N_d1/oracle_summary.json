@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "oracle_raw.npz": {
+      "bytes": 591790,
+      "sha256": "0319705db117b2aa63c6142d172000671df4d9a5d13209aa72d82cd3679fc5ad"
+    }
+  },
+  "atom_bank_index": 2,
+  "atom_count": 3000000,
+  "completion_state": "INCOMPLETE_WITHOUT_VERIFIED_COMPLETE_MARKER",
+  "diagnostics": {
+    "half_rows": 0,
+    "minimum_ess_ablated_atoms": 2.2573694913315703,
+    "minimum_ess_full_atoms": 2.2573694913315863,
+    "minimum_keep_ablated": 0.97369059809094,
+    "minimum_keep_full": 0.97369059809094,
+    "rows": 355
+  },
+  "draw_index": 1,
+  "git": {
+    "commit": "9c6a3732993ea13557279ec8d330b7d1a076e63f",
+    "dirty": false,
+    "status": []
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "input_sha256": "dab0f43a3b3686bac7c1fef7b14d952f099249b63496fb9b8a00c88bd0361cd0",
+  "nested_half_atom_count": 1500000,
+  "prior": "N",
+  "schema_version": 1,
+  "selected_truncation": 16384,
+  "stage": "phase1_confirmation_oracle_prediction"
+}

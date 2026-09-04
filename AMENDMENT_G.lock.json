@@ -1,0 +1,32 @@
+{
+  "amendment": "AMENDMENT_G.md",
+  "head": "3f49c5120a534554274bc12647d29c132ca7787e",
+  "digests": {
+    "scripts/mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+    "scripts/mech_gates.py": "eeb5a02362525119a876ce742088458c75ceb7a214fe63f29f74418429040346",
+    "scripts/mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+    "scripts/mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+    "scripts/mech_train.py": "138ad6d09395feabd9d2d895534077bbb5b75ff78026f08a120cb83c47fe53f7",
+    "cluster/mech_train.sbatch": "2cb185cd7e8942f01ffd7b5a841b4381a0a6201c6d67552012ed9d79c63b1500",
+    "cluster/mech_score.sbatch": "31fb38649a9e0faeabd20058f185aaa2c6d5b722e9df612a220c8308a09017e0",
+    "cluster/fire_confirm_g.sh": "f235a31984ea54e1ef79c2a3ab4583b009dadda64c5ac4e5a6fb114e1fc207b3",
+    "cluster/score_confirm_g.sh": "afe7402a672eb34057dbbeeb9923b0824beab6e201928e0a06c7b071b2b77274",
+    "cluster/mech_readout_g.sbatch": "971351d3ab1c3163b341a10a03b41f1ea87d0cf387402ae64b0bbab6cf923aba",
+    "scripts/lock_amendment_g.py": "6b0967fae1aa19b6523dad25e1709bc97048d171ebe7a3cc8be9e28e4b45f9d7",
+    "src/pfn_dag_verify/corrected_oracle.py": "0f1f8bf8377e20302c216dfb137c57b2ea45f33a7326d9eb3180f048d5393e3c",
+    "src/pfn_dag_verify/corrected_models.py": "d29e0325dff89bf50484bf73dda8b9a4139c2bad65dce07524c51baa44e5b9d9",
+    "src/pfn_dag_verify/corrected_sem.py": "424ed0a34e0683451c6b80773d4400f70d36605cd66cb7bec1ca16811b194668",
+    "src/pfn_dag_verify/corrected_world.py": "294a6fc6b6ab3e3f1efde3f260f3c54d6ed592ac77388c32a5df76069444f5e4",
+    "src/pfn_dag_verify/split_panel.py": "b0232ba8843d1e195e36ad9adb1be53cde7578e8f266a64056eb55d1b098b7dc",
+    "src/pfn_dag_verify/corrected_tomography.py": "36c90103d16efd2a59167a69e2e5c1ca0a174ce469b29fb5c1b0d9930371339e",
+    "src/pfn_dag_verify/corrected_identifiability.py": "201f92170ea632c301966b09d5526795402a6d754b6b15dd307530e27fe7489d",
+    "src/pfn_dag_verify/corrected_trackb.py": "b0b0dd8999e1fb14fb28226975a23133cc91307b2419c4099d240a52705ab61d",
+    "src/pfn_dag_verify/corrected_verdict.py": "c47dd3be482342ff3d02ea8ff0ac3c86f04f7faca55feebbe76fd9074aa0c14d",
+    "src/pfn_dag_verify/corrected_deficit_run.py": "3340be106a797c46a91e0b66f4519b98a43712b93e0e42fbb09032b35f7cdedb",
+    "src/pfn_dag_verify/corrected_identifiability_run.py": "293a1f87a8493b40f4aecaa8f02d8eadd43d7fefcb1cc6c2640f8bbb4907ad98",
+    "src/pfn_dag_verify/pilot_shared.py": "a31508273748212aaaa156252e667a6e2430ae999b744685025c1aeb5665d1c5",
+    "src/pfn_dag_verify/artifact_status.py": "18ec46c98d907cd39249111d717d8e64f2100fbacfdc62105f106192743ed200",
+    "src/pfn_dag_verify/w2_run.py": "160d892215f1ef1f8f8b29f96037b0378482602febaba5dcba21dee2237a5167"
+  },
+  "sha256": "b687dc2c5e43c7a7738b6179d482b0124236d146a931dd358cd4682734e9dfa0"
+}

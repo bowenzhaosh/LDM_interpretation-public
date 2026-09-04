@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "state": "COMPLETE",
+  "sealed_at_utc": "2026-08-08T19:11:00Z",
+  "scientific_decision": "PREDICTIVE_CAPTURE_WITHOUT_POSTERIOR_FIDELITY",
+  "branch": "B — exact finite-prior causal wind tunnel",
+  "config": {
+    "k_atoms": 256,
+    "n_libraries": 3,
+    "architecture": "PFN4 base (d256/ff512/4h/2L, 1.1M params)",
+    "train_steps": 10000,
+    "ckpt_every": 500,
+    "n_models": 18,
+    "n_eval_contexts_per_model": 80
+  },
+  "key_numbers": {
+    "C": {
+      "gap_final": -0.352,
+      "deficit_final": -0.355,
+      "V_oracle": -0.172,
+      "JS_full_final": 0.093,
+      "ordering_capture": "negligible (deficit ≈ gap, diff 0.002 nats)"
+    },
+    "N": {
+      "gap_final": -0.317,
+      "deficit_final": -0.317,
+      "V_oracle": 0.000,
+      "JS_full_final": 0.077
+    }
+  },
+  "verdict_summary": "PREDICTIVE_CAPTURE_WITHOUT_POSTERIOR_FIDELITY. The PFN outperforms the exact Bayesian oracle on held-out data while its output distribution diverges from the Bayesian posterior (JS increases monotonically over training). It does not extract differential value from causal ordering (deficit ≈ gap). This establishes a reproducible regime where predictive competence exceeds posterior fidelity.",
+  "strongest_licensed_statement": "On the exact K=256-atom finite prior, training causes the PFN to diverge from the Bayesian posterior in distribution while matching or exceeding its predictive accuracy. The ordering-specific component of this diverging predictive strategy is zero, consistent with uniform-order mixing."
+}

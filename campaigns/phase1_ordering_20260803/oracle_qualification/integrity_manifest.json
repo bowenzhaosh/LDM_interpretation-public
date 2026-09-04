@@ -1,0 +1,399 @@
+{
+  "executions": [
+    {
+      "account": "engr-acad-cse5100",
+      "attempt_identity_sha256": "1014ed3f54077a08a7d1428e1fe60937465e2bb7f4f9ff92dc94fca2b9b9a465",
+      "bank_index": 0,
+      "complete_sha256": "4148c025e8eef244ff1e1e38a286fe208e7daa39bb4395c9976971a3e9243a19",
+      "config_sha256": "ff77985d1129e5ff7f503073176b055d1744125613a088aa93d5ae7f0deb440b",
+      "cpus_per_task": 8,
+      "decision": "CALIBRATION_PASS",
+      "elapsed": "00:11:43",
+      "exit_code": "0:0",
+      "gpu_assignment_caveat": "A100x1 allocation is proven; archived monitor cannot identify the assigned UUID",
+      "gres": "gpu:a100:1",
+      "job_id": "158858",
+      "local_raw_artifacts": [
+        "oracle_qualification/bank0/run/COMPLETE.json",
+        "oracle_qualification/bank0/run/calibration_raw.npz",
+        "oracle_qualification/bank0/run/calibration_summary.json",
+        "oracle_qualification/bank0/output/slurm-158858.out",
+        "oracle_qualification/bank0/output/sacct.txt",
+        "oracle_qualification/bank0/output/gpu_identity.csv",
+        "oracle_qualification/bank0/output/gpu_utilization.csv"
+      ],
+      "max_rss": "7086000K",
+      "memory": "64G",
+      "node": "a100-2207",
+      "output_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank0/output",
+      "partition": "condo-cse5100",
+      "qos": "normal",
+      "raw_sha256": "b840497dfa8ab42bce4febc74e4fd58a59d6e43988420050c4c1d3bcc0230b60",
+      "run_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank0/run",
+      "scheduler_timestamp_timezone": "cluster-local; timezone not emitted by sacct",
+      "source_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+      "source_snapshot": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source",
+      "source_tag": "phase1-ordering-qualification-v1",
+      "stage": "oracle_qualification_bank",
+      "state": "COMPLETED",
+      "submitted_at": "2026-08-03T07:46:17",
+      "time_limit": "02:00:00",
+      "wall_seconds": 691.7432272434235
+    },
+    {
+      "account": "engr-acad-cse5100",
+      "attempt_identity_sha256": "57117b6dba87a081f2436b504fda79e6fc379be7a74c8f8d06b33e3a282ec2b9",
+      "bank_index": 1,
+      "complete_sha256": "b810ea72ce48cede5a080d867293afb27b9d40a003cc9293e56f583f5704c33d",
+      "config_sha256": "4e9d47a9a29551a4fe9fe842df6eee48b4c0278650703fe6784fc4f84fd99662",
+      "cpus_per_task": 8,
+      "decision": "CALIBRATION_PASS",
+      "elapsed": "00:11:44",
+      "exit_code": "0:0",
+      "gpu_assignment_caveat": "A100x1 allocation is proven; archived monitor cannot identify the assigned UUID",
+      "gres": "gpu:a100:1",
+      "job_id": "158859",
+      "local_raw_artifacts": [
+        "oracle_qualification/bank1/run/COMPLETE.json",
+        "oracle_qualification/bank1/run/calibration_raw.npz",
+        "oracle_qualification/bank1/run/calibration_summary.json",
+        "oracle_qualification/bank1/output/slurm-158859.out",
+        "oracle_qualification/bank1/output/sacct.txt",
+        "oracle_qualification/bank1/output/gpu_identity.csv",
+        "oracle_qualification/bank1/output/gpu_utilization.csv"
+      ],
+      "max_rss": "7452940K",
+      "memory": "64G",
+      "node": "a100-2207",
+      "output_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank1/output",
+      "partition": "condo-cse5100",
+      "qos": "normal",
+      "raw_sha256": "95d4492f8740f78df385d37b6afc0b83e90c87ae6c1623575f9680049e2f60ec",
+      "run_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank1/run",
+      "scheduler_timestamp_timezone": "cluster-local; timezone not emitted by sacct",
+      "source_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+      "source_snapshot": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source",
+      "source_tag": "phase1-ordering-qualification-v1",
+      "stage": "oracle_qualification_bank",
+      "state": "COMPLETED",
+      "submitted_at": "2026-08-03T07:46:24",
+      "time_limit": "02:00:00",
+      "wall_seconds": 693.4816989898682
+    },
+    {
+      "account": "engr-acad-cse5100",
+      "attempt_identity_sha256": "2df34c434dfa36a6cb8b6aa549fd6fe5c93bdb8d08be8822266aebbe3badfff8",
+      "bank_index": 2,
+      "complete_sha256": "611ca49f1300f23cf5b940916d10210e00866438a4025af6f4197b452ba45015",
+      "config_sha256": "e73e91dca386148d62e87aad66fe7b73a5629c2459e5e89bb5c1930fa9e2ea60",
+      "cpus_per_task": 8,
+      "decision": "CALIBRATION_PASS",
+      "elapsed": "00:11:36",
+      "exit_code": "0:0",
+      "gpu_assignment_caveat": "A100x1 allocation is proven; archived monitor cannot identify the assigned UUID",
+      "gres": "gpu:a100:1",
+      "job_id": "158860",
+      "local_raw_artifacts": [
+        "oracle_qualification/bank2/run/COMPLETE.json",
+        "oracle_qualification/bank2/run/calibration_raw.npz",
+        "oracle_qualification/bank2/run/calibration_summary.json",
+        "oracle_qualification/bank2/output/slurm-158860.out",
+        "oracle_qualification/bank2/output/sacct.txt",
+        "oracle_qualification/bank2/output/gpu_identity.csv",
+        "oracle_qualification/bank2/output/gpu_utilization.csv"
+      ],
+      "max_rss": "7658564K",
+      "memory": "64G",
+      "node": "a100-2207",
+      "output_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank2/output",
+      "partition": "condo-cse5100",
+      "qos": "normal",
+      "raw_sha256": "9c36187e25f7783e77da4ecdb19161a3b5de7f8f0e48076d8c6935c7d4d23c8d",
+      "run_dir": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/bank2/run",
+      "scheduler_timestamp_timezone": "cluster-local; timezone not emitted by sacct",
+      "source_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+      "source_snapshot": "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/qualification-cdd541c/source",
+      "source_tag": "phase1-ordering-qualification-v1",
+      "stage": "oracle_qualification_bank",
+      "state": "COMPLETED",
+      "submitted_at": "2026-08-03T07:46:30",
+      "time_limit": "02:00:00",
+      "wall_seconds": 685.6951351165771
+    },
+    {
+      "argv": null,
+      "decision": "QUALIFICATION_PASS",
+      "ended_at": null,
+      "execution_kind": "local_non_slurm",
+      "exit_code": 0,
+      "host": null,
+      "independent_verification_sha256": "af8fc45135cf8452262545b522e29e25313f04a0def2d6563753acfaebb49d59",
+      "input_complete_sha256": [
+        "4148c025e8eef244ff1e1e38a286fe208e7daa39bb4395c9976971a3e9243a19",
+        "b810ea72ce48cede5a080d867293afb27b9d40a003cc9293e56f583f5704c33d",
+        "611ca49f1300f23cf5b940916d10210e00866438a4025af6f4197b452ba45015"
+      ],
+      "job_id": null,
+      "joined_complete_sha256": "b840221e09e6671b93eab6fe2141589b43b32679981374745f0798b6489ed4fe",
+      "joined_raw_sha256": "b323056615e6dbe263a6cfa1ef529b9e0264bd64ba6db5e7f92a18f24820a1c9",
+      "joined_summary_sha256": "003a8d41b1d9d3439e32d81f09fbeecf66b26b101d5e5ebbddc4b8d7ef72dbbe",
+      "provenance_capture": "retrospective",
+      "selected_truncation": 16384,
+      "source_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88",
+      "source_tag": "phase1-ordering-qualification-v1",
+      "stage": "oracle_qualification_join",
+      "started_at": null
+    }
+  ],
+  "inventory": {
+    "bytes": 565049,
+    "canonicalization": "UTF-8 JSON, sorted keys, separators comma/colon",
+    "entries": [
+      {
+        "bytes": 724,
+        "path": "bank0/output/gpu_identity.csv",
+        "sha256": "ad7f2b756e75663d8c32881ecb4b5a9284b238b6a46806290212095a613c00ba"
+      },
+      {
+        "bytes": 9768,
+        "path": "bank0/output/gpu_utilization.csv",
+        "sha256": "032d3e259c7049d41ea17e3e75bd16ad824f8b70e06dc516ebdc020993a4aa79"
+      },
+      {
+        "bytes": 587,
+        "path": "bank0/output/sacct.txt",
+        "sha256": "471dba8160dea0af8f6c55d49da6d7d7c32beb967a3c26699056587c29e8c681"
+      },
+      {
+        "bytes": 13996,
+        "path": "bank0/output/slurm-158858.out",
+        "sha256": "418871f946f177faa2b82d9e047f913fcf491d406c5fb4942f3603a72fb56df3"
+      },
+      {
+        "bytes": 434,
+        "path": "bank0/run/ATOM_BANK.json",
+        "sha256": "1d3ab8a5b14e7a6e6cd26f8cd27c7a94d95f4da6ea752dbd5a054eeb916bde7a"
+      },
+      {
+        "bytes": 3655,
+        "path": "bank0/run/COMPLETE.json",
+        "sha256": "4148c025e8eef244ff1e1e38a286fe208e7daa39bb4395c9976971a3e9243a19"
+      },
+      {
+        "bytes": 2776,
+        "path": "bank0/run/RUNNING.json",
+        "sha256": "3490508b02e09f405d4bdecbbe37b971799478b1260b5574a98acee8587190bb"
+      },
+      {
+        "bytes": 53770,
+        "path": "bank0/run/calibration_raw.npz",
+        "sha256": "b840497dfa8ab42bce4febc74e4fd58a59d6e43988420050c4c1d3bcc0230b60"
+      },
+      {
+        "bytes": 13966,
+        "path": "bank0/run/calibration_summary.json",
+        "sha256": "f6fcbb05975465e8540b9e9211b7bc4674d5fa8d2cb91909130240b739ebfa56"
+      },
+      {
+        "bytes": 27432,
+        "path": "bank0/run/partial_C.npz",
+        "sha256": "aca2aecce2e3f059accaf0f7a5f6d30b3474a8df36b64cf29f6771b57a4fd334"
+      },
+      {
+        "bytes": 29304,
+        "path": "bank0/run/partial_N.npz",
+        "sha256": "5666177d3acfbb989b20cec09ad5b298dde80c74815f9a804a1c8ea41900740d"
+      },
+      {
+        "bytes": 724,
+        "path": "bank1/output/gpu_identity.csv",
+        "sha256": "0e1400dc3c8c360765dfe59c2c16ca23ed97c854fdf8970cf3838c2ece6ee926"
+      },
+      {
+        "bytes": 9766,
+        "path": "bank1/output/gpu_utilization.csv",
+        "sha256": "f3f3b2a08b9d7a9f60473c3bd053571fa7994212da3a6cb3e85be3859a631ea2"
+      },
+      {
+        "bytes": 587,
+        "path": "bank1/output/sacct.txt",
+        "sha256": "4a3f5837d273a3c7db70b0ac1fe71c3ed83b79921a6b068079e284e2b41ababa"
+      },
+      {
+        "bytes": 14006,
+        "path": "bank1/output/slurm-158859.out",
+        "sha256": "3aa8cc2ad0fa7cfc584e96751570a958ef6b35c2251c6386974b6d97ebb1bbb3"
+      },
+      {
+        "bytes": 434,
+        "path": "bank1/run/ATOM_BANK.json",
+        "sha256": "7e67d654bc94830b89ab557bf83cd884262699564fd626b4f7468d54191051cd"
+      },
+      {
+        "bytes": 3655,
+        "path": "bank1/run/COMPLETE.json",
+        "sha256": "b810ea72ce48cede5a080d867293afb27b9d40a003cc9293e56f583f5704c33d"
+      },
+      {
+        "bytes": 2776,
+        "path": "bank1/run/RUNNING.json",
+        "sha256": "01261f8f8cdd69771294e142b9f66e201b6fc5c9e70936ad3e7a53070a65e98a"
+      },
+      {
+        "bytes": 54110,
+        "path": "bank1/run/calibration_raw.npz",
+        "sha256": "95d4492f8740f78df385d37b6afc0b83e90c87ae6c1623575f9680049e2f60ec"
+      },
+      {
+        "bytes": 13976,
+        "path": "bank1/run/calibration_summary.json",
+        "sha256": "946d251c67e4df76d8aa9e3e5d0c23ad90e8e3ec20da1eb72460ae2ac7ada220"
+      },
+      {
+        "bytes": 27745,
+        "path": "bank1/run/partial_C.npz",
+        "sha256": "0f34c15a557650e90939f85180b85fa7f9816d9379220a53955f9d15c668c409"
+      },
+      {
+        "bytes": 29351,
+        "path": "bank1/run/partial_N.npz",
+        "sha256": "7971892613d91897c6d3cfca3c96ea37fdaa4e8beb1860073ddd3aa43b310f9d"
+      },
+      {
+        "bytes": 724,
+        "path": "bank2/output/gpu_identity.csv",
+        "sha256": "843bf497c14da9d7df29fbb2a585a7fd55d3455a408a9f9669240920c198a2a1"
+      },
+      {
+        "bytes": 9368,
+        "path": "bank2/output/gpu_utilization.csv",
+        "sha256": "2295c0e2d0e88f8c6db5ce432d236052e736ef654cc7289022b7077bc733e7e3"
+      },
+      {
+        "bytes": 587,
+        "path": "bank2/output/sacct.txt",
+        "sha256": "1d1c9f54859f19192ee099eb2c0c438d0af319ca23cbc0b9713ffb72935dbfca"
+      },
+      {
+        "bytes": 14006,
+        "path": "bank2/output/slurm-158860.out",
+        "sha256": "2091c6608c0054aa615ea62e4a3f5a4b1e3437277668ffb95a0d3dae6581386c"
+      },
+      {
+        "bytes": 434,
+        "path": "bank2/run/ATOM_BANK.json",
+        "sha256": "a96fc90d1ce3c17a28db89dd084070b5a5ba448c9bb588443d838754afed1b1a"
+      },
+      {
+        "bytes": 3655,
+        "path": "bank2/run/COMPLETE.json",
+        "sha256": "611ca49f1300f23cf5b940916d10210e00866438a4025af6f4197b452ba45015"
+      },
+      {
+        "bytes": 2776,
+        "path": "bank2/run/RUNNING.json",
+        "sha256": "bfb5188248e49dd91e59c9ad99f2fb30614546b051fdf6bdcd87b0560bb560c1"
+      },
+      {
+        "bytes": 53814,
+        "path": "bank2/run/calibration_raw.npz",
+        "sha256": "9c36187e25f7783e77da4ecdb19161a3b5de7f8f0e48076d8c6935c7d4d23c8d"
+      },
+      {
+        "bytes": 13976,
+        "path": "bank2/run/calibration_summary.json",
+        "sha256": "274ecfd61da47d0301256ef764dbddb6ca69d3192ff7b6af3734d5979af19b29"
+      },
+      {
+        "bytes": 27669,
+        "path": "bank2/run/partial_C.npz",
+        "sha256": "faeae4953fd038201c06d0df5e938aeaa9784fefa9a00bbd4ab67ea9523a8e03"
+      },
+      {
+        "bytes": 29146,
+        "path": "bank2/run/partial_N.npz",
+        "sha256": "c682677ce221013607dc834337a65e665c052615b4e137f1850baf822c6aa154"
+      },
+      {
+        "bytes": 1667,
+        "path": "independent_verification.json",
+        "sha256": "af8fc45135cf8452262545b522e29e25313f04a0def2d6563753acfaebb49d59"
+      },
+      {
+        "bytes": 16636,
+        "path": "join_stdout.json",
+        "sha256": "003a8d41b1d9d3439e32d81f09fbeecf66b26b101d5e5ebbddc4b8d7ef72dbbe"
+      },
+      {
+        "bytes": 2857,
+        "path": "joined/COMPLETE.json",
+        "sha256": "b840221e09e6671b93eab6fe2141589b43b32679981374745f0798b6489ed4fe"
+      },
+      {
+        "bytes": 54444,
+        "path": "joined/qualification_raw.npz",
+        "sha256": "b323056615e6dbe263a6cfa1ef529b9e0264bd64ba6db5e7f92a18f24820a1c9"
+      },
+      {
+        "bytes": 16636,
+        "path": "joined/qualification_summary.json",
+        "sha256": "003a8d41b1d9d3439e32d81f09fbeecf66b26b101d5e5ebbddc4b8d7ef72dbbe"
+      },
+      {
+        "bytes": 3112,
+        "path": "results_audit.md",
+        "sha256": "569e5febc2f9e3b71f59f6c89ab599cda7991a0f8da28cf1c933cca56519a5a0"
+      }
+    ],
+    "excluded": [
+      "integrity_manifest.json"
+    ],
+    "files": 39,
+    "inventory_sha256": "3664a308171ab7116fdecf1a429e35c6beda1cff74043a28f7acfed85fea7413",
+    "root": "campaigns/phase1_ordering_20260803/oracle_qualification"
+  },
+  "known_limits": [
+    "derived qualification metrics cannot be reconstructed from unarchived 100-bin predictions",
+    "full 3M atom arrays were not retained",
+    "per-job assigned GPU UUID was not captured",
+    "join command, host, and timestamps were not captured prospectively"
+  ],
+  "ledger": {
+    "bytes": 11788,
+    "path": "campaigns/phase1_ordering_20260803/ledger.json",
+    "sha256": "e220222ce5b21d6577f13adcebcf7bf20fd7ba01c649b047b1973d9738528723"
+  },
+  "schema_version": 1,
+  "scope": "finite-panel 8192/16384 versus 32768 oracle truncation qualification",
+  "selected_truncation": 16384,
+  "source": {
+    "preservation": "run commit is an ancestor in this repository",
+    "protocol_tag": {
+      "name": "phase1-ordering-qualification-v1",
+      "object_id": "2c1e1bd4ca899e813be503a3620a27310d729f24",
+      "signed": false
+    },
+    "run_commit": "cdd541c2ac7038b5cb8c7c6d3f1f6ac1811e4b88"
+  },
+  "stage": "phase1_ordering_cross_bank_qualification",
+  "verdict": "CAVEATED_QUALIFICATION_PASS",
+  "verification": {
+    "output": {
+      "bytes": 1667,
+      "path": "campaigns/phase1_ordering_20260803/oracle_qualification/independent_verification.json",
+      "sha256": "af8fc45135cf8452262545b522e29e25313f04a0def2d6563753acfaebb49d59"
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.7",
+      "python_executable": "/Users/bowenzhao/.pyenv/versions/3.11.7/bin/python"
+    },
+    "source": {
+      "bytes": 20396,
+      "path": "src/pfn_dag_verify/phase1_qualification_verify.py",
+      "sha256": "36048988e97016aead88ba71969211b76f066bc0db98d84f68ef70e314ae603f"
+    },
+    "status": "INDEPENDENT_RAW_RECOMPUTATION_PASS"
+  }
+}

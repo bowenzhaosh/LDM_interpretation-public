@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "source": "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix2-run1",
+  "destination": "campaigns/phase1_ordering_20260803/ordering_confirmation_v1_fix2_run1",
+  "verified_at_utc": "2026-08-03T23:56:13Z",
+  "method": "verify_transfer_tree.py; SHA-256 of newline-delimited canonical JSON records containing relative path, size, and file SHA-256",
+  "source_file_count": 8021,
+  "destination_file_count": 8021,
+  "source_total_bytes": 162056062,
+  "destination_total_bytes": 162056062,
+  "source_tree_sha256": "25c039761b3669634dc74b9eeaf64ce924f84caba600ba34e02b1ce7e783b62a",
+  "destination_tree_sha256": "25c039761b3669634dc74b9eeaf64ce924f84caba600ba34e02b1ce7e783b62a",
+  "source_manifest": "REMOTE_TRANSFER_MANIFEST.jsonl",
+  "source_manifest_bytes": 1880129,
+  "source_manifest_lines": 8021,
+  "source_manifest_sha256": "25c039761b3669634dc74b9eeaf64ce924f84caba600ba34e02b1ce7e783b62a",
+  "verified": true,
+  "note": "Portable checkpoints and archival metadata were added locally after this exact remote-to-local comparison and are sealed separately by ARTIFACT_SHA256SUMS."
+}

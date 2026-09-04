@@ -1,0 +1,65 @@
+{
+  "artifacts": {
+    "ATOM_BANK.json": {
+      "bytes": 434,
+      "sha256": "a96fc90d1ce3c17a28db89dd084070b5a5ba448c9bb588443d838754afed1b1a"
+    },
+    "RUNNING.json": {
+      "bytes": 2804,
+      "sha256": "cbbd923bef791eb9bfb2b2c5ec7c0203f05d3e2cb3e5d16e936ffa133f21ae41"
+    },
+    "calibration_raw.npz": {
+      "bytes": 4567243,
+      "sha256": "feee24fec87d6813204c90694467103e77e21de610d5ae91870fd25c529a2d50"
+    },
+    "calibration_summary.json": {
+      "bytes": 15886,
+      "sha256": "c7b0a06ccb1d0a9391342bbc711cc1ef64471505eba09a84fffc51a781d99fbe"
+    },
+    "partial_C.npz": {
+      "bytes": 2285521,
+      "sha256": "4c985846506dccae8632433d860d49c35901fe9d8bacb7dc16fd93c3492bc4d3"
+    },
+    "partial_N.npz": {
+      "bytes": 2286649,
+      "sha256": "bfd4a12ae1c5102ac2660ed89a13acbd4027a69926ea281edeb28a556bcbb9ec"
+    }
+  },
+  "decision": "CALIBRATION_PASS",
+  "identity": {
+    "config_sha256": "8c9cf03983cabbe7fddc2584fd114cbf0291361fd5c72cde034f188858713688",
+    "execution_contract": {
+      "cublas_workspace_config": ":4096:8",
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "deterministic_algorithms": true,
+      "device_request": "cuda",
+      "float32_matmul_precision": "highest",
+      "gpu_capability": [
+        8,
+        0
+      ],
+      "gpu_name": "NVIDIA A100 80GB PCIe",
+      "mkl_num_threads": "8",
+      "omp_num_threads": "8",
+      "openblas_num_threads": "1",
+      "pythonhashseed": "0",
+      "runtime_binary_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a"
+    },
+    "fleet_sha256": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+    "git_commit": "fc0b8eb48c75f7c0d1dc208b1d344d663b16baf3",
+    "source_inventory": {
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_PREREG.md": "ad72aab76ef12d0ac8e6a4cd738b162bb9d9898cfd118e206b611c1bd033b1ef",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_QUALIFICATION_V3_PREREG.md": "3db5b21de35794e24570b6b55c75092dec1f97db89d51d31148f4ccf04d9e30e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/artifacts/phase1/d4_generator.py": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/cluster/phase1_calibration.sbatch": "ab7d5f5d7b324022f6992d3452df4aefadd3a30de48e761aa9963a7365f7aec8",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/config/phase1_ordering_qualification_v3_bank2.json": "8c9cf03983cabbe7fddc2584fd114cbf0291361fd5c72cde034f188858713688",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-binary-inventory.json": "1639a50198879f977d5715d9e6a29c8655a1d4b37c0e8c11af12160f606e60bf",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-requirements-lock.txt": "c451620bcd8c88376bb0035519d7b1b3ce4c91437c7e6f9e7cc8c5e351cf00e0",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-runtime.json": "7f65b8153deda4002b50665789b2a8523903f52bc8e7c8346668442b69799d4e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_ordering.py": "d298e0b52285a95ae8771eb8f7fecb55501ac0893b70ba4a9ee84a27b7f6f933",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+    }
+  },
+  "identity_sha256": "4850c29c891ec65e68206ceb84f1d08827c81798708fef93e9fec41abf94bf7e"
+}

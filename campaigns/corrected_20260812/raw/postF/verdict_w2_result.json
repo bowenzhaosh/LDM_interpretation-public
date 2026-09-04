@@ -1,0 +1,346 @@
+{
+  "verdict": "PREDICTIVE_GATE_FAILS",
+  "amendment": "E.4/F.2b/F.2d",
+  "evidence": [
+    "eps=0: expected regret -0.0006 [-0.0045, +0.0034] vs gate 0.05",
+    "eps=0.1: expected regret +0.0060 [-0.0010, +0.0131] vs gate 0.05",
+    "eps=0.25: expected regret +0.0064 [-0.0043, +0.0170] vs gate 0.05",
+    "eps=0.35: expected regret +0.0017 [-0.0117, +0.0152] vs gate 0.05",
+    "eps=0.5: expected regret +0.0134 [-0.0019, +0.0287] vs gate 0.05",
+    "eps=0.75: expected regret +0.0247 [+0.0010, +0.0484] vs gate 0.05",
+    "eps=1: expected regret +0.0473 [+0.0181, +0.0766] vs gate 0.05",
+    "GATE (a) FAILS at eps=1: regret CI upper bound +0.0766 >= 0.05"
+  ],
+  "association": {
+    "evaluable": false,
+    "n_cells": 0,
+    "axis": "deficit",
+    "reason": "0 cells with a defined fidelity and a deficit coordinate < MIN_CELLS=3. Note F.2c: eps=0 leaves the fidelity series by construction (ceiling == floor), so 4 surviving cells is the ceiling, not the target (6 had fidelity but no deficit coordinate)",
+    "survivorship": [
+      {
+        "eps": 0.0,
+        "n_contexts": 500,
+        "gain": 4.3161629503796206e-07,
+        "survives": false,
+        "reason": "measured ceiling - floor = 4.316e-07 < 1e-06: the instrument has no gain here, so no fidelity is definable (expected at eps=0 by the order-invariance identity)",
+        "in_association": false
+      },
+      {
+        "eps": 0.1,
+        "n_contexts": 500,
+        "gain": 0.4592479485499209,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      },
+      {
+        "eps": 0.25,
+        "n_contexts": 500,
+        "gain": 0.4799204860817612,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      },
+      {
+        "eps": 0.35,
+        "n_contexts": 500,
+        "gain": 0.489170791218342,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      },
+      {
+        "eps": 0.5,
+        "n_contexts": 500,
+        "gain": 0.5075517545296389,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      },
+      {
+        "eps": 0.75,
+        "n_contexts": 500,
+        "gain": 0.5433014772589732,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      },
+      {
+        "eps": 1.0,
+        "n_contexts": 500,
+        "gain": 0.5558286653444579,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": false,
+        "excluded_reason": "carries a calibrated fidelity but no deficit coordinate, so it cannot enter the association"
+      }
+    ],
+    "cells_without_axis": [
+      0.1,
+      0.25,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "association_secondary": {
+    "evaluable": true,
+    "axis": "width",
+    "mode": "gating",
+    "n_cells": 6,
+    "eps_cells": [
+      0.1,
+      0.25,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "x": [
+      0.5621855579376227,
+      0.6830292441927048,
+      0.7208522271387521,
+      0.7391598851320333,
+      0.8433947952438017,
+      0.8744516947184668
+    ],
+    "x_se": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "y": [
+      0.48573751279009164,
+      0.5054820607136824,
+      0.46372692033092433,
+      0.3905196062801796,
+      0.3171755347842907,
+      0.33965333225520966
+    ],
+    "y_se": [
+      0.005792347418045335,
+      0.008490941023483654,
+      0.012326266871251065,
+      0.014662271565244113,
+      0.016883034892359847,
+      0.017732415189921382
+    ],
+    "y_se_seed": [
+      0.009914317797265712,
+      0.011955255867931464,
+      0.010253708194251601,
+      0.005420098959927515,
+      0.0012709288220194292,
+      0.002427472806775856
+    ],
+    "n_contexts": [
+      500,
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "slope": -0.4236392513488831,
+    "slope_se": 0.18056497666802518,
+    "t": -2.3461872793180607,
+    "df": 4,
+    "p_one_sided": 0.9605784338308911,
+    "alpha": 0.05,
+    "perfect_fit": false,
+    "scale_s2": 19.76470171692854,
+    "slope_passes": false,
+    "permutation_p": 0.9916666666666667,
+    "permutation_p_floor": 0.001388888888888889,
+    "spearman": -0.8857142857142858,
+    "isotonic_signed_range": -0.16719535323213686,
+    "jackknife_slope": [
+      [
+        0.1,
+        -0.9982882209256678,
+        0.9917344309733561
+      ],
+      [
+        0.25,
+        -0.47595033510692175,
+        0.9875147204204557
+      ],
+      [
+        0.35,
+        -0.4498656724188293,
+        0.9418959571275294
+      ],
+      [
+        0.5,
+        -0.3957963397788751,
+        0.9249693099124021
+      ],
+      [
+        0.75,
+        -0.3247631260333214,
+        0.8951582594628471
+      ],
+      [
+        1.0,
+        -0.37352367745387904,
+        0.8924294965560793
+      ]
+    ],
+    "jackknife_slope_min": -0.9982882209256678,
+    "jackknife_slope_max": -0.3247631260333214,
+    "extreme_contrast": {
+      "evaluable": true,
+      "axis": "width",
+      "eps_lo": 0.1,
+      "eps_hi": 1.0,
+      "x_lo": 0.5621855579376227,
+      "x_hi": 0.8744516947184668,
+      "y_lo": 0.48573751279009164,
+      "y_hi": 0.33965333225520966,
+      "delta_y": -0.14608418053488198,
+      "delta_se": 0.018654485709316434,
+      "z": -7.831048403651489,
+      "ci": [
+        -0.1826469725251422,
+        -0.10952138854462176
+      ],
+      "p_one_sided": 0.9999999999999976,
+      "passes": false
+    },
+    "gate_passes": false,
+    "survivorship": [
+      {
+        "eps": 0.0,
+        "n_contexts": 500,
+        "gain": 4.3161629503796206e-07,
+        "survives": false,
+        "reason": "measured ceiling - floor = 4.316e-07 < 1e-06: the instrument has no gain here, so no fidelity is definable (expected at eps=0 by the order-invariance identity)",
+        "in_association": false
+      },
+      {
+        "eps": 0.1,
+        "n_contexts": 500,
+        "gain": 0.4592479485499209,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      },
+      {
+        "eps": 0.25,
+        "n_contexts": 500,
+        "gain": 0.4799204860817612,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      },
+      {
+        "eps": 0.35,
+        "n_contexts": 500,
+        "gain": 0.489170791218342,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      },
+      {
+        "eps": 0.5,
+        "n_contexts": 500,
+        "gain": 0.5075517545296389,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      },
+      {
+        "eps": 0.75,
+        "n_contexts": 500,
+        "gain": 0.5433014772589732,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      },
+      {
+        "eps": 1.0,
+        "n_contexts": 500,
+        "gain": 0.5558286653444579,
+        "survives": true,
+        "reason": "measured gain above CALIB_MIN_GAIN with a finite SE",
+        "in_association": true
+      }
+    ],
+    "cells_without_axis": [],
+    "precision_flag": false,
+    "y_range": 0.18830652592939168,
+    "widest_ci_halfwidth": 0.03475553377224591
+  },
+  "adjacent_resolution": [],
+  "axis_comparison": {
+    "comparable": false,
+    "n_cells": 0
+  },
+  "calibration_leakage": {
+    "measured": false,
+    "n_cells": 0,
+    "reason": "fewer than 3 cells carry a calibration floor"
+  },
+  "survivorship": [
+    {
+      "eps": 0.0,
+      "n_contexts": 500,
+      "gain": 4.3161629503796206e-07,
+      "survives": false,
+      "reason": "measured ceiling - floor = 4.316e-07 < 1e-06: the instrument has no gain here, so no fidelity is definable (expected at eps=0 by the order-invariance identity)"
+    },
+    {
+      "eps": 0.1,
+      "n_contexts": 500,
+      "gain": 0.4592479485499209,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    },
+    {
+      "eps": 0.25,
+      "n_contexts": 500,
+      "gain": 0.4799204860817612,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    },
+    {
+      "eps": 0.35,
+      "n_contexts": 500,
+      "gain": 0.489170791218342,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    },
+    {
+      "eps": 0.5,
+      "n_contexts": 500,
+      "gain": 0.5075517545296389,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    },
+    {
+      "eps": 0.75,
+      "n_contexts": 500,
+      "gain": 0.5433014772589732,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    },
+    {
+      "eps": 1.0,
+      "n_contexts": 500,
+      "gain": 0.5558286653444579,
+      "survives": true,
+      "reason": "measured gain above CALIB_MIN_GAIN with a finite SE"
+    }
+  ],
+  "headline": "NOT_A_PAPER_OUTCOME",
+  "written_default_applied": false
+}

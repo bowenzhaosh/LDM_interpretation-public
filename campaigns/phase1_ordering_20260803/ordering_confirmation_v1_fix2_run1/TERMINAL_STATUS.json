@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "state": "COMPLETE_INCONCLUSIVE",
+  "sealed_at_utc": "2026-08-03T23:40:45Z",
+  "scientific_decision": "INCONCLUSIVE_PHASE1_INSTRUMENT",
+  "primary": "NOT_EVALUATED",
+  "secondary": "NOT_EVALUATED",
+  "all_slurm_jobs_completed": true,
+  "all_slurm_exit_codes_zero": true,
+  "independent_verification": "INDEPENDENT_CONFIRMATION_RAW_RECOMPUTATION_PASS",
+  "validity_gates": {
+    "all_pass": false,
+    "oracle_convergence": false
+  },
+  "source": {
+    "commit": "9c6a3732993ea13557279ec8d330b7d1a076e63f",
+    "tag": "phase1-ordering-confirmation-v1-fix2"
+  },
+  "attempt_identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "joined_raw_sha256": "d02b4093a398b7fda849794bd92a1d599162671ee0796fcfded50767a7d6bdff",
+  "joined_summary_sha256": "f0d5db5c2a5ad67817053d75edc142350697fb674fd624037464bf3d108d92bb",
+  "remote_transfer_verified": true,
+  "portable_checkpoints": {
+    "model_states": 18,
+    "training_sidecars": 6,
+    "bytes": 78188398,
+    "all_registry_hashes_verified": true
+  },
+  "artifact_manifest": "ARTIFACT_SHA256SUMS",
+  "note": "SUBMISSION.json is the immutable launch record and therefore remains in state SUBMITTED. This terminal record captures the completed campaign and packaging state."
+}

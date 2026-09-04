@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "state": "COMPLETE",
+  "sealed_at_utc": "2026-08-08T10:34:00Z",
+  "scientific_decision": "FAILED_ORACLE_METHOD_AGREEMENT",
+  "all_slurm_jobs_completed": true,
+  "all_slurm_exit_codes_zero": true,
+  "pilot_config": "config/oracle_precision_pilot_v1.json",
+  "pilot_commit": "77972aa",
+  "pilot_tag": "phase1-oracle-precision-pilot-v1",
+  "attempt_identity": "oracle_precision_pilot_v1_reduced_c6ccaf3",
+  "n_rows": 400,
+  "n_shards": 40,
+  "guards": {
+    "outcome_blindness": "PASS",
+    "pilot_path_guard_refused_forbidden": true,
+    "no_forbidden_imports": true,
+    "panel_row_alignment_verified": true,
+    "panel_hash_verified": true,
+    "nested_half_mask_verified": true
+  },
+  "verdict_detail": {
+    "all_gates_pass": false,
+    "smc_mcmc_agreement_gate": "FAIL",
+    "order_posterior_agreement_gate": "FAIL",
+    "predictive_normalization": "PASS",
+    "row_catastrophe": "FAIL"
+  },
+  "key_numbers": {
+    "C": {
+      "smc_vs_mcmc_nll_full_median": 0.0481,
+      "smc_vs_mcmc_nll_full_max": 2.2547,
+      "smc_vs_mcmc_nll_ablated_median": 0.0099,
+      "order_posterior_js_median": 0.13063,
+      "order_posterior_js_p95": 0.58261,
+      "row_catastrophe_count": 15,
+      "rows": 200
+    },
+    "N": {
+      "smc_vs_mcmc_nll_full_median": 0.0063,
+      "smc_vs_mcmc_nll_ablated_median": 0.0072,
+      "order_posterior_js_median": 0.00836,
+      "order_posterior_js_p95": 0.06661,
+      "row_catastrophe_count": 1,
+      "rows": 200
+    }
+  },
+  "verdict_summary": "FAILED_ORACLE_METHOD_AGREEMENT. The two independent estimators (annealed SMC and MCMC+thermodynamic integration) disagree on the order posterior and the full predictive by orders of magnitude above the frozen precision gates. The observable effect is that the order marginal likelihood has a pathological integrand (steep in beta near 0), making the order posterior the binding precision bottleneck of the continuous-prior oracle. This pilot does not establish a qualified continuous-prior oracle. The next licensed stage is Branch B: the exact finite-prior causal wind tunnel.",
+  "route": "branch_B_exact_finite_prior_causal_wind_tunnel"
+}

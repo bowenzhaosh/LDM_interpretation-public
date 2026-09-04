@@ -1,0 +1,7 @@
+timestamp, utilization.gpu [%], utilization.memory [%], memory.used [MiB], memory.total [MiB], power.draw [W]
+2026/08/03 07:18:05.749, [N/A], [N/A], 237 MiB, 81920 MiB, 111.48 W
+2026/08/03 07:18:05.754, [N/A], [N/A], 237 MiB, 81920 MiB, 113.75 W
+2026/08/03 07:18:05.758, [N/A], [N/A], 203 MiB, 81920 MiB, 118.04 W
+2026/08/03 07:18:05.761, [N/A], [N/A], 203 MiB, 81920 MiB, 103.00 W
+2026/08/03 07:18:05.765, [N/A], [N/A], 203 MiB, 81920 MiB, 112.04 W
+2026/08/03 07:18:05.768, 0 %, 0 %, 0 MiB, 81920 MiB, 47.58 W

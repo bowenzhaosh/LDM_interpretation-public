@@ -1,0 +1,43 @@
+{
+  "bank_atom_sha256": [
+    "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7",
+    "a848e61b929c18decaadd9b633f60f22e524f17a2b1ec24d6c7642dbba764920",
+    "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3"
+  ],
+  "candidate_summary": {
+    "16384": {
+      "total_abs_logp_change_exceedances": 0,
+      "total_js_exceedances": 0,
+      "worst_p95_abs_logp_change": 0.0010445935766668615,
+      "worst_p95_js": 2.504882461382054e-07
+    },
+    "8192": {
+      "total_abs_logp_change_exceedances": 12,
+      "total_js_exceedances": 0,
+      "worst_p95_abs_logp_change": 0.00500004388586319,
+      "worst_p95_js": 5.810461828879171e-06
+    }
+  },
+  "decision": "QUALIFICATION_PASS",
+  "determinism_canary_sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+  "joined_complete_sha256": "dff6b9a4eaf826744911c49cd1d391597e5fead34a74f45bac2d8fe27f83bcdd",
+  "joined_raw_sha256": "a4bc89e5f22f41764ddefb310bc2fb67dc291c0d0156949c1840841549915317",
+  "joined_summary_sha256": "e0d30a980de7f1e520e1fc3292edb6a028093f5443e269a3c96d92d5b2abeb30",
+  "qualification_protocol_version": 3,
+  "reference_truncation": 32768,
+  "schema_version": 3,
+  "selected_truncation": 16384,
+  "source_commit": "fc0b8eb48c75f7c0d1dc208b1d344d663b16baf3",
+  "source_tag": "phase1-ordering-qualification-v3",
+  "verification": "INDEPENDENT_RAW_RECOMPUTATION_PASS",
+  "verifier_commit": "04429ae5713dff0f101d842b8e6b4890c7f4e668",
+  "verifier_runtime": {
+    "numpy": "2.2.6",
+    "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.10.20",
+    "python_executable": "/engrfs/project/class/zhao.b/conda_envs/tidpo/bin/python"
+  },
+  "verifier_source_sha256": "11e5b5e68150fe3df57aa53ec210c2aaf3a554203a567979111bd574cccbcfd6",
+  "verifier_source_tag": "phase1-ordering-qualification-v3-verifier-fix1",
+  "zero_exceedance_clopper_pearson_upper": 0.04201037701571053
+}

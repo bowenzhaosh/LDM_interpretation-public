@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-03T21:04:59Z",
+  "provenance_scope": "reconstructed_post_run",
+  "provenance_qualification": "Slurm accounting, archived sources, and current remote hashes were reconstructed after each run; they were not a pre-submit cryptographic binding.",
+  "accounting_source_host": "ssh-shell-2.engr.wustl.edu",
+  "slurm_timezone": "CDT (UTC-05:00)",
+  "attempt_source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+  "attempt_source_tag": "phase1-ordering-confirmation-v1-fix1",
+  "attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+  "remote_attempt_root": "/engrfs/project/class/zhao.b/pfn-dag-phase1-confirm-v1-fix1-run2",
+  "locked_runtime_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+  "jobs": [
+    {
+      "job_id": 160027,
+      "state": "FAILED",
+      "exit_code": "2:0",
+      "submit": "2026-08-03T15:08:25-05:00",
+      "start": "2026-08-03T15:08:26-05:00",
+      "end": "2026-08-03T15:08:26-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /tmp/pfn-replay-debug-2157aa0.sbatch",
+      "exact_sbatch_archived": false,
+      "sbatch_remote_path": "/tmp/pfn-replay-debug-2157aa0.sbatch",
+      "sbatch_sha256": null,
+      "python_remote_path": "/tmp/pfn-replay-diagnose-2157aa0.py",
+      "python_sha256": null,
+      "runtime_lock_verified": false,
+      "failure": "node-local Python source path did not exist",
+      "stdout": {
+        "path": "slurm/p1-replay-debug-160027.out",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-debug-160027.err",
+        "sha256": "d52295acc3147bfec2c106b2032ce9f5470a192b4f5e53d2b7bebc51854447ba"
+      }
+    },
+    {
+      "job_id": 160028,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "submit": "2026-08-03T15:10:51-05:00",
+      "start": "2026-08-03T15:10:52-05:00",
+      "end": "2026-08-03T15:10:59-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-debug-2157aa0.sbatch",
+      "exact_sbatch_archived": true,
+      "sbatch_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-debug-2157aa0.sbatch",
+      "sbatch_path": "diagnostics/pfn-replay-debug-2157aa0.sbatch",
+      "sbatch_sha256": "8b3c38dae9bb5b98934c4e613a47de7e6144020f97537689058425c16a3b4f67",
+      "python_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-diagnose-2157aa0.py",
+      "python_path": "diagnostics/pfn-replay-diagnose-2157aa0.py",
+      "python_sha256": "d522d9c523a78e2569f382594f744c6df4da59fe6067e0df8f5d41368d559b62",
+      "runtime_lock_verified": false,
+      "stdout": {
+        "path": "slurm/p1-replay-debug-160028.out",
+        "sha256": "e91f60f498b96008e04d5d3be286148ad2000f380db84fadbc1cfa5815ab7731"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-debug-160028.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "job_id": 160030,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "submit": "2026-08-03T15:14:04-05:00",
+      "start": "2026-08-03T15:14:04-05:00",
+      "end": "2026-08-03T15:14:14-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-2157aa0.sbatch",
+      "exact_sbatch_archived": true,
+      "sbatch_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-2157aa0.sbatch",
+      "sbatch_path": "diagnostics/pfn-replay-sweep-2157aa0.sbatch",
+      "sbatch_sha256": "f1aceda20ef3a401d4399aee8b1bfaa4f19476aa344e469538e43d435f7a1d33",
+      "python_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-2157aa0.py",
+      "python_path": "diagnostics/pfn-replay-sweep-2157aa0.py",
+      "python_sha256": "7fa7f62edd6a50d3db6ee8d2217bf451282aaef884e994437c0110b53ab71122",
+      "runtime_lock_verified": false,
+      "stdout": {
+        "path": "slurm/p1-replay-sweep-160030.out",
+        "sha256": "b82061b7a0dbc1a989237cefc7dd8fc7e7ca43fd29023f9916508a093f495229"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-sweep-160030.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "job_id": 160038,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "submit": "2026-08-03T15:28:28-05:00",
+      "start": "2026-08-03T15:28:29-05:00",
+      "end": "2026-08-03T15:29:07-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "exact_sbatch_archived": true,
+      "sbatch_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "sbatch_path": "diagnostics/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "sbatch_sha256": "ed3e95959e25156aeab239148f76edc11615d5dc7327f2188d6a75d1b1177425",
+      "python_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.py",
+      "python_path": "diagnostics/pfn-replay-sweep-runtime-v2-2157aa0.py",
+      "python_sha256": "5aac63b5e3f410cf1bf1eeeacf7847a7607493e0d4d41aad3d9b22d8e1a82964",
+      "runtime_lock_verified": true,
+      "runtime_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+      "embedded_source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+      "embedded_source_tag": "phase1-ordering-confirmation-v1-fix1",
+      "embedded_attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+      "stdout": {
+        "path": "slurm/p1-replay-sweep-160038.out",
+        "sha256": "d4f0ded169899b6cfc7054aeacdb7b05289f85b5220c5158ae102e4c05e3bc47"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-sweep-160038.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "job_id": 160040,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "submit": "2026-08-03T15:30:28-05:00",
+      "start": "2026-08-03T15:30:29-05:00",
+      "end": "2026-08-03T15:31:07-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "exact_sbatch_archived": true,
+      "sbatch_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "sbatch_path": "diagnostics/pfn-replay-sweep-runtime-v2-2157aa0.sbatch",
+      "sbatch_sha256": "ed3e95959e25156aeab239148f76edc11615d5dc7327f2188d6a75d1b1177425",
+      "python_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-sweep-runtime-v2-2157aa0.py",
+      "python_path": "diagnostics/pfn-replay-sweep-runtime-v2-2157aa0.py",
+      "python_sha256": "5aac63b5e3f410cf1bf1eeeacf7847a7607493e0d4d41aad3d9b22d8e1a82964",
+      "runtime_lock_verified": true,
+      "runtime_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+      "embedded_source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+      "embedded_source_tag": "phase1-ordering-confirmation-v1-fix1",
+      "embedded_attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+      "stdout": {
+        "path": "slurm/p1-replay-sweep-160040.out",
+        "sha256": "d4f0ded169899b6cfc7054aeacdb7b05289f85b5220c5158ae102e4c05e3bc47"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-sweep-160040.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "job_id": 160041,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "submit": "2026-08-03T15:32:59-05:00",
+      "start": "2026-08-03T15:33:00-05:00",
+      "end": "2026-08-03T15:34:19-05:00",
+      "node": "a100-2207",
+      "submit_line": "/usr/bin/sbatch --parsable --export=NIL /engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-full-panel-v3-2157aa0.sbatch",
+      "exact_sbatch_archived": true,
+      "sbatch_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-full-panel-v3-2157aa0.sbatch",
+      "sbatch_path": "diagnostics/pfn-replay-full-panel-v3-2157aa0.sbatch",
+      "sbatch_sha256": "f1d21f1e6266dfd5738b2f2e9c49c9eb9754ca37c8f530905c499a5a08b4d761",
+      "python_remote_path": "/engrfs/project/class/zhao.b/pfn-confirm-diagnostics-2157aa0/pfn-replay-full-panel-v3-2157aa0.py",
+      "python_path": "diagnostics/pfn-replay-full-panel-v3-2157aa0.py",
+      "python_sha256": "e3b9025b05c9cb98802a9fa4c5c433510614226ca6005ba9caa2346240041517",
+      "runtime_lock_verified": true,
+      "runtime_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+      "embedded_source_commit": "2157aa08e076c90af4b715efc1f89e3b3a053e58",
+      "embedded_source_tag": "phase1-ordering-confirmation-v1-fix1",
+      "embedded_attempt_identity_sha256": "968655154cf78b88dee0240c2c04ae566cf0345070b9ade78779a6ab0781c221",
+      "stdout": {
+        "path": "slurm/p1-replay-sweep-160041.out",
+        "sha256": "3fe0de767068bf233bb9443aa5b61705f65a849a05f8e7113744daff28d8cf23"
+      },
+      "stderr": {
+        "path": "slurm/p1-replay-sweep-160041.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ]
+}

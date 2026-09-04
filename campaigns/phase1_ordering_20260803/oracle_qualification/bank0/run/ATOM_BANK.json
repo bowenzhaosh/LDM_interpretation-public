@@ -1,0 +1,23 @@
+{
+  "count": 3000000,
+  "determinism_canary": {
+    "count": 4096,
+    "dtype": "<f8",
+    "seed": 881103999,
+    "sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+    "shape": [
+      4096,
+      4,
+      4
+    ]
+  },
+  "dtype": "<f8",
+  "schema_version": 1,
+  "seed": 881003101,
+  "sha256": "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7",
+  "shape": [
+    3000000,
+    4,
+    4
+  ]
+}

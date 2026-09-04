@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "status": "confirmatory_locked",
+  "scope": "fixed archived d4 base fleet ordering-use replication",
+  "required_attempt_tag": "phase1-ordering-confirmation-v1-fix2",
+  "protocol_amendment": "PHASE1_ORDERING_CONFIRMATION_FIX2.md",
+  "protocol_amendment_sha256": "5757e28b653ec4c2c0e9c7a8eff3add880fa7cdfaf5235daa23d6efdd94c4445",
+  "dimension": 4,
+  "context_size": 30,
+  "native_output_bins": 100,
+  "priors": [
+    "C",
+    "N"
+  ],
+  "evaluation_draws": 3,
+  "contexts_per_prior_draw": 1067,
+  "evaluation_seeds": {
+    "C": [
+      881003000,
+      881003001,
+      881003002
+    ],
+    "N": [
+      881013000,
+      881013001,
+      881013002
+    ]
+  },
+  "shard_assignment": "full-stream-then-modulo-v1",
+  "atom_count": 3000000,
+  "atom_hash_scheme": "sha256-c-contiguous-raw-bytes-v1",
+  "atom_banks": [
+    {
+      "bank_index": 0,
+      "seed": 881003101,
+      "sha256": "827c9ec7b2f36720c62b4a4c89ccd82a27252238a943b0762a6a5133b25ad0d7"
+    },
+    {
+      "bank_index": 1,
+      "seed": 881003102,
+      "sha256": "a848e61b929c18decaadd9b633f60f22e524f17a2b1ec24d6c7642dbba764920"
+    },
+    {
+      "bank_index": 2,
+      "seed": 881003103,
+      "sha256": "08351198797063f55fcbf37781a0aef1f891a4b58d1183f7d69e94876167a9b3"
+    }
+  ],
+  "atom_determinism_canary_seed": 881103999,
+  "atom_determinism_canary_count": 4096,
+  "atom_determinism_canary_sha256": "62b8dfe0ccd60c5ff91ab6111d4905a1d75f9810e085649299b7a77375e9b193",
+  "selected_truncation": 16384,
+  "qualification_reference_truncation": 32768,
+  "qualification_protocol_version": 3,
+  "qualification_source_commit": "fc0b8eb48c75f7c0d1dc208b1d344d663b16baf3",
+  "qualification_source_tag": "phase1-ordering-qualification-v3",
+  "qualification_verifier_commit": "04429ae5713dff0f101d842b8e6b4890c7f4e668",
+  "qualification_verifier_tag": "phase1-ordering-qualification-v3-verifier-fix1",
+  "qualification_verifier_source_sha256": "11e5b5e68150fe3df57aa53ec210c2aaf3a554203a567979111bd574cccbcfd6",
+  "qualification_local_root": "campaigns/phase1_ordering_20260803/oracle_qualification_v3",
+  "qualification_remote_root": "/engrfs/project/class/zhao.b/pfn-dag-phase1-qv3-fc0b8eb",
+  "qualification_complete_sha256": "dff6b9a4eaf826744911c49cd1d391597e5fead34a74f45bac2d8fe27f83bcdd",
+  "qualification_raw_sha256": "a4bc89e5f22f41764ddefb310bc2fb67dc291c0d0156949c1840841549915317",
+  "qualification_summary_sha256": "e0d30a980de7f1e520e1fc3292edb6a028093f5443e269a3c96d92d5b2abeb30",
+  "qualification_independent_verification_sha256": "b0c7b9cd3a873143bb88ad2e97003424f5fc3a5a35c39524521987ed0e8b12f1",
+  "generator_module": "artifacts/phase1/d4_generator.py",
+  "generator_sha256": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+  "model_definition": "artifacts/phase1/d4_train_fleet.py",
+  "model_definition_sha256": "22c61ee73a6fb1ea2c8f54d24a8597722e33ca7b562ef5b8ee74d42c38d7f897",
+  "checkpoint_registry": "config/phase1_checkpoint_registry.json",
+  "checkpoint_registry_sha256": "8824f1fdf2a6dc24977402b4426f18a0c037a8c3f900e64aaa0bf80499314194",
+  "environment_contract": "environment/phase1-washu-runtime.json",
+  "runtime_binary_inventory": "environment/phase1-washu-binary-inventory.json",
+  "runtime_binary_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a",
+  "requirements_lock": "environment/phase1-washu-requirements-lock.txt",
+  "cluster_wrapper": "cluster/phase1_confirmation.sbatch",
+  "cluster_launcher": "cluster/submit_phase1_confirmation.sh",
+  "independent_verifier": "src/pfn_dag_verify/phase1_confirmation_verify.py",
+  "independent_verifier_sha256": "2d4fcb8bd953624eaeb0898f95cf36ad3636ece563832e7de47d2b3f55ad86d7",
+  "require_clean_git": true,
+  "quadrature_interior_nodes": 32,
+  "quadrature_tail_nodes": 128,
+  "query_grid_chunk": 16,
+  "context_atom_batch": 250000,
+  "oracle_compute_dtype": "float64",
+  "probability_sum_atol": 1e-8,
+  "nested_half_atom_count": 1500000,
+  "nested_half_subset": {
+    "draw_index": 0,
+    "stream_index_stop_exclusive": 200
+  },
+  "pfn_batch_size": 64,
+  "pfn_replay_rows_per_stratum": 8,
+  "pfn_batch_logp_atol": 5e-5,
+  "pfn_combined_context_batch_logp_atol": 8e-5,
+  "pfn_replay_permutation_seeds": [1212240001, 1212240002],
+  "pfn_replay_probability_atol": 1e-6,
+  "pfn_replay_total_variation_atol": 3e-6,
+  "pfn_context_permutation_roll": 7,
+  "pfn_context_permutation_logp_atol": 3e-5,
+  "bootstrap": {
+    "replicates": 50000,
+    "master_seed": 881003900,
+    "bit_generator": "PCG64",
+    "child_seed_fields": [
+      "master_seed",
+      "prior_code",
+      "evaluation_seed",
+      "atom_seed"
+    ],
+    "chunk_size": 256,
+    "nested_half_namespace": 1212238918,
+    "quantile_method": "linear",
+    "index_stream_encoding": "little-endian-int64-c-order-v1"
+  },
+  "gates": {
+    "value_c_one_sided_quantile": 0.05,
+    "value_n_equivalence_lower": -1e-5,
+    "value_n_equivalence_upper": 1e-5,
+    "nested_half_causal_ablated_abs_max": 0.0005,
+    "nested_half_control_subtracted_ablated_abs_max": 0.0005,
+    "nested_half_full_abs_max": 0.0005,
+    "full_oracle_half_change_fraction_of_positive_gap_max": 0.2,
+    "kl_alarm_ci_upper_below": -0.004,
+    "primary_effect_floor": -0.008,
+    "qualified_topk_quadrature_clearance": 0.0005,
+    "primary_numerical_clearance": 0.001
+  }
+}

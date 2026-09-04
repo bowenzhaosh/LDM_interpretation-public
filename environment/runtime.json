@@ -1,0 +1,17 @@
+{
+  "backend": "cpu",
+  "deterministic_algorithms": true,
+  "implementation": "CPython",
+  "machine": "arm64",
+  "numpy": "1.26.4",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "processor": "arm",
+  "python": "3.11.7",
+  "scipy": "1.12.0",
+  "scikit-learn": "1.6.1",
+  "torch": "2.9.1",
+  "torch_float32_matmul_precision": "highest",
+  "torch_mha_fastpath_enabled": true,
+  "torch_num_interop_threads_locked": 1,
+  "torch_num_threads_locked": 1
+}

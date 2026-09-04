@@ -1,0 +1,571 @@
+{
+  "checkpoints": [
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s0_dose0.pt",
+      "filename": "M_base_AL40_s0_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s0_dose0.pt",
+      "seed": 0,
+      "sha256": "2bf39e12af86ec14248581eb2d952a32f076836320cb8405e4aa77097eaeaa45",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s0_dose12000.pt",
+      "filename": "M_base_AL40_s0_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s0_dose12000.pt",
+      "seed": 0,
+      "sha256": "272feae9b75297752380213a5203353d31ebc9aa27deb1cf7a1439487e881b5d",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s1_dose0.pt",
+      "filename": "M_base_AL40_s1_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s1_dose0.pt",
+      "seed": 1,
+      "sha256": "bca5978f568634e487e2e73a283abd654566f6f3d3dcdc6dcfdc9bfd56b3063a",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s1_dose12000.pt",
+      "filename": "M_base_AL40_s1_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s1_dose12000.pt",
+      "seed": 1,
+      "sha256": "599375c5faf0a8b8905150b626ff1aeeb1fc4cb156be1a9210c682a061cd57bd",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s2_dose0.pt",
+      "filename": "M_base_AL40_s2_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s2_dose0.pt",
+      "seed": 2,
+      "sha256": "5321aba555244df9a27224387c951e04b68492f911e599fa3e08bd104c936124",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s2_dose12000.pt",
+      "filename": "M_base_AL40_s2_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s2_dose12000.pt",
+      "seed": 2,
+      "sha256": "e4c22efb826e8d7aa1c6ed6d5b1b789ef2db8f45c7e0535df80359e21ff8b519",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s3_dose0.pt",
+      "filename": "M_base_AL40_s3_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s3_dose0.pt",
+      "seed": 3,
+      "sha256": "b253460f2dac927a4052ddeb04a5cfe5013c2cffa8687fc6cdc16d52bc0a18be",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s3_dose12000.pt",
+      "filename": "M_base_AL40_s3_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s3_dose12000.pt",
+      "seed": 3,
+      "sha256": "025fa61f19542264c46498c66814c55cf5fab51de4f851e6c3c67eff3abe112e",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s4_dose0.pt",
+      "filename": "M_base_AL40_s4_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s4_dose0.pt",
+      "seed": 4,
+      "sha256": "5d4f2214005bc7e79cab13772f4c614904ba386f08f457749cb04b19c56f64c5",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s4_dose12000.pt",
+      "filename": "M_base_AL40_s4_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s4_dose12000.pt",
+      "seed": 4,
+      "sha256": "2b7dfc71740129b9effed39440ef53e948a0b6c7fcaed9a836b800719a0449c2",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s5_dose0.pt",
+      "filename": "M_base_AL40_s5_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s5_dose0.pt",
+      "seed": 5,
+      "sha256": "8d6f0f77ad96822b7acef48b93c3cdbb34598bf363cf195c603151f5172f6065",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s5_dose12000.pt",
+      "filename": "M_base_AL40_s5_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s5_dose12000.pt",
+      "seed": 5,
+      "sha256": "339ab65281a3452e1b1a2be08313577fdde39d501dede2100355fad6337b87cf",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s6_dose0.pt",
+      "filename": "M_base_AL40_s6_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s6_dose0.pt",
+      "seed": 6,
+      "sha256": "54d33e1546ad77437a291a61831e69615cb08490278adf9463b4989115092fef",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s6_dose12000.pt",
+      "filename": "M_base_AL40_s6_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s6_dose12000.pt",
+      "seed": 6,
+      "sha256": "51a24643d7869681c41a154bf9b85920551691f4749807e4303c57dca8855e56",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s7_dose0.pt",
+      "filename": "M_base_AL40_s7_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s7_dose0.pt",
+      "seed": 7,
+      "sha256": "e9c27a19e9301442bae503af988170f77d39237b4a49706dd5a5c0e60f274e80",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s7_dose12000.pt",
+      "filename": "M_base_AL40_s7_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s7_dose12000.pt",
+      "seed": 7,
+      "sha256": "9c26a4bfe7f255826746e39bbc260f17f7439b8040cb0f103f79d5be9d4db04c",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s8_dose0.pt",
+      "filename": "M_base_AL40_s8_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s8_dose0.pt",
+      "seed": 8,
+      "sha256": "b6d3925b467245dc6672518141fcb4a93ff17ef9f03dc4016e53280efed4d213",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s8_dose12000.pt",
+      "filename": "M_base_AL40_s8_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s8_dose12000.pt",
+      "seed": 8,
+      "sha256": "3cfabd799b0452962554baf5e40499c213c572026448ffe9e133a010be2c5833",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s9_dose0.pt",
+      "filename": "M_base_AL40_s9_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s9_dose0.pt",
+      "seed": 9,
+      "sha256": "ddadf31780962d927100a963fff54c5364882caeceaba939c95b29ebec3e5809",
+      "size": 4337984,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s9_dose12000.pt",
+      "filename": "M_base_AL40_s9_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s9_dose12000.pt",
+      "seed": 9,
+      "sha256": "4fcab79daad42bde2e3f12b0bb03575cdbe031ef29c2e18dd1e60c674c45845e",
+      "size": 4338188,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s10_dose0.pt",
+      "filename": "M_base_AL40_s10_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s10_dose0.pt",
+      "seed": 10,
+      "sha256": "32e3e24112b881093db104e764a083d4ce7dcca3f93062f9e29e79f2628eb5d1",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s10_dose12000.pt",
+      "filename": "M_base_AL40_s10_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s10_dose12000.pt",
+      "seed": 10,
+      "sha256": "44b1f99bf0b8b74017d54390fbf8abdf2dc435fdc06f17a4b17ecb56f638bdb8",
+      "size": 4338223,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s11_dose0.pt",
+      "filename": "M_base_AL40_s11_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s11_dose0.pt",
+      "seed": 11,
+      "sha256": "890ea8f1d3e80bb1d47280534b6506d64fe79bf6a4de30652b29e89728c0bd18",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s11_dose12000.pt",
+      "filename": "M_base_AL40_s11_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s11_dose12000.pt",
+      "seed": 11,
+      "sha256": "178342938d1d59018cd1dc600ae6213f4540c95d86b4cdaa7b62e493cce2a84c",
+      "size": 4338223,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s12_dose0.pt",
+      "filename": "M_base_AL40_s12_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s12_dose0.pt",
+      "seed": 12,
+      "sha256": "2a0a38ba94ea57b60df8b3925cc012bd0e61588a4d648b1d08def7731e98ee5d",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s12_dose12000.pt",
+      "filename": "M_base_AL40_s12_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s12_dose12000.pt",
+      "seed": 12,
+      "sha256": "5295ec3c70121b994b90a669bafb05ed90973fa71835acaaad2db64733bd32b1",
+      "size": 4338223,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s13_dose0.pt",
+      "filename": "M_base_AL40_s13_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s13_dose0.pt",
+      "seed": 13,
+      "sha256": "321523e9b29cec47dbb2cc87eef4a1980ba048c517357072e331c58d355e11f0",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s13_dose12000.pt",
+      "filename": "M_base_AL40_s13_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s13_dose12000.pt",
+      "seed": 13,
+      "sha256": "23ce51903b8ecd45e95a2303b729d28314d2305be710647b72a5173a07d34ba5",
+      "size": 4338223,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s14_dose0.pt",
+      "filename": "M_base_AL40_s14_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s14_dose0.pt",
+      "seed": 14,
+      "sha256": "5cd3688b25e48c8febf80aaa9296aa7ab2c926dea4fb799612e6c0496c820416",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s14_dose12000.pt",
+      "filename": "M_base_AL40_s14_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s14_dose12000.pt",
+      "seed": 14,
+      "sha256": "e8a25dd95627266774b2bb26e67fbd41db421b2f3b2fbd0d575e1e98a9882bd2",
+      "size": 4338223,
+      "step": 12000
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s15_dose0.pt",
+      "filename": "M_base_AL40_s15_dose0.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s15_dose0.pt",
+      "seed": 15,
+      "sha256": "711a51782595f4315eecde013bbde5e5f794487d32daa1543eb8a3c9d167570e",
+      "size": 4338019,
+      "step": 0
+    },
+    {
+      "durable_uri": "repo://artifacts/checkpoints/M_base_AL40_s15_dose12000.pt",
+      "filename": "M_base_AL40_s15_dose12000.pt",
+      "path": "artifacts/checkpoints/M_base_AL40_s15_dose12000.pt",
+      "seed": 15,
+      "sha256": "abb3ab338608d6440d8608c3bb6d7dea35a6be4f62381ae9c8173e2a7e9e99db",
+      "size": 4338223,
+      "step": 12000
+    }
+  ],
+  "fleet": "base_AL40_dose",
+  "model_config": {
+    "d_ff": 512,
+    "d_model": 256,
+    "n_heads": 4,
+    "n_layers": 2
+  },
+  "original_sources": [
+    {
+      "durable_uri": "repo://artifacts/source_snapshots/e21_fleet.py",
+      "filename": "e21_fleet.py",
+      "path": "artifacts/source_snapshots/e21_fleet.py",
+      "sha256": "cf5de75322cb6e6be40c484ae10c5dcf472a1372957ba434a759ceb9a8b7d440",
+      "size": 8400
+    },
+    {
+      "durable_uri": "repo://artifacts/source_snapshots/experiment_v3bump.py",
+      "filename": "experiment_v3bump.py",
+      "path": "artifacts/source_snapshots/experiment_v3bump.py",
+      "sha256": "39e67396082382be711fcaedc894ab4e5d5a5caa7d00b9c2d6f98300c43201e9",
+      "size": 40110
+    },
+    {
+      "durable_uri": "repo://artifacts/source_snapshots/d5c_gate0.py",
+      "filename": "d5c_gate0.py",
+      "path": "artifacts/source_snapshots/d5c_gate0.py",
+      "sha256": "aac1034b1c44bd534a963aa46f4342096da1a3049ff044abc3747dcffacc908b",
+      "size": 7514
+    },
+    {
+      "durable_uri": "repo://artifacts/source_snapshots/d5c_analyze.py",
+      "filename": "d5c_analyze.py",
+      "path": "artifacts/source_snapshots/d5c_analyze.py",
+      "sha256": "573ccb96daae182f95a391d59efbcd7b9a191243acc58b59874c6af09da8e323",
+      "size": 15477
+    }
+  ],
+  "provenance_limit": "The files are content-addressed, but no immutable upstream release or complete training-stream ledger was available. Claims apply to these exact hashes.",
+  "schema_version": 1,
+  "state_schema": [
+    {
+      "dtype": "torch.float32",
+      "key": "point_embed.weight",
+      "shape": [
+        256,
+        2
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "point_embed.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "query_embed.weight",
+      "shape": [
+        256,
+        1
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "query_embed.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "token_embed.weight",
+      "shape": [
+        3,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.self_attn.in_proj_weight",
+      "shape": [
+        768,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.self_attn.in_proj_bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.self_attn.out_proj.weight",
+      "shape": [
+        256,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.self_attn.out_proj.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.linear1.weight",
+      "shape": [
+        512,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.linear1.bias",
+      "shape": [
+        512
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.linear2.weight",
+      "shape": [
+        256,
+        512
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.linear2.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.norm1.weight",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.norm1.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.norm2.weight",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.0.norm2.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.self_attn.in_proj_weight",
+      "shape": [
+        768,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.self_attn.in_proj_bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.self_attn.out_proj.weight",
+      "shape": [
+        256,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.self_attn.out_proj.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.linear1.weight",
+      "shape": [
+        512,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.linear1.bias",
+      "shape": [
+        512
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.linear2.weight",
+      "shape": [
+        256,
+        512
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.linear2.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.norm1.weight",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.norm1.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.norm2.weight",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "transformer.layers.1.norm2.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "out_head.weight",
+      "shape": [
+        100,
+        256
+      ]
+    },
+    {
+      "dtype": "torch.float32",
+      "key": "out_head.bias",
+      "shape": [
+        100
+      ]
+    }
+  ],
+  "training_config": {
+    "context_rows": 30,
+    "max_step": 12000,
+    "peak_learning_rate": 0.001,
+    "prior": "AL40",
+    "query_rows": 7,
+    "training_data": "online synthetic Fix-B AL40 generator; exact stream lineage unavailable",
+    "warmup_steps": 800
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scope": "macOS arm64 local scientific runtime",
+  "python_executable": {
+    "sha256": "d7ebf5e0d329a2fd9d4988ea2b79950eaf258158ddc899e09e22f92af6367eff",
+    "size": 33816,
+    "version": "3.11.7"
+  },
+  "distributions": {
+    "numpy": {
+      "record_sha256": "015917d522179dbd0a4a71170187dc6e3022131fe0751be367bc5dcb2caef98b",
+      "record_size": 115347,
+      "payload_files": 917,
+      "payload_bytes": 46397383,
+      "payload_tree_sha256": "b8477b6b09f24ca1c676a4f0d09f79e5cdc6ccaf2ab34aaf96e87192178b58fe",
+      "version": "1.26.4"
+    },
+    "scipy": {
+      "record_sha256": "b7499bfe419a29c973f00d702f614e32052a847e2ea1f8ccac6153a125c28249",
+      "record_size": 177183,
+      "payload_files": 1310,
+      "payload_bytes": 97194125,
+      "payload_tree_sha256": "33bb1db6ba3823375311cd922121f7d5362ffab4a07d1dbf9ed8d7c5e00c8d7f",
+      "version": "1.12.0"
+    },
+    "scikit-learn": {
+      "record_sha256": "73f98b892fcb47f5117ef7771496f31e27b9ff4688577a2cbbb5aa45700b949f",
+      "record_size": 127679,
+      "payload_files": 895,
+      "payload_bytes": 36169411,
+      "payload_tree_sha256": "5e65cd5851e869928aa502c36715537bf24dc9a2e9786502761d33c640962543",
+      "version": "1.6.1"
+    },
+    "torch": {
+      "record_sha256": "55a44e20037c4c989bc8709667f26387277279ea9872a1b42d028872a238a81c",
+      "record_size": 1438966,
+      "payload_files": 12095,
+      "payload_bytes": 328972769,
+      "payload_tree_sha256": "feb57ae6c96e01ae98e72ff0f4e5ea4f24e50c28d9f66e81332789ca0c0e8bca",
+      "version": "2.9.1"
+    }
+  },
+  "portability_limit": "This fingerprints the installed local runtime. It is not a cross-platform wheel lock or container digest."
+}

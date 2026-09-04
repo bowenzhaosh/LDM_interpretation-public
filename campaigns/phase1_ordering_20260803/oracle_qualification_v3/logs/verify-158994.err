@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/engrfs/project/class/zhao.b/conda_envs/tidpo/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/engrfs/project/class/zhao.b/conda_envs/tidpo/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 1009, in <module>
+    raise SystemExit(main())
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 993, in main
+    result = verify_qualification(
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 722, in verify_qualification
+    verified = [
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 723, in <listcomp>
+    _verify_shard(
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 391, in _verify_shard
+    _verify_source_inventory(
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 197, in _verify_source_inventory
+    relative_inventory = {
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 198, in <dictcomp>
+    _relative_source_path(str(absolute)): expected
+  File "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_qualification_verify.py", line 182, in _relative_source_path
+    raise RuntimeError(f"source inventory path lacks checkout root: {absolute}")
+RuntimeError: source inventory path lacks checkout root: /engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_PREREG.md

@@ -1,0 +1,17 @@
+{
+  "amendment": "AMENDMENT_F.md",
+  "sha256": "3d0e0f0af86c99601be8d99b34f778073fdd5fee9d8ef2b9a547cfe0eb8d8f98",
+  "git_head": "b05e32093d93545b3d54c4ae66a4755595348e44",
+  "code_state": {
+    "src/pfn_dag_verify/corrected_verdict.py": "c47dd3be482342ff3d02ea8ff0ac3c86f04f7faca55feebbe76fd9074aa0c14d",
+    "src/pfn_dag_verify/corrected_oracle.py": "0f1f8bf8377e20302c216dfb137c57b2ea45f33a7326d9eb3180f048d5393e3c",
+    "src/pfn_dag_verify/corrected_models.py": "d29e0325dff89bf50484bf73dda8b9a4139c2bad65dce07524c51baa44e5b9d9",
+    "src/pfn_dag_verify/corrected_sem.py": "424ed0a34e0683451c6b80773d4400f70d36605cd66cb7bec1ca16811b194668",
+    "src/pfn_dag_verify/split_panel.py": "b0232ba8843d1e195e36ad9adb1be53cde7578e8f266a64056eb55d1b098b7dc",
+    "src/pfn_dag_verify/artifact_status.py": "18ec46c98d907cd39249111d717d8e64f2100fbacfdc62105f106192743ed200",
+    "src/pfn_dag_verify/corrected_deficit_run.py": "3340be106a797c46a91e0b66f4519b98a43712b93e0e42fbb09032b35f7cdedb",
+    "src/pfn_dag_verify/corrected_identifiability_run.py": "293a1f87a8493b40f4aecaa8f02d8eadd43d7fefcb1cc6c2640f8bbb4907ad98",
+    "src/pfn_dag_verify/w2_run.py": "160d892215f1ef1f8f8b29f96037b0378482602febaba5dcba21dee2237a5167"
+  },
+  "n_lines": 1037
+}

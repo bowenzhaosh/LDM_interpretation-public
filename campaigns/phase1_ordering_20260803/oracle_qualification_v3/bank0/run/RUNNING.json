@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "config_sha256": "da285b59962b6b0e8e99f0574b974c210db9b5d464d8a29c601de1c2e301648e",
+    "execution_contract": {
+      "cublas_workspace_config": ":4096:8",
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "deterministic_algorithms": true,
+      "device_request": "cuda",
+      "float32_matmul_precision": "highest",
+      "gpu_capability": [
+        8,
+        0
+      ],
+      "gpu_name": "NVIDIA A100 80GB PCIe",
+      "mkl_num_threads": "8",
+      "omp_num_threads": "8",
+      "openblas_num_threads": "1",
+      "pythonhashseed": "0",
+      "runtime_binary_fingerprint": "44394126ccf9b4d75eec6d1c3d691f0ab34fbbd50c579deed3abdcb06296636a"
+    },
+    "fleet_sha256": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+    "git_commit": "fc0b8eb48c75f7c0d1dc208b1d344d663b16baf3",
+    "source_inventory": {
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_PREREG.md": "ad72aab76ef12d0ac8e6a4cd738b162bb9d9898cfd118e206b611c1bd033b1ef",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/PHASE1_ORDERING_QUALIFICATION_V3_PREREG.md": "3db5b21de35794e24570b6b55c75092dec1f97db89d51d31148f4ccf04d9e30e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/artifacts/phase1/d4_generator.py": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/cluster/phase1_calibration.sbatch": "ab7d5f5d7b324022f6992d3452df4aefadd3a30de48e761aa9963a7365f7aec8",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/config/phase1_ordering_qualification_v3_bank0.json": "da285b59962b6b0e8e99f0574b974c210db9b5d464d8a29c601de1c2e301648e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-binary-inventory.json": "1639a50198879f977d5715d9e6a29c8655a1d4b37c0e8c11af12160f606e60bf",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-requirements-lock.txt": "c451620bcd8c88376bb0035519d7b1b3ce4c91437c7e6f9e7cc8c5e351cf00e0",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/environment/phase1-washu-runtime.json": "7f65b8153deda4002b50665789b2a8523903f52bc8e7c8346668442b69799d4e",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/phase1_ordering.py": "d298e0b52285a95ae8771eb8f7fecb55501ac0893b70ba4a9ee84a27b7f6f933",
+      "/engrfs/project/class/zhao.b/LDM_interpretation_phase1_qv3_fc0b8eb/src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+    }
+  },
+  "identity_sha256": "588258ddb4e0e18c264d2aa157a2d25da58ff49634129c904423867119e022d1"
+}

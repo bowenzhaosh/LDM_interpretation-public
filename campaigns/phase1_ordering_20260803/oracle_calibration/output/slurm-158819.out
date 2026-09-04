@@ -1,0 +1,315 @@
+No broken requirements found.
+{
+  "atom_build_seconds": 231.18789148330688,
+  "atom_count": 3000000,
+  "atom_seed": 880803101,
+  "attempt_identity_sha256": "710def4e47183334d43c5a25137007f9d3717421d767767e622f7178dbed3a29",
+  "calibration_seed_namespace": "phase1-ordering-calibration-v1",
+  "calibration_stream_seeds": {
+    "C": 880803000,
+    "N": 880813000
+  },
+  "candidate_results": [
+    {
+      "compared_with": 32768,
+      "pass_all_priors": true,
+      "priors": {
+        "C": {
+          "ablated": {
+            "borderline": false,
+            "median_abs_logp_change": 6.528459161714295e-06,
+            "median_js": 1.9168089742800124e-10,
+            "p95_abs_logp_change": 0.0007140330268447625,
+            "p95_js": 2.970044246451974e-07,
+            "pass": true
+          },
+          "full": {
+            "borderline": false,
+            "median_abs_logp_change": 7.72571476570505e-07,
+            "median_js": 1.236458432384288e-12,
+            "p95_abs_logp_change": 0.00012158105127745287,
+            "p95_js": 3.4459439513705804e-08,
+            "pass": true
+          },
+          "pass": true
+        },
+        "N": {
+          "ablated": {
+            "borderline": false,
+            "median_abs_logp_change": 0.00013353514791369925,
+            "median_js": 7.23697136009356e-08,
+            "p95_abs_logp_change": 0.0017885293936588773,
+            "p95_js": 2.2280336288059558e-06,
+            "pass": true
+          },
+          "full": {
+            "borderline": false,
+            "median_abs_logp_change": 0.00013353514791702992,
+            "median_js": 7.236971354175361e-08,
+            "p95_abs_logp_change": 0.0017885293936601209,
+            "p95_js": 2.228033628809209e-06,
+            "pass": true
+          },
+          "pass": true
+        }
+      },
+      "truncation": 8192
+    },
+    {
+      "compared_with": 32768,
+      "pass_all_priors": true,
+      "priors": {
+        "C": {
+          "ablated": {
+            "borderline": false,
+            "median_abs_logp_change": 2.931531692951239e-07,
+            "median_js": 7.862312498380522e-13,
+            "p95_abs_logp_change": 0.00012885767822568006,
+            "p95_js": 1.1095719470242985e-08,
+            "pass": true
+          },
+          "full": {
+            "borderline": false,
+            "median_abs_logp_change": 2.3372959345735467e-08,
+            "median_js": 3.4325998485959785e-15,
+            "p95_abs_logp_change": 1.5019817029782164e-05,
+            "p95_js": 8.468601786986496e-10,
+            "pass": true
+          },
+          "pass": true
+        },
+        "N": {
+          "ablated": {
+            "borderline": false,
+            "median_abs_logp_change": 1.4267856137450963e-05,
+            "median_js": 1.6208151567138603e-09,
+            "p95_abs_logp_change": 0.0003032234322497551,
+            "p95_js": 1.9923501469330652e-07,
+            "pass": true
+          },
+          "full": {
+            "borderline": false,
+            "median_abs_logp_change": 1.4267856139005275e-05,
+            "median_js": 1.6208152215938858e-09,
+            "p95_abs_logp_change": 0.00030322343224635783,
+            "p95_js": 1.992350147138601e-07,
+            "pass": true
+          },
+          "pass": true
+        }
+      },
+      "truncation": 16384
+    }
+  ],
+  "completion_state": "INCOMPLETE_WITHOUT_VERIFIED_COMPLETE_MARKER",
+  "config_name": "phase1_ordering_calibration.json",
+  "config_sha256": "045fab7b96e5318da067389ff08478ce8b442b84fad9379ca08b27e79ead354c",
+  "cuda_peak_allocated_bytes": 7595706880,
+  "decision": "CALIBRATION_PASS",
+  "device": "cuda",
+  "diagnostics": {
+    "C": {
+      "mean_keep_ablated_by_level": [
+        0.9983655428239668,
+        0.9995897251900991,
+        0.9999317233062792
+      ],
+      "mean_keep_full_by_level": [
+        0.9997080434855937,
+        0.9999578478186616,
+        0.9999968396241126
+      ],
+      "median_ess_ablated_atoms": 108.27182480742036,
+      "median_ess_full_atoms": 18.741549387516326
+    },
+    "N": {
+      "mean_keep_ablated_by_level": [
+        0.992832102177747,
+        0.9985264194282444,
+        0.9998271705423898
+      ],
+      "mean_keep_full_by_level": [
+        0.9928321021777471,
+        0.9985264194282444,
+        0.9998271705423899
+      ],
+      "median_ess_ablated_atoms": 201.39184240594676,
+      "median_ess_full_atoms": 201.3918424059441
+    }
+  },
+  "environment": {
+    "cublas_workspace_config": ":4096:8",
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "deterministic_algorithms": true,
+    "environment_contract_name": "phase1-washu-runtime.json",
+    "environment_contract_sha256": "875e222b4c2ce45345fce6552ae1e3c829b594964d9ae5bd572ab89d03e28e5b",
+    "execution_contract": {
+      "cublas_workspace_config": ":4096:8",
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "deterministic_algorithms": true,
+      "device_request": "cuda",
+      "float32_matmul_precision": "highest",
+      "gpu_capability": [
+        8,
+        0
+      ],
+      "gpu_name": "NVIDIA A100 80GB PCIe",
+      "mkl_num_threads": "8",
+      "omp_num_threads": "8",
+      "pythonhashseed": "0",
+      "runtime_binary_fingerprint": "d26655007a935424b7a7214bb16ee28c3e7717a17dbd1e8614b66374b720237b"
+    },
+    "gpu": "NVIDIA A100 80GB PCIe",
+    "installed_distributions": {
+      "GitPython": "3.1.50",
+      "Jinja2": "3.1.6",
+      "Markdown": "3.10.2",
+      "MarkupSafe": "3.0.3",
+      "PyYAML": "6.0.3",
+      "Werkzeug": "3.1.8",
+      "absl-py": "2.4.0",
+      "accelerate": "1.13.0",
+      "aiohappyeyeballs": "2.6.2",
+      "aiohttp": "3.14.0",
+      "aiosignal": "1.4.0",
+      "annotated-types": "0.7.0",
+      "antlr4-python3-runtime": "4.9.3",
+      "async-timeout": "5.0.1",
+      "attrs": "26.1.0",
+      "beautifulsoup4": "4.14.3",
+      "certifi": "2026.5.20",
+      "charset-normalizer": "3.4.7",
+      "click": "8.4.1",
+      "datasets": "2.20.0",
+      "dill": "0.3.8",
+      "filelock": "3.29.0",
+      "frozenlist": "1.8.0",
+      "fsspec": "2024.5.0",
+      "gitdb": "4.0.12",
+      "grpcio": "1.81.0",
+      "hf-xet": "1.5.0",
+      "huggingface_hub": "0.36.2",
+      "hydra-core": "1.3.2",
+      "idna": "3.18",
+      "joblib": "1.5.3",
+      "mpmath": "1.3.0",
+      "multidict": "6.7.1",
+      "multiprocess": "0.70.16",
+      "networkx": "3.4.2",
+      "numpy": "2.2.6",
+      "nvidia-cublas-cu12": "12.1.3.1",
+      "nvidia-cuda-cupti-cu12": "12.1.105",
+      "nvidia-cuda-nvrtc-cu12": "12.1.105",
+      "nvidia-cuda-runtime-cu12": "12.1.105",
+      "nvidia-cudnn-cu12": "9.1.0.70",
+      "nvidia-cufft-cu12": "11.0.2.54",
+      "nvidia-curand-cu12": "10.3.2.106",
+      "nvidia-cusolver-cu12": "11.4.5.107",
+      "nvidia-cusparse-cu12": "12.1.0.106",
+      "nvidia-nccl-cu12": "2.20.5",
+      "nvidia-nvjitlink-cu12": "12.9.86",
+      "nvidia-nvtx-cu12": "12.1.105",
+      "omegaconf": "2.3.0",
+      "packaging": "26.2",
+      "pandas": "2.3.3",
+      "pillow": "12.2.0",
+      "pip": "26.1.2",
+      "platformdirs": "4.10.0",
+      "propcache": "0.5.2",
+      "protobuf": "7.35.0",
+      "psutil": "7.2.2",
+      "pyarrow": "24.0.0",
+      "pyarrow-hotfix": "0.7",
+      "pydantic": "2.13.4",
+      "pydantic_core": "2.46.4",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.2",
+      "regex": "2026.5.9",
+      "requests": "2.34.2",
+      "safetensors": "0.7.0",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.15.3",
+      "sentencepiece": "0.2.1",
+      "sentry-sdk": "2.61.1",
+      "setuptools": "82.0.1",
+      "six": "1.17.0",
+      "smmap": "5.0.3",
+      "soupsieve": "2.8.4",
+      "sympy": "1.14.0",
+      "tensor-parallel": "2.0.0",
+      "tensorboard": "2.20.0",
+      "tensorboard-data-server": "0.7.2",
+      "threadpoolctl": "3.6.0",
+      "tokenizers": "0.19.1",
+      "torch": "2.4.0+cu121",
+      "tqdm": "4.68.1",
+      "transformers": "4.44.0",
+      "triton": "3.0.0",
+      "typing-inspection": "0.4.2",
+      "typing_extensions": "4.15.0",
+      "tzdata": "2026.2",
+      "urllib3": "2.7.0",
+      "wandb": "0.27.2",
+      "wheel": "0.47.0",
+      "xxhash": "3.7.0",
+      "yarl": "1.24.2"
+    },
+    "mkl_num_threads": "8",
+    "numpy": "2.2.6",
+    "omp_num_threads": "8",
+    "platform": "Linux-5.14.0-687.30.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+    "python_executable": "/engrfs/project/class/zhao.b/conda_envs/tidpo/bin/python",
+    "runtime_binary_fingerprint": "d26655007a935424b7a7214bb16ee28c3e7717a17dbd1e8614b66374b720237b",
+    "torch": "2.4.0+cu121",
+    "torch_config": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2022.2-Product Build 20220804 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.4.2 (Git Hash 1137e04ec0b5251ca2b4400a4fd3c667ce843d67)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - CUDA Runtime 12.1\n  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90\n  - CuDNN 90.1  (built against CUDA 12.4)\n  - Magma 2.6.1\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=12.1, CUDNN_VERSION=9.1.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=pedantic -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=2.4.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n"
+  },
+  "fleet_name": "d4_generator.py",
+  "fleet_sha256": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+  "git": {
+    "commit": "e679e74930fc990dc834e0a03aec0a10b582a862",
+    "dirty": false,
+    "status": []
+  },
+  "memory_preflight": {
+    "device_total_bytes": 85119205376,
+    "estimated_fraction": 0.10366543090976706,
+    "estimated_peak_bytes": 8823919104
+  },
+  "oracle_build_seconds": 77.17341661453247,
+  "prior_index_to_name": {
+    "0": "C",
+    "1": "N"
+  },
+  "raw_name": "calibration_raw.npz",
+  "raw_sha256": "31d17f2b38f423dab025a4b99b15c00214ab9a06928896a72996037ee6f2c720",
+  "reserved_confirmatory_seeds": [
+    881003000,
+    881003101,
+    881003102,
+    881003103
+  ],
+  "schema_version": 1,
+  "scientific_endpoints_computed": false,
+  "selected_truncation": 8192,
+  "source_inventory": {
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/PHASE1_ORDERING_PREREG.md": "9e20e537fe633a42d70c9dff12e93687c5d1e1f59ba119a56cc40ec225636af3",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/artifacts/phase1/d4_generator.py": "1aa7652cad924c90f871309f860b9172e836898c5a1620c77fdd3196e70d291d",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/cluster/phase1_calibration.sbatch": "c43d74ea8646c6f0b3eba01b05f03a06c10b2f547a979dbfedf25552fe9fb607",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/config/phase1_ordering_calibration.json": "045fab7b96e5318da067389ff08478ce8b442b84fad9379ca08b27e79ead354c",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/environment/phase1-washu-binary-inventory.json": "682cae3f6688bf04cb3a35a4e9b1ab19f4539d1ca7ed4d371a71b95c427d4d8d",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/environment/phase1-washu-requirements-lock.txt": "c451620bcd8c88376bb0035519d7b1b3ce4c91437c7e6f9e7cc8c5e351cf00e0",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/environment/phase1-washu-runtime.json": "875e222b4c2ce45345fce6552ae1e3c829b594964d9ae5bd572ab89d03e28e5b",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/src/pfn_dag_verify/phase1_ordering.py": "c2fd030ce2e947eaa974267822c29529ed838a1fcb01885f194bd0bc35c105bd",
+    "/engrfs/project/class/zhao.b/pfn-dag-e18b/phase1_verify/calibration-e679e74/source/src/pfn_dag_verify/storage.py": "18c8cd094c50a71a9f55d85bc49c83fd6d002092a52f50c4849a9a4e5e10ce0c"
+  },
+  "stage": "phase1_ordering_calibration",
+  "truncation_levels": [
+    8192,
+    16384,
+    32768
+  ],
+  "wall_seconds": 407.8298325538635
+}

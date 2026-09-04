@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "prediction_raw.npz": {
+      "bytes": 173767,
+      "sha256": "8c0460e822e5c6725d82a55098abc2158354f6d126802c843246ba1e623118a6"
+    },
+    "prediction_summary.json": {
+      "bytes": 1074,
+      "sha256": "b2f8a122a2957193eb417a9ddd79a6d39a008b03974059dc5668fb6aa59a16a3"
+    }
+  },
+  "identity_sha256": "ec282fc468de2f42f01dc11c4b6733a5d926796a5929e96e549f52fcfa9c91b8",
+  "identity_tuple": [
+    "N",
+    2,
+    60000,
+    2,
+    2
+  ]
+}

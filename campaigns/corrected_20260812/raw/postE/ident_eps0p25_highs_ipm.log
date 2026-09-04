@@ -1,0 +1,8 @@
+/Users/bowenzhao/LDM_interpretation/src/pfn_dag_verify/corrected_identifiability.py:296: OptimizeWarning: Unrecognized options detected: {'crossover': 'off'}. These will be passed to HiGHS verbatim.
+  res_min = linprog(c, A_ub=np.array(A_ub), b_ub=np.array(b_ub),
+/Users/bowenzhao/LDM_interpretation/src/pfn_dag_verify/corrected_identifiability.py:302: OptimizeWarning: Unrecognized options detected: {'crossover': 'off'}. These will be passed to HiGHS verbatim.
+  res_max = linprog(-c, A_ub=np.array(A_ub), b_ub=np.array(b_ub),
+{
+  "done": true,
+  "out": "campaigns/corrected_20260812/raw/postE/ident_eps0p25_highs_ipm.json"
+}

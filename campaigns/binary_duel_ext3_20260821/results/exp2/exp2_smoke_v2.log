@@ -1,0 +1,4 @@
+evidence_core loaded: 3097 accepted grid points, faithfulness=True
+[0] eval_seed=201 starting
+  saved /Users/bowenzhao/pfn-dag/experiments/binary-duel/results/exp2/exp2_AL40_base_s0_dose12000.json
+all seeds done in 5.9s

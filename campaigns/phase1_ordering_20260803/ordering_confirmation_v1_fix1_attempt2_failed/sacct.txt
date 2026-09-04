@@ -1,0 +1,18 @@
+# collected_at_utc=2026-08-03T21:04:59Z
+# source_host=ssh-shell-2.engr.wustl.edu
+# slurm_timezone=CDT (UTC-05:00)
+# query=sacct -X -j 160020,160021,160022,160023,160024,160025,160026,160027,160028,160030,160038,160040,160041 --format=JobIDRaw,JobName,State,ExitCode,Elapsed,Start,End,NodeList,ReqTRES,MaxRSS -P -n
+JobIDRaw|JobName|State|ExitCode|Elapsed|Start|End|NodeList|ReqTRES
+160020|p1-panel|COMPLETED|0:0|00:01:13|2026-08-03T15:01:51|2026-08-03T15:03:04|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160021|p1-pfn|FAILED|1:0|00:00:45|2026-08-03T15:03:05|2026-08-03T15:03:50|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160022|p1-oracle0|CANCELLED by 2089865|0:0|00:02:39|2026-08-03T15:03:05|2026-08-03T15:05:44|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160023|p1-oracle1|CANCELLED by 2089865|0:0|00:02:39|2026-08-03T15:03:05|2026-08-03T15:05:44|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160024|p1-oracle2|CANCELLED by 2089865|0:0|00:01:54|2026-08-03T15:03:50|2026-08-03T15:05:44|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160025|p1-join|CANCELLED|0:0|00:00:00|None|2026-08-03T15:03:50|None assigned|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160026|p1-verify|CANCELLED|0:0|00:00:00|None|2026-08-03T15:03:50|None assigned|billing=2,cpu=2,mem=16G,node=1
+160027|p1-replay-debug|FAILED|2:0|00:00:00|2026-08-03T15:08:26|2026-08-03T15:08:26|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160028|p1-replay-debug|COMPLETED|0:0|00:00:07|2026-08-03T15:10:52|2026-08-03T15:10:59|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160030|p1-replay-sweep|COMPLETED|0:0|00:00:10|2026-08-03T15:14:04|2026-08-03T15:14:14|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160038|p1-replay-sweep|COMPLETED|0:0|00:00:38|2026-08-03T15:28:29|2026-08-03T15:29:07|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160040|p1-replay-sweep|COMPLETED|0:0|00:00:38|2026-08-03T15:30:29|2026-08-03T15:31:07|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1
+160041|p1-replay-sweep|COMPLETED|0:0|00:01:19|2026-08-03T15:33:00|2026-08-03T15:34:19|a100-2207|billing=8,cpu=8,gres/gpu:a100=1,gres/gpu=1,mem=64G,node=1

@@ -1,0 +1,1787 @@
+{
+  "amendment": "G",
+  "argv": [
+    "scripts/mech_gates.py",
+    "--fleet",
+    "campaigns/mech_20260827/predgain_confirm",
+    "--grid",
+    "campaigns/mech_20260827/predgain_confirm",
+    "--select",
+    "campaigns/mech_20260827/predgain_select",
+    "--n40",
+    "campaigns/mech_20260827/predgain_confirm_n40/base_n40_lr0.001_d500000",
+    "--readout",
+    "campaigns/mech_20260827/confirm/phase1",
+    "--seeds",
+    "3",
+    "4",
+    "5",
+    "--eps",
+    "0.5",
+    "0.75",
+    "1.0",
+    "--steps",
+    "100000",
+    "500000",
+    "--alpha",
+    "0.01",
+    "--readout-step",
+    "500000",
+    "--out",
+    "campaigns/mech_20260827/confirm/AMENDMENT_G_VERDICT.json"
+  ],
+  "registered_panel": {
+    "panel_seed": 770000101,
+    "split_seed": 880000101,
+    "n_per_half": 1000
+  },
+  "selection_panel": {
+    "panel_seed": 770000201,
+    "split_seed": 880000201,
+    "n_per_half": 500
+  },
+  "lr_grid": [
+    0.003,
+    0.001,
+    0.0003,
+    0.0001
+  ],
+  "registered_lr": 0.001,
+  "alpha": 0.01,
+  "se_max": 0.15,
+  "n_boot": 2000,
+  "boot_seed": 20260830,
+  "seeds": [
+    3,
+    4,
+    5
+  ],
+  "eps": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "steps": [
+    100000,
+    500000
+  ],
+  "readout_step": 500000,
+  "primary_unit": "per-context mean over seeds (decision-B convention); per-seed sign agreement required",
+  "conjunction_rule": "Kleene strong: FAIL > NOT_EVALUABLE > PASS",
+  "selection_table": [
+    {
+      "gate": "G5a",
+      "arch": "base",
+      "dose": 500000,
+      "eps": 0.75,
+      "lr": 0.001,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.003_d500000",
+          "scale": "base_lr0.003",
+          "regret_mean": 0.034173541609433374,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.001_d500000",
+          "scale": "base",
+          "regret_mean": 0.017264082728191903,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0003_d500000",
+          "scale": "base_lr0.0003",
+          "regret_mean": 0.018030095659117687,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0001_d500000",
+          "scale": "base_lr0.0001",
+          "regret_mean": 0.02505111550964817,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    },
+    {
+      "gate": "G5a",
+      "arch": "large",
+      "dose": 500000,
+      "eps": 0.75,
+      "lr": 0.0003,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.003_d500000",
+          "scale": "large_lr0.003",
+          "regret_mean": 0.5053567604278176,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.001_d500000",
+          "scale": "large",
+          "regret_mean": 0.05276930266244028,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0003_d500000",
+          "scale": "large_lr0.0003",
+          "regret_mean": 0.007506074776095839,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0001_d500000",
+          "scale": "large_lr0.0001",
+          "regret_mean": 0.008529468054762937,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    },
+    {
+      "gate": "G5b",
+      "arch": "base",
+      "dose": 500000,
+      "eps": 1.0,
+      "lr": 0.001,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.003_d500000",
+          "scale": "base_lr0.003",
+          "regret_mean": 0.026679906886407388,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.001_d500000",
+          "scale": "base",
+          "regret_mean": 0.02311197585091956,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0003_d500000",
+          "scale": "base_lr0.0003",
+          "regret_mean": 0.024922183781480804,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0001_d500000",
+          "scale": "base_lr0.0001",
+          "regret_mean": 0.03370392434670221,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    },
+    {
+      "gate": "G5b",
+      "arch": "large",
+      "dose": 500000,
+      "eps": 1.0,
+      "lr": 0.0003,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.003_d500000",
+          "scale": "large_lr0.003",
+          "regret_mean": 0.5753249094718146,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.001_d500000",
+          "scale": "large",
+          "regret_mean": 0.07726737170694734,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0003_d500000",
+          "scale": "large_lr0.0003",
+          "regret_mean": 0.006800197300541215,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0001_d500000",
+          "scale": "large_lr0.0001",
+          "regret_mean": 0.008237531104648458,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    },
+    {
+      "gate": "G6",
+      "arch": "base",
+      "dose": 2000000,
+      "eps": 0.75,
+      "lr": 0.0003,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.003_d2000000",
+          "scale": "base_lr0.003",
+          "regret_mean": 0.046237942909702956,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.001_d2000000",
+          "scale": "base",
+          "regret_mean": 0.013310955247837524,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0003_d2000000",
+          "scale": "base_lr0.0003",
+          "regret_mean": 0.012566581595541694,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/base_lr0.0001_d2000000",
+          "scale": "base_lr0.0001",
+          "regret_mean": 0.016181689238177196,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    },
+    {
+      "gate": "G6",
+      "arch": "large",
+      "dose": 500000,
+      "eps": 0.75,
+      "lr": 0.0003,
+      "selection_statistic": "mean over contexts of seed-averaged regret_i, selection panel",
+      "n_tied": 1,
+      "table": [
+        {
+          "lr": 0.003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.003_d500000",
+          "scale": "large_lr0.003",
+          "regret_mean": 0.5053567604278176,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.001_d500000",
+          "scale": "large",
+          "regret_mean": 0.05276930266244028,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0003,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0003_d500000",
+          "scale": "large_lr0.0003",
+          "regret_mean": 0.007506074776095839,
+          "diverged": false,
+          "n_ctx": 500
+        },
+        {
+          "lr": 0.0001,
+          "dir": "campaigns/mech_20260827/predgain_select/large_lr0.0001_d500000",
+          "scale": "large_lr0.0001",
+          "regret_mean": 0.008529468054762937,
+          "diverged": false,
+          "n_ctx": 500
+        }
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "eps": 0.5,
+      "step": 100000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.8401563159800493,
+      "a": 0.004005518069922743,
+      "se_b": 0.045207741203168623,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.017703598707231243,
+      "eta_order_summary": -0.08583024609636647,
+      "r_regret_G": 0.7899489134403008
+    },
+    {
+      "eps": 0.5,
+      "step": 100000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.8614950127916694,
+      "a": 0.004352893911113473,
+      "se_b": 0.04489742706369635,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.01839888503134167,
+      "eta_order_summary": -0.12847484807256726,
+      "r_regret_G": 0.7633938939849776
+    },
+    {
+      "eps": 0.5,
+      "step": 100000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.8380317389247921,
+      "a": 0.003862067475793124,
+      "se_b": 0.049431600771126585,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.01752550857368551,
+      "eta_order_summary": -0.0749072887511848,
+      "r_regret_G": 0.7784138128349869
+    },
+    {
+      "eps": 0.5,
+      "step": 100000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.820942196223686,
+      "a": 0.0038015928228616294,
+      "se_b": 0.0479158218385779,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.01718640251666654,
+      "eta_order_summary": -0.05410860146534624,
+      "r_regret_G": 0.7383822380659799
+    },
+    {
+      "eps": 0.5,
+      "step": 500000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.5515095999553471,
+      "a": 0.0019206032789366768,
+      "se_b": 0.038673434958396966,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.010912528744170568,
+      "eta_order_summary": 0.3306923655597507,
+      "r_regret_G": 0.6900145306528224
+    },
+    {
+      "eps": 0.5,
+      "step": 500000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.5167623234126876,
+      "a": 0.002191685564944633,
+      "se_b": 0.03259423679994277,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.010617084317285837,
+      "eta_order_summary": 0.34881311603863563,
+      "r_regret_G": 0.6505540830145017
+    },
+    {
+      "eps": 0.5,
+      "step": 500000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.5636675839981271,
+      "a": 0.00190114537658431,
+      "se_b": 0.04145585413239644,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.011091297103571457,
+      "eta_order_summary": 0.3197278099972015,
+      "r_regret_G": 0.6732297578874312
+    },
+    {
+      "eps": 0.5,
+      "step": 500000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.574098892455227,
+      "a": 0.0016689788952811088,
+      "se_b": 0.04557704546861071,
+      "evaluable": true,
+      "G_order_mean": 0.016304204797091337,
+      "regret_mean": 0.01102920481165444,
+      "eta_order_summary": 0.323536170643413,
+      "r_regret_G": 0.661617700819413
+    },
+    {
+      "eps": 0.75,
+      "step": 100000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.604153329405147,
+      "a": 0.003112080329637688,
+      "se_b": 0.03062688416594008,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.03052918229066617,
+      "eta_order_summary": 0.3272699955254227,
+      "r_regret_G": 0.6652510220804564
+    },
+    {
+      "eps": 0.75,
+      "step": 100000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.581278939154455,
+      "a": 0.004497067176986133,
+      "se_b": 0.03811267454040799,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.030876105687438128,
+      "eta_order_summary": 0.31962531719631826,
+      "r_regret_G": 0.6356749483613852
+    },
+    {
+      "eps": 0.75,
+      "step": 100000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.6279582711602608,
+      "a": 0.002056389306328684,
+      "se_b": 0.03258523643393886,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.030553784106128596,
+      "eta_order_summary": 0.32672787882971344,
+      "r_regret_G": 0.6300032238157346
+    },
+    {
+      "eps": 0.75,
+      "step": 100000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.6032227779007252,
+      "a": 0.0027827845055982594,
+      "se_b": 0.038189525461336235,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.030157657078431783,
+      "eta_order_summary": 0.33545679055023647,
+      "r_regret_G": 0.6473621522384547
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.42242251425200816,
+      "a": 0.001362977037129251,
+      "se_b": 0.033168896036915044,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.020532946944080897,
+      "eta_order_summary": 0.5475434173750879,
+      "r_regret_G": 0.5754279378827738
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.420837059307855,
+      "a": 0.0016303309001231838,
+      "se_b": 0.031000609031231155,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.020728351224505663,
+      "eta_order_summary": 0.5432375594194789,
+      "r_regret_G": 0.5412656750521403
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.43638837737796776,
+      "a": 0.0009577315394729878,
+      "se_b": 0.04273985264023481,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.020761486736783297,
+      "eta_order_summary": 0.5425073972713228,
+      "r_regret_G": 0.5410203682779388
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.410042106070202,
+      "a": 0.0015008686717916148,
+      "se_b": 0.03324876919419369,
+      "evaluable": true,
+      "G_order_mean": 0.04538103263955113,
+      "regret_mean": 0.020109002870953734,
+      "eta_order_summary": 0.5568852954344621,
+      "r_regret_G": 0.5643522221964383
+    },
+    {
+      "eps": 1.0,
+      "step": 100000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.29459149709369464,
+      "a": 0.010395589312628316,
+      "se_b": 0.03670006980580749,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.034104786090367586,
+      "eta_order_summary": 0.5762412330284096,
+      "r_regret_G": 0.42405557105567754
+    },
+    {
+      "eps": 1.0,
+      "step": 100000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.3135855404523345,
+      "a": 0.009500181765775943,
+      "se_b": 0.04043891831295939,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.034738049656014035,
+      "eta_order_summary": 0.568372806965413,
+      "r_regret_G": 0.41322702007331946
+    },
+    {
+      "eps": 1.0,
+      "step": 100000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.2647825458709219,
+      "a": 0.012632030091522764,
+      "se_b": 0.04230051493026496,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.03394215460393467,
+      "eta_order_summary": 0.57826196167274,
+      "r_regret_G": 0.3688098562364508
+    },
+    {
+      "eps": 1.0,
+      "step": 100000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d100000",
+      "b": 0.30540640495782645,
+      "a": 0.009054556080586317,
+      "se_b": 0.03859547910109211,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.033634154011154084,
+      "eta_order_summary": 0.5820889304470753,
+      "r_regret_G": 0.408806457523475
+    },
+    {
+      "eps": 1.0,
+      "step": 500000,
+      "seed": "mean",
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.20921246898605478,
+      "a": 0.0057681542433712495,
+      "se_b": 0.03843904847531548,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.022605909726753175,
+      "eta_order_summary": 0.7191170644877438,
+      "r_regret_G": 0.3381427591771938
+    },
+    {
+      "eps": 1.0,
+      "step": 500000,
+      "seed": 3,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.2202236074629565,
+      "a": 0.0053429153983169326,
+      "se_b": 0.04169500111974052,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.023066864989374578,
+      "eta_order_summary": 0.7133896034445948,
+      "r_regret_G": 0.31511443224094665
+    },
+    {
+      "eps": 1.0,
+      "step": 500000,
+      "seed": 4,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.16545282504663517,
+      "a": 0.00973185393634949,
+      "se_b": 0.04334582207140019,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.02304776300081211,
+      "eta_order_summary": 0.7136269494610304,
+      "r_regret_G": 0.25178703257760937
+    },
+    {
+      "eps": 1.0,
+      "step": 500000,
+      "seed": 5,
+      "kind": "orig",
+      "n_ctx": 1000,
+      "scale": "base",
+      "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+      "b": 0.24196097444857295,
+      "a": 0.002229693395447285,
+      "se_b": 0.041514679307941595,
+      "evaluable": true,
+      "G_order_mean": 0.08048160592428294,
+      "regret_mean": 0.021703101190072828,
+      "eta_order_summary": 0.7303346405576064,
+      "r_regret_G": 0.3726862754550768
+    }
+  ],
+  "n40_cells": [
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": "mean",
+      "kind": "n40ext",
+      "n_ctx": 1000,
+      "scale": "base_n40",
+      "dir": "campaigns/mech_20260827/predgain_confirm_n40/base_n40_lr0.001_d500000",
+      "b": 0.230345749608207,
+      "a": 0.0037334446707943543,
+      "se_b": 0.0408300641998016,
+      "evaluable": true,
+      "G_order_mean": 0.055861983626696435,
+      "regret_mean": 0.016601015163887126,
+      "eta_order_summary": 0.7028208794942702,
+      "r_regret_G": 0.35179516537368677
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 3,
+      "kind": "n40ext",
+      "n_ctx": 1000,
+      "scale": "base_n40",
+      "dir": "campaigns/mech_20260827/predgain_confirm_n40/base_n40_lr0.001_d500000",
+      "b": 0.18888266912882262,
+      "a": 0.0060587763060217115,
+      "se_b": 0.03678748915580877,
+      "evaluable": true,
+      "G_order_mean": 0.055861983626696435,
+      "regret_mean": 0.016610136876262727,
+      "eta_order_summary": 0.70265758933192,
+      "r_regret_G": 0.29447005983935237
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 4,
+      "kind": "n40ext",
+      "n_ctx": 1000,
+      "scale": "base_n40",
+      "dir": "campaigns/mech_20260827/predgain_confirm_n40/base_n40_lr0.001_d500000",
+      "b": 0.2542581000026842,
+      "a": 0.0024029376108778452,
+      "se_b": 0.05350779085754846,
+      "evaluable": true,
+      "G_order_mean": 0.055861983626696435,
+      "regret_mean": 0.01660629943018273,
+      "eta_order_summary": 0.7027262844592832,
+      "r_regret_G": 0.33908769740567796
+    },
+    {
+      "eps": 0.75,
+      "step": 500000,
+      "seed": 5,
+      "kind": "n40ext",
+      "n_ctx": 1000,
+      "scale": "base_n40",
+      "dir": "campaigns/mech_20260827/predgain_confirm_n40/base_n40_lr0.001_d500000",
+      "b": 0.24789647969311504,
+      "a": 0.002738620095483443,
+      "se_b": 0.0460942902459523,
+      "evaluable": true,
+      "G_order_mean": 0.055861983626696435,
+      "regret_mean": 0.016586609185215928,
+      "eta_order_summary": 0.703078764691607,
+      "r_regret_G": 0.35870439107850477
+    }
+  ],
+  "gates": {
+    "G1_eps_direction": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "dose=100000",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "step": 100000,
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.5455648188863547,
+            "se": 0.05822915926272517,
+            "z": -9.369271784001056,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "step": 100000,
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.547909472339335,
+              "se": 0.06042420931433142,
+              "z": -9.067714390585856,
+              "passes": true
+            },
+            {
+              "step": 100000,
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.5732491930538701,
+              "se": 0.06506010081579655,
+              "z": -8.811071391925749,
+              "passes": true
+            },
+            {
+              "step": 100000,
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.5155357912658596,
+              "se": 0.06152671768840896,
+              "z": -8.379055646633033,
+              "passes": true
+            }
+          ]
+        },
+        {
+          "label": "dose=500000",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "step": 500000,
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.3422971309692923,
+            "se": 0.05452701183055068,
+            "z": -6.277569950706676,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "step": 500000,
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.2965387159497311,
+              "se": 0.052923127184114,
+              "z": -5.6031971602529085,
+              "passes": true
+            },
+            {
+              "step": 500000,
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.39821475895149194,
+              "se": 0.059978730670897124,
+              "z": -6.639266194819853,
+              "passes": true
+            },
+            {
+              "step": 500000,
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.3321379180066541,
+              "se": 0.061650106826258155,
+              "z": -5.38746703136594,
+              "passes": true
+            }
+          ]
+        }
+      ]
+    },
+    "G2_dose_direction": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=0.5",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "eps": 0.5,
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.28864671602470215,
+            "se": 0.03154599159059649,
+            "z": -9.150028306948021,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "eps": 0.5,
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.3447326893789818,
+              "se": 0.04068942741024812,
+              "z": -8.472291485039595,
+              "passes": true
+            },
+            {
+              "eps": 0.5,
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.274364154926665,
+              "se": 0.03486855565876741,
+              "z": -7.868526520331461,
+              "passes": true
+            },
+            {
+              "eps": 0.5,
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.24684330376845898,
+              "se": 0.03241623584695569,
+              "z": -7.614804659426268,
+              "passes": true
+            }
+          ]
+        },
+        {
+          "label": "eps=0.75",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "eps": 0.75,
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.18173081515313882,
+            "se": 0.01678457444602072,
+            "z": -10.827251875678236,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "eps": 0.75,
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.16044187984660008,
+              "se": 0.028457073979695952,
+              "z": -5.638031512342939,
+              "passes": true
+            },
+            {
+              "eps": 0.75,
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.19156989378229305,
+              "se": 0.04067265003091674,
+              "z": -4.7100420955279265,
+              "passes": true
+            },
+            {
+              "eps": 0.75,
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.19318067183052323,
+              "se": 0.022243078767568276,
+              "z": -8.684978992754909,
+              "passes": true
+            }
+          ]
+        },
+        {
+          "label": "eps=1.0",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "eps": 1.0,
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.08537902810763986,
+            "se": 0.015735664456220388,
+            "z": -5.425829226670444,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "eps": 1.0,
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.093361932989378,
+              "se": 0.034756788479711,
+              "z": -2.686149586112575,
+              "passes": true
+            },
+            {
+              "eps": 1.0,
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.09932972082428676,
+              "se": 0.02523037405540178,
+              "z": -3.9369103528221547,
+              "passes": true
+            },
+            {
+              "eps": 1.0,
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.0634454305092535,
+              "se": 0.02029275203696659,
+              "z": -3.126506961385878,
+              "passes": true
+            }
+          ]
+        }
+      ]
+    },
+    "G3_signal_share": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=0.75",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.19207676464380116,
+            "se": 0.0478751655204493,
+            "z": -4.012033432276237,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.23195439017903235,
+              "se": 0.04822970430801017,
+              "z": -4.8093678679367,
+              "passes": true
+            },
+            {
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.1821302773752836,
+              "se": 0.05711463180544318,
+              "z": -3.1888549679475666,
+              "passes": true
+            },
+            {
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.16214562637708693,
+              "se": 0.05387897977174701,
+              "z": -3.009441289794293,
+              "passes": true
+            }
+          ]
+        }
+      ]
+    },
+    "G4_instrument": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=0.5",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "eps": 0.5,
+            "step": 500000,
+            "seed": "mean",
+            "n_ctx": 1000,
+            "n_lp_failed": 0,
+            "diff": -0.08502925689806909,
+            "se": 0.004700741327906258,
+            "z": -18.088478171152993,
+            "evaluable": true,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "eps": 0.5,
+              "step": 500000,
+              "seed": 3,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.08208707297582195,
+              "se": 0.004787550684245034,
+              "z": -17.145943383107298,
+              "evaluable": true,
+              "passes": true
+            },
+            {
+              "eps": 0.5,
+              "step": 500000,
+              "seed": 4,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.08682502866602619,
+              "se": 0.004798862079012603,
+              "z": -18.092836851000104,
+              "evaluable": true,
+              "passes": true
+            },
+            {
+              "eps": 0.5,
+              "step": 500000,
+              "seed": 5,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.08617566905235916,
+              "se": 0.004918879771846566,
+              "z": -17.51936885011696,
+              "evaluable": true,
+              "passes": true
+            }
+          ]
+        },
+        {
+          "label": "eps=0.75",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "eps": 0.75,
+            "step": 500000,
+            "seed": "mean",
+            "n_ctx": 1000,
+            "n_lp_failed": 0,
+            "diff": -0.1008583684015293,
+            "se": 0.005864988875732884,
+            "z": -17.196685371193674,
+            "evaluable": true,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "eps": 0.75,
+              "step": 500000,
+              "seed": 3,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.10194640561745998,
+              "se": 0.00632175278614757,
+              "z": -16.1262879245845,
+              "evaluable": true,
+              "passes": true
+            },
+            {
+              "eps": 0.75,
+              "step": 500000,
+              "seed": 4,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.10058161224931401,
+              "se": 0.006256113774359613,
+              "z": -16.077331051993173,
+              "evaluable": true,
+              "passes": true
+            },
+            {
+              "eps": 0.75,
+              "step": 500000,
+              "seed": 5,
+              "n_ctx": 1000,
+              "n_lp_failed": 0,
+              "diff": -0.10004708733781394,
+              "se": 0.006105537201582799,
+              "z": -16.386287403486417,
+              "evaluable": true,
+              "passes": true
+            }
+          ]
+        }
+      ]
+    },
+    "G5a_capacity_eps075": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=0.75",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.22550463516191502,
+            "se": 0.018766474034715163,
+            "z": -12.016356122346972,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.24284782669817834,
+              "se": 0.028769880228279168,
+              "z": -8.441044063140472,
+              "passes": true
+            },
+            {
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.2292971748823323,
+              "se": 0.029940864333648006,
+              "z": -7.658335187893845,
+              "passes": true
+            },
+            {
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.20436890390523405,
+              "se": 0.028961905625512683,
+              "z": -7.056472959610934,
+              "passes": true
+            }
+          ],
+          "selected_lr": {
+            "base": 0.001,
+            "large": 0.0003
+          },
+          "cells": {
+            "base": [
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.42242251425200816,
+                "a": 0.001362977037129251,
+                "se_b": 0.033168896036915044,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.020532946944080897,
+                "eta_order_summary": 0.5475434173750879,
+                "r_regret_G": 0.5754279378827738
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.420837059307855,
+                "a": 0.0016303309001231838,
+                "se_b": 0.031000609031231155,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.020728351224505663,
+                "eta_order_summary": 0.5432375594194789,
+                "r_regret_G": 0.5412656750521403
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.43638837737796776,
+                "a": 0.0009577315394729878,
+                "se_b": 0.04273985264023481,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.020761486736783297,
+                "eta_order_summary": 0.5425073972713228,
+                "r_regret_G": 0.5410203682779388
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.410042106070202,
+                "a": 0.0015008686717916148,
+                "se_b": 0.03324876919419369,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.020109002870953734,
+                "eta_order_summary": 0.5568852954344621,
+                "r_regret_G": 0.5643522221964383
+              }
+            ],
+            "large": [
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.19691787909009315,
+                "a": -0.0003238003623793437,
+                "se_b": 0.026914050413982548,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008612536335919352,
+                "eta_order_summary": 0.8102172684273995,
+                "r_regret_G": 0.3899570656592122
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.17798923260967664,
+                "a": 0.00043244389870608293,
+                "se_b": 0.029102752209070007,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008509779073254477,
+                "eta_order_summary": 0.8124815902527984,
+                "r_regret_G": 0.33879926510721153
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.20709120249563545,
+                "a": -0.0007904786517465099,
+                "se_b": 0.032703244522163014,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008607533968071816,
+                "eta_order_summary": 0.8103274987936248,
+                "r_regret_G": 0.38496899162820436
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.20567320216496793,
+                "a": -0.0006133663340976114,
+                "se_b": 0.02808499835503698,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008720295966431788,
+                "eta_order_summary": 0.8078427162357749,
+                "r_regret_G": 0.35661895043219344
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "G5b_capacity_eps1": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=1.0",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.13683495818914482,
+            "se": 0.018504706688300683,
+            "z": -7.394602924220172,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.1814104263188785,
+              "se": 0.04098518155707921,
+              "z": -4.42624430164429,
+              "passes": true
+            },
+            {
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.06712626967235655,
+              "se": 0.038895587729154996,
+              "z": -1.7258067968989876,
+              "passes": false
+            },
+            {
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.1619681785761994,
+              "se": 0.02970911617895758,
+              "z": -5.451800639256933,
+              "passes": true
+            }
+          ],
+          "selected_lr": {
+            "base": 0.001,
+            "large": 0.0003
+          },
+          "cells": {
+            "base": [
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.20921246898605478,
+                "a": 0.0057681542433712495,
+                "se_b": 0.03843904847531548,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.022605909726753175,
+                "eta_order_summary": 0.7191170644877438,
+                "r_regret_G": 0.3381427591771938
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.2202236074629565,
+                "a": 0.0053429153983169326,
+                "se_b": 0.04169500111974052,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.023066864989374578,
+                "eta_order_summary": 0.7133896034445948,
+                "r_regret_G": 0.31511443224094665
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.16545282504663517,
+                "a": 0.00973185393634949,
+                "se_b": 0.04334582207140019,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.02304776300081211,
+                "eta_order_summary": 0.7136269494610304,
+                "r_regret_G": 0.25178703257760937
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.001_d500000",
+                "b": 0.24196097444857295,
+                "a": 0.002229693395447285,
+                "se_b": 0.041514679307941595,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.021703101190072828,
+                "eta_order_summary": 0.7303346405576064,
+                "r_regret_G": 0.3726862754550768
+              }
+            ],
+            "large": [
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.07237751079690995,
+                "a": 0.0032912328625219057,
+                "se_b": 0.040960240650701335,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.009116291164259348,
+                "eta_order_summary": 0.8867282646815479,
+                "r_regret_G": 0.14066867586893697
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.03881318114407799,
+                "a": 0.006255043327579104,
+                "se_b": 0.04792678456772338,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.009378790477084599,
+                "eta_order_summary": 0.8834666583826849,
+                "r_regret_G": 0.06936264965556714
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.09832655537427862,
+                "a": 0.0013766015129770004,
+                "se_b": 0.05261203655351767,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.009290080594501877,
+                "eta_order_summary": 0.8845688963607165,
+                "r_regret_G": 0.1634588637697953
+              },
+              {
+                "eps": 1.0,
+                "step": 500000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.07999279587237354,
+                "a": 0.002242053747009621,
+                "se_b": 0.0469117609675517,
+                "evaluable": true,
+                "G_order_mean": 0.08048160592428294,
+                "regret_mean": 0.008680002421191607,
+                "eta_order_summary": 0.8921492393012417,
+                "r_regret_G": 0.14859777807909474
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "G6_capacity_vs_dose": {
+      "result": "PASS",
+      "parts": [
+        {
+          "label": "eps=0.75",
+          "result": "PASS",
+          "primary_passes": true,
+          "sign_agreement": true,
+          "primary": {
+            "seed": "mean",
+            "evaluable": true,
+            "diff": -0.15903205878641505,
+            "se": 0.02211087354476768,
+            "z": -7.1924819462435226,
+            "passes": true
+          },
+          "per_seed": [
+            {
+              "seed": 3,
+              "evaluable": true,
+              "diff": -0.17149852239833968,
+              "se": 0.032675320215247036,
+              "z": -5.248564398714435,
+              "passes": true
+            },
+            {
+              "seed": 4,
+              "evaluable": true,
+              "diff": -0.1462521435245726,
+              "se": 0.025270542018932904,
+              "z": -5.78745574254004,
+              "passes": true
+            },
+            {
+              "seed": 5,
+              "evaluable": true,
+              "diff": -0.15934551043633255,
+              "se": 0.037117699803134084,
+              "z": -4.292979125362666,
+              "passes": true
+            }
+          ],
+          "selected_lr": {
+            "base": 0.0003,
+            "large": 0.0003
+          },
+          "cells": {
+            "base": [
+              {
+                "eps": 0.75,
+                "step": 2000000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.0003_d2000000",
+                "b": 0.3559499378765082,
+                "a": -0.0004452537961430496,
+                "se_b": 0.03258136661369706,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.015708121952676964,
+                "eta_order_summary": 0.6538615135216911,
+                "r_regret_G": 0.5455690064770646
+              },
+              {
+                "eps": 0.75,
+                "step": 2000000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.0003_d2000000",
+                "b": 0.3494877550080163,
+                "a": -0.000757629507989922,
+                "se_b": 0.033794753628233754,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.015102485709152319,
+                "eta_order_summary": 0.667207094446106,
+                "r_regret_G": 0.5481924461767632
+              },
+              {
+                "eps": 0.75,
+                "step": 2000000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.0003_d2000000",
+                "b": 0.35334334602020806,
+                "a": 0.00036067876295929765,
+                "se_b": 0.029712161928799437,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.016395764681670578,
+                "eta_order_summary": 0.6387088673830418,
+                "r_regret_G": 0.49776627514909877
+              },
+              {
+                "eps": 0.75,
+                "step": 2000000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "base_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/base_lr0.0003_d2000000",
+                "b": 0.3650187126013005,
+                "a": -0.0009388106433985573,
+                "se_b": 0.046176290739323944,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955113,
+                "regret_mean": 0.015626115467208004,
+                "eta_order_summary": 0.6556685787359253,
+                "r_regret_G": 0.52182417275315
+              }
+            ],
+            "large": [
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": "mean",
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.19691787909009315,
+                "a": -0.0003238003623793437,
+                "se_b": 0.026914050413982548,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008612536335919352,
+                "eta_order_summary": 0.8102172684273995,
+                "r_regret_G": 0.3899570656592122
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 3,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.17798923260967664,
+                "a": 0.00043244389870608293,
+                "se_b": 0.029102752209070007,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008509779073254477,
+                "eta_order_summary": 0.8124815902527984,
+                "r_regret_G": 0.33879926510721153
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 4,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.20709120249563545,
+                "a": -0.0007904786517465099,
+                "se_b": 0.032703244522163014,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008607533968071816,
+                "eta_order_summary": 0.8103274987936248,
+                "r_regret_G": 0.38496899162820436
+              },
+              {
+                "eps": 0.75,
+                "step": 500000,
+                "seed": 5,
+                "kind": "orig",
+                "n_ctx": 1000,
+                "scale": "large_lr0.0003",
+                "dir": "campaigns/mech_20260827/predgain_confirm/large_lr0.0003_d500000",
+                "b": 0.20567320216496793,
+                "a": -0.0006133663340976114,
+                "se_b": 0.02808499835503698,
+                "evaluable": true,
+                "G_order_mean": 0.04538103263955112,
+                "regret_mean": 0.008720295966431788,
+                "eta_order_summary": 0.8078427162357749,
+                "r_regret_G": 0.35661895043219344
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "headline": {
+    "G1_eps_direction": "PASS",
+    "G2_dose_direction": "PASS",
+    "G3_signal_share": "PASS",
+    "G4_instrument": "PASS",
+    "G5a_capacity_eps075": "PASS",
+    "G5b_capacity_eps1": "PASS",
+    "G6_capacity_vs_dose": "PASS"
+  }
+}

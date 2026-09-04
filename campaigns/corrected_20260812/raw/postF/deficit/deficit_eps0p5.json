@@ -1,0 +1,26 @@
+{
+  "deficit_mean": 0.45882465555032054,
+  "deficit_se": 0.028671200958118953,
+  "n_contexts": 60,
+  "deficit_min": 0.04044184017772334,
+  "deficit_max": 0.9700151290542769,
+  "eps": 0.5,
+  "d": 3,
+  "K": 8,
+  "O": 6,
+  "n_rows": 20,
+  "panel_seed": 770000000,
+  "n_query_per_context": 2,
+  "panel_sha256": "7bd41617a913f8c9a0f9c4813534e32297f34cb30535d55cae626b6f3db9643d",
+  "weighting": "uniform_over_distinct_contexts",
+  "amendment": "F.2b",
+  "axis": "primary",
+  "artifact": {
+    "estimand": "normalized_order_evidence",
+    "status": "retired",
+    "amendment": "F",
+    "schema": 1,
+    "retired_reason": "60-context single panel, pre-F.2d.5. Superseded by deficit_w2/, which computes the deficit on HALF A of a 2x500 split so no context feeds both x and y. Kept for the record; never computed on.",
+    "superseded_by": "campaigns/corrected_20260812/raw/postF/deficit_w2/"
+  }
+}
