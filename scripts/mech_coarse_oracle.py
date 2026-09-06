@@ -54,6 +54,41 @@ def set_partitions(n: int):
     return out
 
 
+MAX_ENUM = 5000     # enumerate set partitions only when Bell(n) <= this; otherwise sample merge chains
+
+
+def sample_partitions(n: int, n_samples: int = 1200, seed: int = 20260904):
+    """Set partitions of range(n) sampled by random merge chains (singletons -> one block),
+    one partition per merge step, de-duplicated; used when Bell(n) is too large (d=4: O=24).
+    Deterministic given seed. Always includes the singleton (full) and one-block partitions."""
+    rng = np.random.default_rng(seed)
+    seen = {tuple(range(n)), tuple([0] * n)}
+    out = [tuple(range(n)), tuple([0] * n)]
+    while len(out) < n_samples:
+        blocks = [[i] for i in range(n)]
+        while len(blocks) > 1:
+            a, b = rng.choice(len(blocks), 2, replace=False)
+            blocks[a].extend(blocks.pop(b)) if a < b else blocks[b].extend(blocks.pop(a))
+            lab = [0] * n
+            for j, blk in enumerate(sorted(blocks, key=min)):
+                for i in blk:
+                    lab[i] = j
+            t = tuple(lab)
+            if t not in seen:
+                seen.add(t); out.append(t)
+                if len(out) >= n_samples:
+                    break
+    return out
+
+
+def partitions_for(n: int):
+    """All set partitions when feasible, else a fixed random sample (recorded in the npz)."""
+    bell = [1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, 115975]
+    if n < len(bell) and bell[n] <= MAX_ENUM:
+        return set_partitions(n), "enumerated"
+    return sample_partitions(n), "sampled"
+
+
 def averaging_matrix(rgs, n):
     A = np.zeros((n, n))
     for a in range(n):
@@ -92,8 +127,8 @@ def _init(eps, m_q, ref_names):
     _patch_world(M)
     world = M.make_world(k=M.K, d=M.D, eps=eps)
     K, O = world.K, world.O
-    atom_p = set_partitions(K)
-    ord_p = set_partitions(O)
+    atom_p, _ = partitions_for(K)
+    ord_p, _ = partitions_for(O)
     A = np.stack([averaging_matrix(p, K) for p in atom_p])      # (nPi, K, K)
     B = np.stack([averaging_matrix(p, O) for p in ord_p])       # (nH, O, O), symmetric
     _G.update(world=world, A=A, B=B, m_q=m_q, eps=eps, ref_names=ref_names)
@@ -169,7 +204,7 @@ def run_eps(eps: float, ref_dir: Path, step: int, out: Path, jobs: int, kind: st
         # is the per-query equality of the registered oracles' S below (1e-9).
         print(f"[eps={eps}] WARNING sha256_b {z['sha256_b']} != replayed {sha_b}; relying on the S check", flush=True)
     K, O = world.K, world.O
-    atom_p, ord_p = set_partitions(K), set_partitions(O)
+    (atom_p, atom_mode), (ord_p, ord_mode) = partitions_for(K), partitions_for(O)
     jobs_list = [(i, ctxs[i], ks[i], os_[i], PG.Q_SEED_ROOT + int(round(eps * 1000)) * 1000 + i) for i in range(len(ctxs))]
     t0 = time.time()
     with ProcessPoolExecutor(max_workers=jobs, initializer=_init, initargs=(eps, m_q, names)) as pool:
@@ -196,7 +231,8 @@ def run_eps(eps: float, ref_dir: Path, step: int, out: Path, jobs: int, kind: st
              family=np.array([c["family"] for c in catalogue]),
              n_blocks=np.array([-1 if c["n_blocks"] is None else c["n_blocks"] for c in catalogue]),
              G_bar=G_bar, eps=eps, step=step, kind=kind, m_q=m_q, n_ctx=len(ctxs),
-             K=K, O=O, d=world.d, world_seed=int(os.environ.get("MECH_WORLD_SEED", -1)), n_reg=n_reg, n_atom=len(atom_p), n_order=len(ord_p),
+             K=K, O=O, d=world.d, world_seed=int(os.environ.get("MECH_WORLD_SEED", -1)), n_reg=n_reg,
+             atom_partitions=atom_mode, order_partitions=ord_mode, n_atom=len(atom_p), n_order=len(ord_p),
              panel_seed=M.PANEL_SEED_EFF, split_seed=M.SPLIT_SEED_EFF, n_per_half=M.N_PER_HALF_EFF,
              sha256_b=sha_b, sha256_b_ref=str(z["sha256_b"]), sha256_b_match=sha_match, ref_file=str(ref.relative_to(ROOT.resolve())), ref_sha256=_sha(ref),
              check_max_abs_dev=worst, q_seed_root=PG.Q_SEED_ROOT, k=np.array(ks), o=np.array(os_),

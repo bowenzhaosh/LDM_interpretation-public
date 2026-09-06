@@ -80,9 +80,7 @@ def fit_cell(cell_dir: Path, cellname: str, c: dict, f: Path, source: str) -> li
     z = np.load(f)
     seeds = [int(s) for s in z["seeds"]]
     MG._SEEDS_EXPECTED[:] = seeds
-    scale = prefix_of(c)
-    if kind == "n40ext":                       # the n20 cell's paired extension (G3 convention)
-        scale = prefix_of({**c, "n_rows": 20})
+    scale = prefix_of(c)                       # n40 nets are named base_n40_s*.pt; the n40ext npz records scale=base_n40
     rows = []
     for unit in ["mean"] + seeds:
         label = f"ext:{cellname}:{eps}:{step}:{unit}:{kind}"

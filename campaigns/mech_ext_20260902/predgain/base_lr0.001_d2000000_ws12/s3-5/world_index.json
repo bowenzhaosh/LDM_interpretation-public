@@ -1,0 +1,15 @@
+{
+ "predgain_eps0p75_ck2000000.npz": {
+  "d": 3,
+  "K": 8,
+  "world_seed": 12,
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "sha256": "6785f749b9857efd8534872d58d5438cde7079a1c7357f8eff30b73deed6f5ce"
+ }
+}

@@ -102,3 +102,15 @@ scripts/goal_report_0824.tpl.html
 paper/FIXLOG2-openclaims.md
 paper/FIXLOG2-regressions.md
 paper/verify-post-fix.md
+
+## withheld in the second export (2026-09-06)
+.claude/EXT_PLAN_20260902.md
+.claude/CONSTRUCT_REVIEW_20260901.md
+.claude/FIGURE_PLAN.md
+.claude/SESSION.json
+.claude/ext_jobs.tsv
+.claude/int_jobs.tsv
+.claude/harvest.log
+.claude/internal_design/          (the four design proposals and their critiques behind PRESPEC_internal.md)
+.claude/redteam/                  (blind re-derivation records)
+WORKLOG.md                        (already listed above; the 09-04..09-06 entries are withheld too)

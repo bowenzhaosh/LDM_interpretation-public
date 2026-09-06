@@ -1,0 +1,15 @@
+{
+ "predgain_eps0p35_ck100000.npz": {
+  "d": 3,
+  "K": 8,
+  "world_seed": null,
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "sha256": "08aea558d0a2291330e59cbd65fb195fa258bebaad2fa2a446eb2fa7c30b7f18"
+ }
+}

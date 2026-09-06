@@ -60,6 +60,7 @@ def joint_fit(reg, g1, g2):
 
 
 def analyse(cell_dir: Path, cell: str, eps: float, step: int, coarse: Path, kind: str, unit: str = "mean") -> dict:
+    cell_dir, coarse = cell_dir.resolve(), coarse.resolve()
     tag = eps_tag(eps)
     suffix = "" if kind == "orig" else f"_{kind}"
     zr = np.load(cell_dir / f"predgain_eps{tag}_ck{step}{suffix}.npz")
@@ -92,7 +93,7 @@ def analyse(cell_dir: Path, cell: str, eps: float, step: int, coarse: Path, kind
     out = {"cell": cell, "eps": eps, "step": step, "kind": kind, "unit": unit, "n_ctx": int(len(reg)),
            "b_order_registered_estimator": b_reg, "Gbar_order": Gbar_order,
            "coarse_file": str(coarse / f"coarse_eps{tag}{suffix}.npz"), "coarse_sha256": _sha(coarse / f"coarse_eps{tag}{suffix}.npz"),
-           "scored_file": str((cell_dir / f"predgain_eps{tag}_ck{step}{suffix}.npz").relative_to(ROOT)),
+           "scored_file": str((cell_dir / f"predgain_eps{tag}_ck{step}{suffix}.npz").relative_to(ROOT.resolve())),
            "n_atom_used": int(len(atom)), "n_order_used": int(len(order)), "G_min": G_MIN,
            "atom_family": {"Gbar_range": [float(Gbar[atom].min()), float(Gbar[atom].max())],
                            "b_median": float(np.median(b_all[atom])), "b_q05": float(np.quantile(b_all[atom], .05)),

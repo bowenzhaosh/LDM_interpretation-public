@@ -1,0 +1,41 @@
+{
+ "predgain_eps0p5_ck500000.npz": {
+  "d": 3,
+  "K": 2,
+  "world_seed": null,
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "sha256": "a9655677ef7b3addde0a41490a04eb7f5dedd01d8faa814c548c71efa8a26bd4"
+ },
+ "predgain_eps0p75_ck500000.npz": {
+  "d": 3,
+  "K": 2,
+  "world_seed": null,
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "sha256": "521399c25f21a0bd4dfd2aa152dab1f2e7b1718a971dc03025ef8348f93bef01"
+ },
+ "predgain_eps1p0_ck500000.npz": {
+  "d": 3,
+  "K": 2,
+  "world_seed": null,
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "sha256": "db0385879612c5b21f138fc4cdcd7cd5f7d6b2f27d6010f8a6eb919c43c8bcde"
+ }
+}

@@ -1,0 +1,218 @@
+[
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "run",
+   "--eps",
+   "0.5",
+   "--step",
+   "500000",
+   "--m-q",
+   "8",
+   "--jobs",
+   "14",
+   "--kind",
+   "orig",
+   "--seeds",
+   "6",
+   "7",
+   "8"
+  ],
+  "utc": "2026-09-03T10:10:02Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ },
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "run",
+   "--eps",
+   "0.75",
+   "--step",
+   "500000",
+   "--m-q",
+   "8",
+   "--jobs",
+   "14",
+   "--kind",
+   "orig",
+   "--seeds",
+   "6",
+   "7",
+   "8"
+  ],
+  "utc": "2026-09-03T10:10:38Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ },
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "summarise",
+   "--step",
+   "500000"
+  ],
+  "utc": "2026-09-03T10:11:05Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ },
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "run",
+   "--eps",
+   "1.0",
+   "--step",
+   "500000",
+   "--m-q",
+   "8",
+   "--jobs",
+   "14",
+   "--kind",
+   "orig",
+   "--seeds",
+   "6",
+   "7",
+   "8"
+  ],
+  "utc": "2026-09-03T10:11:15Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ },
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "summarise",
+   "--step",
+   "500000"
+  ],
+  "utc": "2026-09-03T10:11:41Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ },
+ {
+  "campaign": "mech_ext_20260902",
+  "reported_only": true,
+  "world": {
+   "d": 3,
+   "K": 8,
+   "world_seed": null
+  },
+  "scale_prefix": "base",
+  "n_rows": 20,
+  "nets": "/engrfs/project/class/zhao.b/LDM_interpretation/campaigns/mech_ext_20260902/train/base_lr0.001_d500000/nets",
+  "panel": {
+   "panel_seed": 770000101,
+   "split_seed": 880000101,
+   "n_per_half": 1000
+  },
+  "confirm_env": "1",
+  "argv": [
+   "summarise",
+   "--step",
+   "500000"
+  ],
+  "utc": "2026-09-03T10:12:15Z",
+  "code_sha256": {
+   "mech_predgain.py": "c4733286822cdd751519bc158d67ab91f194b49930af590b29aa8d0da83b9c9c",
+   "mech_phase1.py": "ee02fc990935889bd64be3766fa85ea27d37e72e4c12ecc33a21f406e7965151",
+   "mech_interventions.py": "d9e3e75d64423675026c34afbbee6a62be608be95c9a1a51621e26d5e109aae0",
+   "mech_predgain_ext.py": "c505679147a9d07b53e4891bb60250efade880b0b090e5b8923ad9ac469ceb1c"
+  }
+ }
+]

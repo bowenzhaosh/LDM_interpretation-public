@@ -1,0 +1,17 @@
+{
+ "script": "scripts/mech_component_control.py",
+ "script_sha256": "3c3b5789eda3c0df5591475974e0f50d91709bb429813eec895535827e6e8e28",
+ "mech_gates_sha256": "eeb5a02362525119a876ce742088458c75ceb7a214fe63f29f74418429040346",
+ "inputs_sha256": {
+  "campaigns/mech_ext_20260902/predgain/base_lr0.001_d500000_ws12/s3-8/predgain_eps0p5_ck500000.npz": "ab5195011624115d8bbec1bfc04450dbc65a74d185824cebcf7bd0a2a9dc30fa",
+  "campaigns/mech_ext_20260902/predgain/base_lr0.001_d500000_ws12/s3-8/predgain_eps0p75_ck500000.npz": "80f224d7c6a81721b232a198ef5ff103f51c74de82b02e05fb05fee77504888c",
+  "campaigns/mech_ext_20260902/predgain/base_lr0.001_d500000_ws12/s3-8/predgain_eps1p0_ck500000.npz": "2ab88202b7cff87c32f8951af313a767be63f19ef991093ebdc06fc6ef864a13",
+  "/home/bowen/repos/LDM_interpretation/campaigns/mech_ext_20260902/coarse_ws12/coarse_eps0p5.npz": "7460fd33af3e38bf92e8085bd8ffe2b788277b63df58b9d2a2cc2d132e406ed4",
+  "/home/bowen/repos/LDM_interpretation/campaigns/mech_ext_20260902/coarse_ws12/coarse_eps0p75.npz": "ded588f5cd0802177a5b7e64840fa0db6fe251a7b2036c51b3d4ccabfe270c9d",
+  "/home/bowen/repos/LDM_interpretation/campaigns/mech_ext_20260902/coarse_ws12/coarse_eps1p0.npz": "340a2812a00aa6b98e1a64a25e38d0140ca4ba9f4ccb36e42e157d93307ce8a7"
+ },
+ "outputs_sha256": {
+  "component_control.json": "79d24b391909dbc26bfb3d51c518e087f6c3e47ff50115b59a0c24a606956007"
+ },
+ "utc": "2026-09-04T21:49:37Z"
+}
