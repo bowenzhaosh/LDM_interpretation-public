@@ -82,7 +82,7 @@ compare checkpoint hashes recorded in the arrays and never load weights.
 
 ## Second export (2026-09-06)
 
-Added from the private repository between `397b3f8` and `6c863a2`. Everything
+Added from the private repository between `397b3f8` and `43653e4`. Everything
 below is REPORTED, never gated: the seven registered gates of `AMENDMENT_G.md`
 and the verdict in `campaigns/mech_20260827/confirm/AMENDMENT_G_VERDICT.json`
 are unchanged and none of the code they digest was touched.
@@ -105,7 +105,7 @@ to `PRESPEC_internal.errata.md`), registered before any arm produced a number.
 | arm | script | output | what it decides |
 |---|---|---|---|
 | R — representational | `scripts/mech_probe_acts.py`, `scripts/mech_probe_fit.py` | `reported/armR_*.json` | whether a fresh readout of the last-layer query state realises more order gain than the trained head (READOUT-LIMITED / HEAD-SATURATED) |
-| C — causal | `scripts/mech_patch_build.py`, `mech_patch_run.py`, `mech_patch_analyse.py` | `reported/armC_*.json` (arriving in a follow-up commit; the analysis was still running when this export was cut) | where the realised order information enters, beside a size-matched atom swap (routing verdicts C1-C3) |
+| C — causal | `scripts/mech_patch_build.py`, `mech_patch_run.py`, `mech_patch_analyse.py` | `reported/armC_*.json` | where the realised order information enters, beside a size-matched atom swap (routing verdicts C1-C3) |
 | G — generalisation | `scripts/mech_k2_verdict.py` | `reported/armG_*.json` | at `K = 2, eps = 1` the order and atom components are matched in size; the joint fit decides order-specific (A) against smallest-component (B) |
 
 Every arm re-derives the registered oracles and refuses to write unless they
