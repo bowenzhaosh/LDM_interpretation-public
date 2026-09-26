@@ -1,0 +1,9 @@
+{
+  "world_seed": 2026092301,
+  "optimization_seed": 71,
+  "train_rows": 4,
+  "evaluation_rows": 2,
+  "batch_size": 2,
+  "updates": 2,
+  "cpu_threads": 1
+}

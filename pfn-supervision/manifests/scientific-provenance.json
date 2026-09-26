@@ -1,0 +1,50 @@
+{
+  "scope": "Scientific functions are exact extractions, except the documented portable fleet bin-edge adapter. Cluster orchestration and unrelated training commands are omitted.",
+  "source_files": [
+    {
+      "original_file": "corrected_sem.py",
+      "source_sha256": "424ed0a34e0683451c6b80773d4400f70d36605cd66cb7bec1ca16811b194668"
+    },
+    {
+      "original_file": "corrected_world.py",
+      "source_sha256": "294a6fc6b6ab3e3f1efde3f260f3c54d6ed592ac77388c32a5df76069444f5e4"
+    },
+    {
+      "original_file": "corrected_oracle.py",
+      "source_sha256": "0f1f8bf8377e20302c216dfb137c57b2ea45f33a7326d9eb3180f048d5393e3c"
+    },
+    {
+      "original_file": "corrected_models.py",
+      "source_sha256": "d29e0325dff89bf50484bf73dda8b9a4139c2bad65dce07524c51baa44e5b9d9"
+    },
+    {
+      "original_file": "pilot_shared.py",
+      "source_sha256": "a31508273748212aaaa156252e667a6e2430ae999b744685025c1aeb5665d1c5"
+    },
+    {
+      "original_file": "fresh_data.py",
+      "source_sha256": "434bb3544aa37c7888f72f0f638876cb019419d9cb6f673c1a1deff6cadb37ca"
+    },
+    {
+      "original_file": "diagnostic.py",
+      "source_sha256": "5f173735b2335b059d78bf9358dc3635d666a386fd477f7b97041ab5d204af66"
+    },
+    {
+      "original_file": "learning.py",
+      "source_sha256": "fcbb5ae191a94ef77f579ea0a60e3fb0544c4b8b04fe9062c2330e4fc5fae8ca"
+    },
+    {
+      "original_file": "factorial.py",
+      "source_sha256": "0f053b2a3098a901c38c2d8bd53b64426e8a8e979e5f5e1e4fc48dbd6fa08d04"
+    }
+  ],
+  "portable_files_sha256": {
+    "pfn_dag_verify/corrected_sem.py": "c3905ec6a41bf50ea6ac6b57e9f076264d40fac6340bfee97959e4ce87537092",
+    "pfn_dag_verify/corrected_world.py": "bef1cc74ac86701263416dedf4e00b1ecafa5aea441bbab9d2e0c37891b6bea3",
+    "pfn_dag_verify/corrected_oracle.py": "b7f713703fc484017244ff97739ff1cb52744d5aba95bff23006e05437f6a8a0",
+    "pfn_dag_verify/corrected_models.py": "8240e04c340675939062dbc5f342f5e90b7987c2057ca931da1eff3f4091b2bf",
+    "pfn_dag_verify/pilot_shared.py": "7ed47f0570b6186a614a792484aecb7fe1760420a84191709f53ac873c4a3358",
+    "target_construction.py": "766b1ef106cf12dadd8163c100d81dba8e0025abde75408b6757001a93657efc",
+    "pfn_dag_verify/__init__.py": "3db84225a777ebb414013fbfb50c9c7af4915b4b28d5d46b73abe5df39f1caba"
+  }
+}

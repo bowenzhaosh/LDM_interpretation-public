@@ -1,0 +1,15 @@
+{
+  "status": "historical documentary record; incomplete environment lock",
+  "source": "configs/production/reported_recipe.json",
+  "versions": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.4.0+cu121"
+  },
+  "limitations": [
+    "Full transitive dependency resolution and system/CUDA libraries are not included.",
+    "The portable CPU package is validated in a different environment.",
+    "Historical checkpoint continuation requires its recorded runtime and execution identities."
+  ]
+}

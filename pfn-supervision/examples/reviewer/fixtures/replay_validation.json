@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "scope": "Sanitized record of five production replay endpoint checks and a later independent CPU recheck. This fixture records previous check results; it does not contain the checkpoint payloads and is not sufficient to independently recheck equality without those inputs.",
+  "comparison": {
+    "endpoint_update": 200000,
+    "criterion": "Recursive decoded-state equality, including tensor and NumPy array dtype, shape, and value bytes, sequence types and lengths, mapping keys, and scalar values.",
+    "state_fields": [
+      "cuda_rng",
+      "identity",
+      "model",
+      "numpy_rng",
+      "optimizer",
+      "perm",
+      "pos",
+      "step",
+      "torch_rng",
+      "visit"
+    ],
+    "serialized_checkpoint_equality_required": false,
+    "production_receipt_meaning": "replay_qz.py calls the production training comparator on original and replayed complete endpoint states before publishing exact_full_state=true.",
+    "portable_checker": "reviewer/replay_validation.py",
+    "portable_checker_provenance": "New portable implementation of the independent audit's documented comparison criterion. The original training.exact was subsequently located and confirms recursive dtype/shape/value-byte comparisons. The portable checker adds scalar-type checks; it is not an exact extraction or a claim of source identity.",
+    "production_comparator_source_sha256": "ff6f0b69818620696001cf96eb2f5f726305d0e042876c640a1350fc6628b513",
+    "not_validated_by_portable_endpoint_check": [
+      "Training execution or cross-platform replay",
+      "Intermediate checkpoint contents",
+      "Shifted predictions or numerical integration"
+    ]
+  },
+  "source_records": {
+    "campaign": "pfn-submission-controls-20260925T024623Z",
+    "replay_qz.py_sha256": "d5b5d6ace70e56f1a98fc4dc026d973d6af794a986dbc78d91d4d2b3bb78ca22",
+    "replay_freeze_sha256": "6e0871787272fb41f5adeeac52cd90db3c4690cd5143d6d232d622e256cbdb04",
+    "replay_result_audit_sha256": "b8f3eb60ef33cae56036ab519a7085f1b38fd28793240898898ef011fef7fa1a"
+  },
+  "portable_recheck": {
+    "date": "2026-09-25",
+    "device": "cpu",
+    "python_version": "3.11.7",
+    "numpy_version": "1.26.4",
+    "torch_version": "2.9.1",
+    "compared_original_replay_pairs": 5,
+    "passed_pairs": 5,
+    "self_test_equal_state_checks": 1,
+    "self_test_mismatch_checks": 10,
+    "training_rerun": false
+  },
+  "seeds": [
+    {
+      "seed": 71,
+      "source_receipt": "replays/seed71-qz/complete.json",
+      "source_receipt_sha256": "5326a541ddc05dbd03110e67c101bd534cfde577dfec74a77358bf6354e9dfae",
+      "complete": true,
+      "production_exact_full_state": true,
+      "portable_exact_full_state": true,
+      "original_sha256": "47467f7f520f1acdc7771639a1a9896a7fd4f0b8df7ef1e5f80aa79755183d2b",
+      "replay_sha256": "531f89c9857cfb6e036107c40276cc20edda86c4f960c05c324001a409540be1",
+      "serialized_bytes_equal": false
+    },
+    {
+      "seed": 72,
+      "source_receipt": "replays/seed72-qz/complete.json",
+      "source_receipt_sha256": "758a023f019068e014cf0676b81746c09f55c70aca04a79be4c15ed9328dfe24",
+      "complete": true,
+      "production_exact_full_state": true,
+      "portable_exact_full_state": true,
+      "original_sha256": "c540cbdce67be68286eb043d35465776b309939cbf77d893ef2fa21ca9c1b5bc",
+      "replay_sha256": "9786332eacfd753c6e608568ceb40276009880036251ca372a7cde04bcc7e6ad",
+      "serialized_bytes_equal": false
+    },
+    {
+      "seed": 73,
+      "source_receipt": "replays/seed73-qz/complete.json",
+      "source_receipt_sha256": "21de2fe78e8ca5bef3f9fbda796d1f5c42adc6d44099c06d5a8035f8992cd4fc",
+      "complete": true,
+      "production_exact_full_state": true,
+      "portable_exact_full_state": true,
+      "original_sha256": "0ebc5db742b21b9fca13f92a2244e4573f9c6be05085309390bb35503ae7d743",
+      "replay_sha256": "0ebc5db742b21b9fca13f92a2244e4573f9c6be05085309390bb35503ae7d743",
+      "serialized_bytes_equal": true
+    },
+    {
+      "seed": 74,
+      "source_receipt": "replays/seed74-qz/complete.json",
+      "source_receipt_sha256": "a1f5ee7b9a0ea0bfa4573fe64d6ac31cd2bcc337530fcabc81be5c912a7b27c3",
+      "complete": true,
+      "production_exact_full_state": true,
+      "portable_exact_full_state": true,
+      "original_sha256": "f1c75c4fd4e689820f4acd217be3de4fef85d3ea7023faf53789c76a10f70dc4",
+      "replay_sha256": "f1c75c4fd4e689820f4acd217be3de4fef85d3ea7023faf53789c76a10f70dc4",
+      "serialized_bytes_equal": true
+    },
+    {
+      "seed": 75,
+      "source_receipt": "replays/seed75-qz/complete.json",
+      "source_receipt_sha256": "d20d291cc6455448a5a7fa7132ddcb94eaefbdf40c85ad94e7a6002d30bbc10b",
+      "complete": true,
+      "production_exact_full_state": true,
+      "portable_exact_full_state": true,
+      "original_sha256": "941cf46521ed19a9d35b87e5a8acaa33ea44c4f24c082f3e1d132a92c808ba86",
+      "replay_sha256": "6a4c3cbd4eb480cfbb462d7ed6a07f099eddf2931805e30fbc27bee6d636c9c1",
+      "serialized_bytes_equal": false
+    }
+  ]
+}

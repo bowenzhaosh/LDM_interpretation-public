@@ -1,3 +1,11 @@
+# PFN public research exports
+
+The current public code is in [pfn-supervision/](pfn-supervision/README.md): the finite-prior scientific core, coupled supervision targets, a four-arm CPU example, saved contrast fixtures, and verification commands.
+
+Start with `cd pfn-supervision` and follow its installation instructions. The new package uses its own environment. Its [reproduction scope](pfn-supervision/docs/reproduction-scope.md) describes the evidence it includes and the limits of the example. The manuscript, figures, private archive index, and operational records are outside this public export.
+
+The earlier PFN-DAG export remains intact at the original paths below. Its code, registered protocols, raw results, release assets, and known test limitations are historical evidence with a separate environment.
+
 # LDM_interpretation — public evaluation export
 
 Source code, raw results, registered protocol documents and machine-written
