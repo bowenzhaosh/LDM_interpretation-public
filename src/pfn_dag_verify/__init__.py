@@ -1,4 +1,2 @@
-"""Independent verification harness for the PFN-DAG evidence-coordinate claims."""
-
-__version__ = "0.1.0"
+"""Finite structural prior used in the original experiment."""
 

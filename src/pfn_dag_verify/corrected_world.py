@@ -142,3 +142,4 @@ def query_xq(world: World, seed: int, target: int = 2) -> np.ndarray:
     """A fixed observational query: observed covariates (d-1,) values."""
     rng = np.random.default_rng(seed)
     return rng.normal(0.0, 1.0, world.d - 1)
+

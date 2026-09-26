@@ -1,33 +1,19 @@
 [build-system]
-requires = ["setuptools>=69", "wheel"]
+requires = ["setuptools==65.5.0", "wheel==0.45.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pfn-dag-verify"
+name = "pfn-supervision-research"
 version = "0.1.0"
-description = "Independent forensic verification harness for PFN-DAG evidence-coordinate claims"
-requires-python = "==3.11.*"
-dependencies = [
-  "numpy==1.26.4",
-  "scipy==1.12.0",
-  "scikit-learn==1.6.1",
-  "torch==2.9.1",
-]
+description = "Code companion for Separating Supervision Randomness in Prior-Data Fitted Networks"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy==1.26.4", "torch==2.9.1"]
 
-[project.optional-dependencies]
-test = ["pytest==9.1.1"]
-
-[project.scripts]
-pfn-dag-panel = "pfn_dag_verify.evaluation:main"
-pfn-dag-analyze = "pfn_dag_verify.analysis:main"
-pfn-dag-seal = "pfn_dag_verify.seal:main"
-pfn-dag-map-qualify = "pfn_dag_verify.mapping_qualification:main"
-pfn-dag-map-seal = "pfn_dag_verify.qualification_seal:main"
+[project.urls]
+Repository = "https://github.com/bowenzhaosh/pfn-supervision-public"
+Issues = "https://github.com/bowenzhaosh/pfn-supervision-public/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-addopts = "-ra"
-pythonpath = ["src"]

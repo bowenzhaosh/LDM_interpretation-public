@@ -1,0 +1,9 @@
+{
+  "snapshot_commit": "8ea24a5ce40955dcc797ab52dec90a53e0f5e602",
+  "snapshot_tree": "77f7bd0bea8452a733a5d51f2f9cc9fce5639bcc",
+  "location": "legacy/pfn-dag/",
+  "tracked_files": 2592,
+  "preservation": "Identical Git tree: same tracked paths, file bytes and modes within the relocated snapshot",
+  "historical_release_tag": "raw-mech_20260827",
+  "historical_scope": "Earlier PFN-DAG studies; not a full reproduction of the current supervision-randomness manuscript"
+}

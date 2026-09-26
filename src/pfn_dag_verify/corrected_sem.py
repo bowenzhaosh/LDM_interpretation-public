@@ -476,3 +476,4 @@ def generate_interventional(
                 acc += L[j, i] * x_pi[:, i]
         x_pi[:, j] = acc + e_all[:, j]
     return from_permuted(x_pi, sp)
+

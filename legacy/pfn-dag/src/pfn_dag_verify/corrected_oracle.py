@@ -503,4 +503,3 @@ def exact_order_value(
     p_full = operator.predictive(w_full)
     p_abl = operator.predictive(w_order_abl)
     return p_full, p_abl, kl_divergence(p_full, p_abl)
-

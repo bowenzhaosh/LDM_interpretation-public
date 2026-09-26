@@ -2,6 +2,15 @@
 
 `reviewer-requirements.txt` preserves the submission's NumPy 1.26.4 and PyTorch 2.9.1 pins. `pyproject.toml` uses the same runtime pins and fixes the build tools. Python 3.11 is the supported portable interpreter; validation uses 3.11.7 on macOS arm64.
 
+On Linux, install the CPU-only PyTorch wheel before the package to avoid downloading CUDA dependencies:
+
+```sh
+.venv/bin/python -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+.venv/bin/python -m pip install -r locks/reviewer-requirements.txt -e .
+```
+
+The GitHub Actions workflow checks a regular package installation on Linux using these direct runtime pins. Its dependency resolution is separate from the macOS lock below.
+
 `reviewer-macos-arm64-py311.lock.txt` records the complete runtime dependency resolution from the clean validation environment. Install it before the local package when reproducing that environment:
 
 ```sh

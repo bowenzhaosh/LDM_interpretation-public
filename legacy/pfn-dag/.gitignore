@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+runs/
+bundles/
+artifacts/calibration/*.npz
+.harvest_stage/
+paper/*.pdf
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.bbl
+paper/*.out
+campaigns/corrected_20260812/raw/postF/floor_calib*/nets/
+release_assets/
+*.tar
